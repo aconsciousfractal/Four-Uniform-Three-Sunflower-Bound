@@ -1,0 +1,5 @@
+* -text -filter
+*.pdf -diff
+*.zip -diff
+*.gz -diff
+*.png -diff

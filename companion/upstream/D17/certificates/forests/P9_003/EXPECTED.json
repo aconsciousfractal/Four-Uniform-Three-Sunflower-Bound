@@ -1,0 +1,6968 @@
+[
+  {
+    "case": 0,
+    "profile": [
+      12,
+      15,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 14,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 1,
+    "profile": [
+      12,
+      15,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 26,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 2,
+    "profile": [
+      12,
+      15,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 37,
+    "margin_patterns": 14,
+    "projections": 14,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ]
+  },
+  {
+    "case": 3,
+    "profile": [
+      12,
+      16,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 20,
+    "margin_patterns": 2,
+    "projections": 2,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "case": 4,
+    "profile": [
+      12,
+      16,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 33,
+    "margin_patterns": 10,
+    "projections": 10,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "case": 5,
+    "profile": [
+      12,
+      16,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 45,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 6,
+    "profile": [
+      13,
+      14,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 7,
+    "profile": [
+      13,
+      14,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 8,
+    "profile": [
+      13,
+      14,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 9,
+    "profile": [
+      13,
+      14,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 10,
+    "profile": [
+      13,
+      14,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 11,
+    "profile": [
+      13,
+      14,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 43,
+    "margin_patterns": 5,
+    "projections": 5,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "case": 12,
+    "profile": [
+      13,
+      14,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 13,
+    "profile": [
+      13,
+      14,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 65,
+    "margin_patterns": 14,
+    "projections": 14,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ]
+  },
+  {
+    "case": 14,
+    "profile": [
+      13,
+      14,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 15,
+    "profile": [
+      13,
+      14,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 63,
+    "margin_patterns": 19,
+    "projections": 19,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      0
+    ]
+  },
+  {
+    "case": 16,
+    "profile": [
+      13,
+      14,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 17,
+    "profile": [
+      13,
+      14,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 184,
+    "margin_patterns": 66,
+    "projections": 66,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      66,
+      0
+    ]
+  },
+  {
+    "case": 18,
+    "profile": [
+      13,
+      15,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 19,
+    "profile": [
+      13,
+      15,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 90,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 20,
+    "profile": [
+      13,
+      15,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 39,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 21,
+    "profile": [
+      13,
+      15,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 340,
+    "margin_patterns": 60,
+    "projections": 60,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      60,
+      0
+    ]
+  },
+  {
+    "case": 22,
+    "profile": [
+      13,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 19,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 23,
+    "profile": [
+      13,
+      15,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 197,
+    "margin_patterns": 63,
+    "projections": 63,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      63,
+      0
+    ]
+  },
+  {
+    "case": 24,
+    "profile": [
+      13,
+      15,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 43,
+    "margin_patterns": 11,
+    "projections": 11,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "case": 25,
+    "profile": [
+      13,
+      15,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 873,
+    "margin_patterns": 235,
+    "projections": 235,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      235,
+      0
+    ]
+  },
+  {
+    "case": 26,
+    "profile": [
+      13,
+      15,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 56,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 27,
+    "profile": [
+      13,
+      15,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 285,
+    "margin_patterns": 122,
+    "projections": 122,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      122,
+      0
+    ]
+  },
+  {
+    "case": 28,
+    "profile": [
+      13,
+      15,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 107,
+    "margin_patterns": 44,
+    "projections": 44,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      44,
+      0
+    ]
+  },
+  {
+    "case": 29,
+    "profile": [
+      13,
+      15,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1046,
+    "margin_patterns": 450,
+    "projections": 450,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      450,
+      0
+    ]
+  },
+  {
+    "case": 30,
+    "profile": [
+      13,
+      16,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 31,
+    "profile": [
+      13,
+      16,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 144,
+    "margin_patterns": 40,
+    "projections": 40,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      40,
+      0
+    ]
+  },
+  {
+    "case": 32,
+    "profile": [
+      13,
+      16,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 113,
+    "margin_patterns": 28,
+    "projections": 28,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      28,
+      0
+    ]
+  },
+  {
+    "case": 33,
+    "profile": [
+      13,
+      16,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 516,
+    "margin_patterns": 136,
+    "projections": 206,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      151,
+      0
+    ]
+  },
+  {
+    "case": 34,
+    "profile": [
+      13,
+      16,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 32,
+    "margin_patterns": 9,
+    "projections": 9,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ]
+  },
+  {
+    "case": 35,
+    "profile": [
+      13,
+      16,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 217,
+    "margin_patterns": 81,
+    "projections": 81,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      81,
+      0
+    ]
+  },
+  {
+    "case": 36,
+    "profile": [
+      13,
+      16,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 83,
+    "margin_patterns": 25,
+    "projections": 25,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      25,
+      0
+    ]
+  },
+  {
+    "case": 37,
+    "profile": [
+      13,
+      16,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 786,
+    "margin_patterns": 300,
+    "projections": 397,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0,
+      317,
+      0
+    ]
+  },
+  {
+    "case": 38,
+    "profile": [
+      13,
+      16,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 91,
+    "margin_patterns": 23,
+    "projections": 23,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0
+    ]
+  },
+  {
+    "case": 39,
+    "profile": [
+      13,
+      16,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 300,
+    "margin_patterns": 119,
+    "projections": 119,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      119,
+      0
+    ]
+  },
+  {
+    "case": 40,
+    "profile": [
+      13,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 185,
+    "margin_patterns": 68,
+    "projections": 68,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      68,
+      0
+    ]
+  },
+  {
+    "case": 41,
+    "profile": [
+      13,
+      16,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1096,
+    "margin_patterns": 417,
+    "projections": 542,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      444,
+      0
+    ]
+  },
+  {
+    "case": 42,
+    "profile": [
+      14,
+      13,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 43,
+    "profile": [
+      14,
+      13,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 44,
+    "profile": [
+      14,
+      13,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 45,
+    "profile": [
+      14,
+      13,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 12,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 46,
+    "profile": [
+      14,
+      13,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 47,
+    "profile": [
+      14,
+      13,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 7,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 48,
+    "profile": [
+      14,
+      13,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 25,
+    "margin_patterns": 5,
+    "projections": 5,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "case": 49,
+    "profile": [
+      14,
+      13,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 50,
+    "profile": [
+      14,
+      13,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 54,
+    "margin_patterns": 17,
+    "projections": 17,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0
+    ]
+  },
+  {
+    "case": 51,
+    "profile": [
+      14,
+      14,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 6,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 52,
+    "profile": [
+      14,
+      14,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 5,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 53,
+    "profile": [
+      14,
+      14,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 5,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 54,
+    "profile": [
+      14,
+      14,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 55,
+    "profile": [
+      14,
+      14,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 56,
+    "profile": [
+      14,
+      14,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 57,
+    "profile": [
+      14,
+      14,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 12,
+    "margin_patterns": 2,
+    "projections": 2,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "case": 58,
+    "profile": [
+      14,
+      14,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 49,
+    "margin_patterns": 10,
+    "projections": 10,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+    ]
+  },
+  {
+    "case": 59,
+    "profile": [
+      14,
+      14,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 31,
+    "margin_patterns": 8,
+    "projections": 8,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0
+    ]
+  },
+  {
+    "case": 60,
+    "profile": [
+      14,
+      14,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 279,
+    "margin_patterns": 119,
+    "projections": 119,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      119,
+      0
+    ]
+  },
+  {
+    "case": 61,
+    "profile": [
+      14,
+      14,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 52,
+    "margin_patterns": 17,
+    "projections": 17,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      17,
+      0
+    ]
+  },
+  {
+    "case": 62,
+    "profile": [
+      14,
+      14,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 524,
+    "margin_patterns": 229,
+    "projections": 295,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      259,
+      0
+    ]
+  },
+  {
+    "case": 63,
+    "profile": [
+      14,
+      14,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 28,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 64,
+    "profile": [
+      14,
+      14,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 64,
+    "margin_patterns": 20,
+    "projections": 20,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "case": 65,
+    "profile": [
+      14,
+      14,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 108,
+    "margin_patterns": 39,
+    "projections": 39,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      39,
+      0
+    ]
+  },
+  {
+    "case": 66,
+    "profile": [
+      14,
+      14,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 805,
+    "margin_patterns": 340,
+    "projections": 340,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      340,
+      0
+    ]
+  },
+  {
+    "case": 67,
+    "profile": [
+      14,
+      14,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 68,
+    "profile": [
+      14,
+      14,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 238,
+    "margin_patterns": 100,
+    "projections": 100,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0
+    ]
+  },
+  {
+    "case": 69,
+    "profile": [
+      14,
+      14,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1505,
+    "margin_patterns": 670,
+    "projections": 780,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      714,
+      0
+    ]
+  },
+  {
+    "case": 70,
+    "profile": [
+      14,
+      15,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 30,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 71,
+    "profile": [
+      14,
+      15,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 234,
+    "margin_patterns": 112,
+    "projections": 112,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      112,
+      0
+    ]
+  },
+  {
+    "case": 72,
+    "profile": [
+      14,
+      15,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 130,
+    "margin_patterns": 36,
+    "projections": 36,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      36,
+      0
+    ]
+  },
+  {
+    "case": 73,
+    "profile": [
+      14,
+      15,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 648,
+    "margin_patterns": 304,
+    "projections": 368,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      315,
+      0
+    ]
+  },
+  {
+    "case": 74,
+    "profile": [
+      14,
+      15,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 300,
+    "margin_patterns": 132,
+    "projections": 132,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      132,
+      0
+    ]
+  },
+  {
+    "case": 75,
+    "profile": [
+      14,
+      15,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1194,
+    "margin_patterns": 592,
+    "projections": 1018,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      31,
+      0,
+      669,
+      0
+    ]
+  },
+  {
+    "case": 76,
+    "profile": [
+      14,
+      15,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 52,
+    "margin_patterns": 13,
+    "projections": 13,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      0
+    ]
+  },
+  {
+    "case": 77,
+    "profile": [
+      14,
+      15,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 225,
+    "margin_patterns": 76,
+    "projections": 76,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      76,
+      0
+    ]
+  },
+  {
+    "case": 78,
+    "profile": [
+      14,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 288,
+    "margin_patterns": 103,
+    "projections": 103,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      103,
+      0
+    ]
+  },
+  {
+    "case": 79,
+    "profile": [
+      14,
+      15,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2013,
+    "margin_patterns": 967,
+    "projections": 1124,
+    "reasons": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      0,
+      11,
+      0,
+      1004,
+      0
+    ]
+  },
+  {
+    "case": 80,
+    "profile": [
+      14,
+      15,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 651,
+    "margin_patterns": 240,
+    "projections": 274,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0,
+      250,
+      0
+    ]
+  },
+  {
+    "case": 81,
+    "profile": [
+      14,
+      15,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3895,
+    "margin_patterns": 1922,
+    "projections": 3187,
+    "reasons": [
+      0,
+      0,
+      5,
+      0,
+      0,
+      7,
+      96,
+      0,
+      2271,
+      0
+    ]
+  },
+  {
+    "case": 82,
+    "profile": [
+      14,
+      15,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 57,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 83,
+    "profile": [
+      14,
+      15,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 253,
+    "margin_patterns": 96,
+    "projections": 96,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      96,
+      0
+    ]
+  },
+  {
+    "case": 84,
+    "profile": [
+      14,
+      15,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 16,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 85,
+    "profile": [
+      14,
+      15,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 598,
+    "margin_patterns": 256,
+    "projections": 256,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      256,
+      0
+    ]
+  },
+  {
+    "case": 86,
+    "profile": [
+      14,
+      15,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3055,
+    "margin_patterns": 1472,
+    "projections": 1680,
+    "reasons": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      16,
+      0,
+      1529,
+      0
+    ]
+  },
+  {
+    "case": 87,
+    "profile": [
+      14,
+      15,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 41,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 88,
+    "profile": [
+      14,
+      15,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1389,
+    "margin_patterns": 666,
+    "projections": 744,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      703,
+      0
+    ]
+  },
+  {
+    "case": 89,
+    "profile": [
+      14,
+      15,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 5573,
+    "margin_patterns": 2716,
+    "projections": 4250,
+    "reasons": [
+      0,
+      0,
+      9,
+      0,
+      0,
+      8,
+      107,
+      0,
+      3153,
+      0
+    ]
+  },
+  {
+    "case": 90,
+    "profile": [
+      14,
+      16,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 20,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 91,
+    "profile": [
+      14,
+      16,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 258,
+    "margin_patterns": 136,
+    "projections": 136,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      136,
+      0
+    ]
+  },
+  {
+    "case": 92,
+    "profile": [
+      14,
+      16,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 296,
+    "margin_patterns": 120,
+    "projections": 120,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      120,
+      0
+    ]
+  },
+  {
+    "case": 93,
+    "profile": [
+      14,
+      16,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1160,
+    "margin_patterns": 580,
+    "projections": 826,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      649,
+      0
+    ]
+  },
+  {
+    "case": 94,
+    "profile": [
+      14,
+      16,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 696,
+    "margin_patterns": 328,
+    "projections": 464,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      358,
+      0
+    ]
+  },
+  {
+    "case": 95,
+    "profile": [
+      14,
+      16,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1978,
+    "margin_patterns": 1020,
+    "projections": 2381,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      38,
+      0,
+      1309,
+      0
+    ]
+  },
+  {
+    "case": 96,
+    "profile": [
+      14,
+      16,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 49,
+    "margin_patterns": 15,
+    "projections": 15,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0
+    ]
+  },
+  {
+    "case": 97,
+    "profile": [
+      14,
+      16,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 221,
+    "margin_patterns": 95,
+    "projections": 95,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      95,
+      0
+    ]
+  },
+  {
+    "case": 98,
+    "profile": [
+      14,
+      16,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 537,
+    "margin_patterns": 198,
+    "projections": 221,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      204,
+      0
+    ]
+  },
+  {
+    "case": 99,
+    "profile": [
+      14,
+      16,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2458,
+    "margin_patterns": 1239,
+    "projections": 1508,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      2,
+      14,
+      0,
+      1304,
+      0
+    ]
+  },
+  {
+    "case": 100,
+    "profile": [
+      14,
+      16,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 918,
+    "margin_patterns": 405,
+    "projections": 516,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      25,
+      0,
+      424,
+      0
+    ]
+  },
+  {
+    "case": 101,
+    "profile": [
+      14,
+      16,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4204,
+    "margin_patterns": 2218,
+    "projections": 4395,
+    "reasons": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      22,
+      251,
+      0,
+      2666,
+      0
+    ]
+  },
+  {
+    "case": 102,
+    "profile": [
+      14,
+      16,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 51,
+    "margin_patterns": 15,
+    "projections": 15,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0
+    ]
+  },
+  {
+    "case": 103,
+    "profile": [
+      14,
+      16,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 243,
+    "margin_patterns": 107,
+    "projections": 107,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      107,
+      0
+    ]
+  },
+  {
+    "case": 104,
+    "profile": [
+      14,
+      16,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 5,
+    "projections": 5,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "case": 105,
+    "profile": [
+      14,
+      16,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 864,
+    "margin_patterns": 342,
+    "projections": 365,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      350,
+      0
+    ]
+  },
+  {
+    "case": 106,
+    "profile": [
+      14,
+      16,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2936,
+    "margin_patterns": 1436,
+    "projections": 1750,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      19,
+      0,
+      1527,
+      0
+    ]
+  },
+  {
+    "case": 107,
+    "profile": [
+      14,
+      16,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 38,
+    "margin_patterns": 13,
+    "projections": 13,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      13,
+      0
+    ]
+  },
+  {
+    "case": 108,
+    "profile": [
+      14,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1695,
+    "margin_patterns": 777,
+    "projections": 1059,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      13,
+      0,
+      893,
+      0
+    ]
+  },
+  {
+    "case": 109,
+    "profile": [
+      14,
+      16,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4584,
+    "margin_patterns": 2359,
+    "projections": 4762,
+    "reasons": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      18,
+      159,
+      0,
+      3006,
+      0
+    ]
+  },
+  {
+    "case": 110,
+    "profile": [
+      15,
+      13,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 111,
+    "profile": [
+      15,
+      13,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 112,
+    "profile": [
+      15,
+      13,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 113,
+    "profile": [
+      15,
+      13,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 6,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 114,
+    "profile": [
+      15,
+      13,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 115,
+    "profile": [
+      15,
+      13,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 5,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 116,
+    "profile": [
+      15,
+      13,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 17,
+    "margin_patterns": 3,
+    "projections": 3,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ]
+  },
+  {
+    "case": 117,
+    "profile": [
+      15,
+      13,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 31,
+    "margin_patterns": 9,
+    "projections": 9,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0
+    ]
+  },
+  {
+    "case": 118,
+    "profile": [
+      15,
+      13,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 46,
+    "margin_patterns": 15,
+    "projections": 15,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0
+    ]
+  },
+  {
+    "case": 119,
+    "profile": [
+      15,
+      14,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 120,
+    "profile": [
+      15,
+      14,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 27,
+    "margin_patterns": 5,
+    "projections": 5,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      0
+    ]
+  },
+  {
+    "case": 121,
+    "profile": [
+      15,
+      14,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 122,
+    "profile": [
+      15,
+      14,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 123,
+    "profile": [
+      15,
+      14,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 124,
+    "profile": [
+      15,
+      14,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 125,
+    "profile": [
+      15,
+      14,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 126,
+    "profile": [
+      15,
+      14,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 69,
+    "margin_patterns": 9,
+    "projections": 19,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ]
+  },
+  {
+    "case": 127,
+    "profile": [
+      15,
+      14,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 59,
+    "margin_patterns": 20,
+    "projections": 20,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "case": 128,
+    "profile": [
+      15,
+      14,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 209,
+    "margin_patterns": 77,
+    "projections": 186,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      117,
+      0
+    ]
+  },
+  {
+    "case": 129,
+    "profile": [
+      15,
+      14,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 94,
+    "margin_patterns": 38,
+    "projections": 38,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      38,
+      0
+    ]
+  },
+  {
+    "case": 130,
+    "profile": [
+      15,
+      14,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 319,
+    "margin_patterns": 143,
+    "projections": 383,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      10,
+      0,
+      231,
+      0
+    ]
+  },
+  {
+    "case": 131,
+    "profile": [
+      15,
+      14,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 132,
+    "profile": [
+      15,
+      14,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 78,
+    "margin_patterns": 18,
+    "projections": 32,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      21,
+      0
+    ]
+  },
+  {
+    "case": 133,
+    "profile": [
+      15,
+      14,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 186,
+    "margin_patterns": 69,
+    "projections": 69,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      69,
+      0
+    ]
+  },
+  {
+    "case": 134,
+    "profile": [
+      15,
+      14,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 522,
+    "margin_patterns": 185,
+    "projections": 366,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      6,
+      0,
+      244,
+      0
+    ]
+  },
+  {
+    "case": 135,
+    "profile": [
+      15,
+      14,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 60,
+    "margin_patterns": 22,
+    "projections": 22,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      0
+    ]
+  },
+  {
+    "case": 136,
+    "profile": [
+      15,
+      14,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 397,
+    "margin_patterns": 168,
+    "projections": 168,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      168,
+      0
+    ]
+  },
+  {
+    "case": 137,
+    "profile": [
+      15,
+      14,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 949,
+    "margin_patterns": 338,
+    "projections": 739,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      0,
+      473,
+      0
+    ]
+  },
+  {
+    "case": 138,
+    "profile": [
+      15,
+      15,
+      14,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 139,
+    "profile": [
+      15,
+      15,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 140,
+    "profile": [
+      15,
+      15,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 494,
+    "margin_patterns": 172,
+    "projections": 290,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      4,
+      0,
+      186,
+      0
+    ]
+  },
+  {
+    "case": 141,
+    "profile": [
+      15,
+      15,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 142,
+    "profile": [
+      15,
+      15,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 798,
+    "margin_patterns": 292,
+    "projections": 1076,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      3,
+      36,
+      0,
+      456,
+      0
+    ]
+  },
+  {
+    "case": 143,
+    "profile": [
+      15,
+      15,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 144,
+    "profile": [
+      15,
+      15,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 622,
+    "margin_patterns": 240,
+    "projections": 803,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      7,
+      58,
+      0,
+      347,
+      0
+    ]
+  },
+  {
+    "case": 145,
+    "profile": [
+      15,
+      15,
+      15,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 146,
+    "profile": [
+      15,
+      15,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 72,
+    "margin_patterns": 20,
+    "projections": 20,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "case": 147,
+    "profile": [
+      15,
+      15,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 617,
+    "margin_patterns": 180,
+    "projections": 285,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      7,
+      0,
+      200,
+      0
+    ]
+  },
+  {
+    "case": 148,
+    "profile": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 431,
+    "margin_patterns": 151,
+    "projections": 219,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      175,
+      0
+    ]
+  },
+  {
+    "case": 149,
+    "profile": [
+      15,
+      15,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1963,
+    "margin_patterns": 824,
+    "projections": 2152,
+    "reasons": [
+      0,
+      0,
+      8,
+      0,
+      0,
+      11,
+      78,
+      0,
+      1167,
+      0
+    ]
+  },
+  {
+    "case": 150,
+    "profile": [
+      15,
+      15,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 710,
+    "margin_patterns": 294,
+    "projections": 459,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      0,
+      344,
+      0
+    ]
+  },
+  {
+    "case": 151,
+    "profile": [
+      15,
+      15,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2306,
+    "margin_patterns": 1038,
+    "projections": 3460,
+    "reasons": [
+      0,
+      0,
+      13,
+      0,
+      0,
+      31,
+      200,
+      0,
+      1718,
+      0
+    ]
+  },
+  {
+    "case": 152,
+    "profile": [
+      15,
+      15,
+      16,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 153,
+    "profile": [
+      15,
+      15,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 62,
+    "margin_patterns": 24,
+    "projections": 24,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0
+    ]
+  },
+  {
+    "case": 154,
+    "profile": [
+      15,
+      15,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 589,
+    "margin_patterns": 224,
+    "projections": 338,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      11,
+      0,
+      246,
+      0
+    ]
+  },
+  {
+    "case": 155,
+    "profile": [
+      15,
+      15,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 43,
+    "margin_patterns": 14,
+    "projections": 14,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ]
+  },
+  {
+    "case": 156,
+    "profile": [
+      15,
+      15,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 774,
+    "margin_patterns": 290,
+    "projections": 351,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      315,
+      0
+    ]
+  },
+  {
+    "case": 157,
+    "profile": [
+      15,
+      15,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2660,
+    "margin_patterns": 1204,
+    "projections": 2825,
+    "reasons": [
+      0,
+      0,
+      15,
+      3,
+      0,
+      7,
+      106,
+      0,
+      1700,
+      0
+    ]
+  },
+  {
+    "case": 158,
+    "profile": [
+      15,
+      15,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 135,
+    "margin_patterns": 58,
+    "projections": 58,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      58,
+      0
+    ]
+  },
+  {
+    "case": 159,
+    "profile": [
+      15,
+      15,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1488,
+    "margin_patterns": 708,
+    "projections": 1040,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0,
+      833,
+      0
+    ]
+  },
+  {
+    "case": 160,
+    "profile": [
+      15,
+      15,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2958,
+    "margin_patterns": 1376,
+    "projections": 4218,
+    "reasons": [
+      0,
+      0,
+      15,
+      8,
+      0,
+      38,
+      207,
+      0,
+      2219,
+      0
+    ]
+  },
+  {
+    "case": 161,
+    "profile": [
+      15,
+      16,
+      14,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 162,
+    "profile": [
+      15,
+      16,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 163,
+    "profile": [
+      15,
+      16,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 504,
+    "margin_patterns": 200,
+    "projections": 346,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      228,
+      0
+    ]
+  },
+  {
+    "case": 164,
+    "profile": [
+      15,
+      16,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 165,
+    "profile": [
+      15,
+      16,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 982,
+    "margin_patterns": 432,
+    "projections": 1567,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      27,
+      0,
+      683,
+      0
+    ]
+  },
+  {
+    "case": 166,
+    "profile": [
+      15,
+      16,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 167,
+    "profile": [
+      15,
+      16,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 834,
+    "margin_patterns": 360,
+    "projections": 1202,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      5,
+      55,
+      0,
+      542,
+      0
+    ]
+  },
+  {
+    "case": 168,
+    "profile": [
+      15,
+      16,
+      15,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 169,
+    "profile": [
+      15,
+      16,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 87,
+    "margin_patterns": 32,
+    "projections": 32,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0
+    ]
+  },
+  {
+    "case": 170,
+    "profile": [
+      15,
+      16,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 515,
+    "margin_patterns": 203,
+    "projections": 295,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      6,
+      0,
+      219,
+      0
+    ]
+  },
+  {
+    "case": 171,
+    "profile": [
+      15,
+      16,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 635,
+    "margin_patterns": 257,
+    "projections": 418,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      12,
+      0,
+      293,
+      0
+    ]
+  },
+  {
+    "case": 172,
+    "profile": [
+      15,
+      16,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2191,
+    "margin_patterns": 1044,
+    "projections": 2691,
+    "reasons": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      18,
+      102,
+      0,
+      1395,
+      0
+    ]
+  },
+  {
+    "case": 173,
+    "profile": [
+      15,
+      16,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 729,
+    "margin_patterns": 332,
+    "projections": 784,
+    "reasons": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      4,
+      68,
+      0,
+      421,
+      0
+    ]
+  },
+  {
+    "case": 174,
+    "profile": [
+      15,
+      16,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2279,
+    "margin_patterns": 1116,
+    "projections": 3909,
+    "reasons": [
+      0,
+      0,
+      12,
+      0,
+      0,
+      48,
+      309,
+      0,
+      1731,
+      0
+    ]
+  },
+  {
+    "case": 175,
+    "profile": [
+      15,
+      16,
+      16,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 176,
+    "profile": [
+      15,
+      16,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 93,
+    "margin_patterns": 32,
+    "projections": 32,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32,
+      0
+    ]
+  },
+  {
+    "case": 177,
+    "profile": [
+      15,
+      16,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 560,
+    "margin_patterns": 229,
+    "projections": 329,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      8,
+      0,
+      251,
+      0
+    ]
+  },
+  {
+    "case": 178,
+    "profile": [
+      15,
+      16,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 56,
+    "margin_patterns": 18,
+    "projections": 18,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0
+    ]
+  },
+  {
+    "case": 179,
+    "profile": [
+      15,
+      16,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1004,
+    "margin_patterns": 397,
+    "projections": 579,
+    "reasons": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      8,
+      0,
+      452,
+      0
+    ]
+  },
+  {
+    "case": 180,
+    "profile": [
+      15,
+      16,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2710,
+    "margin_patterns": 1248,
+    "projections": 3186,
+    "reasons": [
+      0,
+      0,
+      11,
+      0,
+      0,
+      24,
+      116,
+      0,
+      1777,
+      0
+    ]
+  },
+  {
+    "case": 181,
+    "profile": [
+      15,
+      16,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 120,
+    "margin_patterns": 46,
+    "projections": 70,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      57,
+      0
+    ]
+  },
+  {
+    "case": 182,
+    "profile": [
+      15,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1292,
+    "margin_patterns": 580,
+    "projections": 1446,
+    "reasons": [
+      0,
+      0,
+      5,
+      2,
+      0,
+      12,
+      51,
+      0,
+      889,
+      0
+    ]
+  },
+  {
+    "case": 183,
+    "profile": [
+      15,
+      16,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2576,
+    "margin_patterns": 1186,
+    "projections": 4008,
+    "reasons": [
+      0,
+      0,
+      8,
+      3,
+      2,
+      36,
+      241,
+      0,
+      2033,
+      0
+    ]
+  },
+  {
+    "case": 184,
+    "profile": [
+      16,
+      13,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 185,
+    "profile": [
+      16,
+      13,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 186,
+    "profile": [
+      16,
+      13,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 187,
+    "profile": [
+      16,
+      13,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 10,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 188,
+    "profile": [
+      16,
+      13,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 4,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 189,
+    "profile": [
+      16,
+      13,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 5,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 190,
+    "profile": [
+      16,
+      13,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 16,
+    "margin_patterns": 2,
+    "projections": 2,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  {
+    "case": 191,
+    "profile": [
+      16,
+      13,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 29,
+    "margin_patterns": 7,
+    "projections": 7,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0
+    ]
+  },
+  {
+    "case": 192,
+    "profile": [
+      16,
+      13,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 42,
+    "margin_patterns": 11,
+    "projections": 11,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "case": 193,
+    "profile": [
+      16,
+      14,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 194,
+    "profile": [
+      16,
+      14,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 43,
+    "margin_patterns": 10,
+    "projections": 26,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ]
+  },
+  {
+    "case": 195,
+    "profile": [
+      16,
+      14,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 196,
+    "profile": [
+      16,
+      14,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 197,
+    "profile": [
+      16,
+      14,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 198,
+    "profile": [
+      16,
+      14,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 3,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 199,
+    "profile": [
+      16,
+      14,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 200,
+    "profile": [
+      16,
+      14,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 43,
+    "margin_patterns": 6,
+    "projections": 26,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ]
+  },
+  {
+    "case": 201,
+    "profile": [
+      16,
+      14,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 45,
+    "margin_patterns": 14,
+    "projections": 14,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ]
+  },
+  {
+    "case": 202,
+    "profile": [
+      16,
+      14,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 166,
+    "margin_patterns": 54,
+    "projections": 202,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      100,
+      0
+    ]
+  },
+  {
+    "case": 203,
+    "profile": [
+      16,
+      14,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 76,
+    "margin_patterns": 26,
+    "projections": 26,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      26,
+      0
+    ]
+  },
+  {
+    "case": 204,
+    "profile": [
+      16,
+      14,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 249,
+    "margin_patterns": 90,
+    "projections": 304,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      36,
+      0,
+      140,
+      0
+    ]
+  },
+  {
+    "case": 205,
+    "profile": [
+      16,
+      14,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 206,
+    "profile": [
+      16,
+      14,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 49,
+    "margin_patterns": 12,
+    "projections": 40,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      17,
+      0
+    ]
+  },
+  {
+    "case": 207,
+    "profile": [
+      16,
+      14,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 136,
+    "margin_patterns": 46,
+    "projections": 46,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      46,
+      0
+    ]
+  },
+  {
+    "case": 208,
+    "profile": [
+      16,
+      14,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 333,
+    "margin_patterns": 122,
+    "projections": 357,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      183,
+      0
+    ]
+  },
+  {
+    "case": 209,
+    "profile": [
+      16,
+      14,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 68,
+    "margin_patterns": 24,
+    "projections": 24,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0
+    ]
+  },
+  {
+    "case": 210,
+    "profile": [
+      16,
+      14,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 314,
+    "margin_patterns": 118,
+    "projections": 118,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      118,
+      0
+    ]
+  },
+  {
+    "case": 211,
+    "profile": [
+      16,
+      14,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 601,
+    "margin_patterns": 222,
+    "projections": 678,
+    "reasons": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      3,
+      34,
+      0,
+      353,
+      0
+    ]
+  },
+  {
+    "case": 212,
+    "profile": [
+      16,
+      15,
+      14,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 213,
+    "profile": [
+      16,
+      15,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 214,
+    "profile": [
+      16,
+      15,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 376,
+    "margin_patterns": 126,
+    "projections": 364,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      8,
+      0,
+      159,
+      0
+    ]
+  },
+  {
+    "case": 215,
+    "profile": [
+      16,
+      15,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 216,
+    "profile": [
+      16,
+      15,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 410,
+    "margin_patterns": 148,
+    "projections": 623,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      31,
+      0,
+      224,
+      0
+    ]
+  },
+  {
+    "case": 217,
+    "profile": [
+      16,
+      15,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 218,
+    "profile": [
+      16,
+      15,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 336,
+    "margin_patterns": 120,
+    "projections": 462,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      47,
+      0,
+      159,
+      0
+    ]
+  },
+  {
+    "case": 219,
+    "profile": [
+      16,
+      15,
+      15,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 220,
+    "profile": [
+      16,
+      15,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 57,
+    "margin_patterns": 14,
+    "projections": 14,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      14,
+      0
+    ]
+  },
+  {
+    "case": 221,
+    "profile": [
+      16,
+      15,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 419,
+    "margin_patterns": 136,
+    "projections": 367,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      18,
+      0,
+      176,
+      0
+    ]
+  },
+  {
+    "case": 222,
+    "profile": [
+      16,
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 263,
+    "margin_patterns": 92,
+    "projections": 193,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      124,
+      0
+    ]
+  },
+  {
+    "case": 223,
+    "profile": [
+      16,
+      15,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1114,
+    "margin_patterns": 438,
+    "projections": 1611,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      15,
+      90,
+      0,
+      715,
+      0
+    ]
+  },
+  {
+    "case": 224,
+    "profile": [
+      16,
+      15,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 422,
+    "margin_patterns": 154,
+    "projections": 362,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      18,
+      0,
+      214,
+      0
+    ]
+  },
+  {
+    "case": 225,
+    "profile": [
+      16,
+      15,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1161,
+    "margin_patterns": 480,
+    "projections": 2157,
+    "reasons": [
+      0,
+      0,
+      3,
+      0,
+      0,
+      22,
+      204,
+      0,
+      875,
+      0
+    ]
+  },
+  {
+    "case": 226,
+    "profile": [
+      16,
+      15,
+      16,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 15,
+    "margin_patterns": 4,
+    "projections": 4,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ]
+  },
+  {
+    "case": 227,
+    "profile": [
+      16,
+      15,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 50,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 228,
+    "profile": [
+      16,
+      15,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 451,
+    "margin_patterns": 164,
+    "projections": 381,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      0,
+      201,
+      0
+    ]
+  },
+  {
+    "case": 229,
+    "profile": [
+      16,
+      15,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 41,
+    "margin_patterns": 12,
+    "projections": 12,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      12,
+      0
+    ]
+  },
+  {
+    "case": 230,
+    "profile": [
+      16,
+      15,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 407,
+    "margin_patterns": 168,
+    "projections": 268,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      204,
+      0
+    ]
+  },
+  {
+    "case": 231,
+    "profile": [
+      16,
+      15,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1358,
+    "margin_patterns": 616,
+    "projections": 1969,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      2,
+      6,
+      130,
+      0,
+      990,
+      0
+    ]
+  },
+  {
+    "case": 232,
+    "profile": [
+      16,
+      15,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 114,
+    "margin_patterns": 48,
+    "projections": 48,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      48,
+      0
+    ]
+  },
+  {
+    "case": 233,
+    "profile": [
+      16,
+      15,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 864,
+    "margin_patterns": 388,
+    "projections": 834,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      32,
+      0,
+      523,
+      0
+    ]
+  },
+  {
+    "case": 234,
+    "profile": [
+      16,
+      15,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1479,
+    "margin_patterns": 670,
+    "projections": 2859,
+    "reasons": [
+      0,
+      1,
+      6,
+      5,
+      5,
+      20,
+      246,
+      0,
+      1233,
+      0
+    ]
+  },
+  {
+    "case": 235,
+    "profile": [
+      16,
+      16,
+      14,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 236,
+    "profile": [
+      16,
+      16,
+      14,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 237,
+    "profile": [
+      16,
+      16,
+      14,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 292,
+    "margin_patterns": 108,
+    "projections": 306,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      137,
+      0
+    ]
+  },
+  {
+    "case": 238,
+    "profile": [
+      16,
+      16,
+      14,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 239,
+    "profile": [
+      16,
+      16,
+      14,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 500,
+    "margin_patterns": 192,
+    "projections": 804,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      32,
+      0,
+      294,
+      0
+    ]
+  },
+  {
+    "case": 240,
+    "profile": [
+      16,
+      16,
+      14,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 2,
+    "margin_patterns": 0,
+    "projections": 0,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": 241,
+    "profile": [
+      16,
+      16,
+      14,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 400,
+    "margin_patterns": 156,
+    "projections": 602,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      43,
+      0,
+      226,
+      0
+    ]
+  },
+  {
+    "case": 242,
+    "profile": [
+      16,
+      16,
+      15,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 243,
+    "profile": [
+      16,
+      16,
+      15,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 58,
+    "margin_patterns": 20,
+    "projections": 20,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "case": 244,
+    "profile": [
+      16,
+      16,
+      15,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 321,
+    "margin_patterns": 120,
+    "projections": 276,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      10,
+      0,
+      147,
+      0
+    ]
+  },
+  {
+    "case": 245,
+    "profile": [
+      16,
+      16,
+      15,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 386,
+    "margin_patterns": 144,
+    "projections": 328,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      10,
+      0,
+      185,
+      0
+    ]
+  },
+  {
+    "case": 246,
+    "profile": [
+      16,
+      16,
+      15,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1108,
+    "margin_patterns": 495,
+    "projections": 1813,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      100,
+      0,
+      744,
+      0
+    ]
+  },
+  {
+    "case": 247,
+    "profile": [
+      16,
+      16,
+      15,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 434,
+    "margin_patterns": 161,
+    "projections": 603,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      56,
+      0,
+      251,
+      0
+    ]
+  },
+  {
+    "case": 248,
+    "profile": [
+      16,
+      16,
+      15,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1002,
+    "margin_patterns": 444,
+    "projections": 2028,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      22,
+      207,
+      0,
+      744,
+      0
+    ]
+  },
+  {
+    "case": 249,
+    "profile": [
+      16,
+      16,
+      16,
+      13,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 18,
+    "margin_patterns": 6,
+    "projections": 6,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0
+    ]
+  },
+  {
+    "case": 250,
+    "profile": [
+      16,
+      16,
+      16,
+      14,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 67,
+    "margin_patterns": 20,
+    "projections": 20,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ]
+  },
+  {
+    "case": 251,
+    "profile": [
+      16,
+      16,
+      16,
+      14,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 345,
+    "margin_patterns": 135,
+    "projections": 288,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      13,
+      0,
+      165,
+      0
+    ]
+  },
+  {
+    "case": 252,
+    "profile": [
+      16,
+      16,
+      16,
+      15,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 49,
+    "margin_patterns": 16,
+    "projections": 16,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      16,
+      0
+    ]
+  },
+  {
+    "case": 253,
+    "profile": [
+      16,
+      16,
+      16,
+      15,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 602,
+    "margin_patterns": 222,
+    "projections": 413,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      12,
+      0,
+      275,
+      0
+    ]
+  },
+  {
+    "case": 254,
+    "profile": [
+      16,
+      16,
+      16,
+      15,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1291,
+    "margin_patterns": 579,
+    "projections": 2011,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      139,
+      0,
+      914,
+      0
+    ]
+  },
+  {
+    "case": 255,
+    "profile": [
+      16,
+      16,
+      16,
+      16,
+      15,
+      14
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 104,
+    "margin_patterns": 38,
+    "projections": 109,
+    "reasons": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      61,
+      0
+    ]
+  },
+  {
+    "case": 256,
+    "profile": [
+      16,
+      16,
+      16,
+      16,
+      15,
+      15
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 726,
+    "margin_patterns": 294,
+    "projections": 1135,
+    "reasons": [
+      0,
+      0,
+      2,
+      1,
+      1,
+      6,
+      79,
+      0,
+      549,
+      0
+    ]
+  },
+  {
+    "case": 257,
+    "profile": [
+      16,
+      16,
+      16,
+      16,
+      15,
+      16
+    ],
+    "status": "EXHAUSTED",
+    "joinnodes": 1137,
+    "margin_patterns": 501,
+    "projections": 2218,
+    "reasons": [
+      0,
+      0,
+      1,
+      1,
+      3,
+      17,
+      211,
+      0,
+      946,
+      0
+    ]
+  }
+]

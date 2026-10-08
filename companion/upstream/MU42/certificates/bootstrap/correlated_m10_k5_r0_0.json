@@ -1,0 +1,227 @@
+{
+  "mu": 42,
+  "central_size": 10,
+  "outside_cap": 5,
+  "r10": 0,
+  "r9": 0,
+  "lower_levels": [
+    0,
+    6,
+    9,
+    10
+  ],
+  "budget_vectors": 256,
+  "input_states": 16,
+  "open_states": 0,
+  "states": [
+    {
+      "internal_mask": 0,
+      "degrees": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 1,
+      "degrees": [
+        15,
+        16,
+        15,
+        16,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 2,
+      "degrees": [
+        16,
+        15,
+        15,
+        15,
+        16,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 4,
+      "degrees": [
+        15,
+        15,
+        16,
+        15,
+        15,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8,
+      "degrees": [
+        16,
+        16,
+        15,
+        15,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16,
+      "degrees": [
+        16,
+        15,
+        15,
+        16,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 32,
+      "degrees": [
+        15,
+        16,
+        15,
+        15,
+        16,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 64,
+      "degrees": [
+        15,
+        15,
+        16,
+        15,
+        16,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 128,
+      "degrees": [
+        16,
+        15,
+        15,
+        15,
+        15,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 256,
+      "degrees": [
+        16,
+        15,
+        16,
+        15,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        15,
+        15,
+        16,
+        15,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 1024,
+      "degrees": [
+        15,
+        15,
+        16,
+        16,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 2048,
+      "degrees": [
+        15,
+        16,
+        16,
+        15,
+        15,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 4096,
+      "degrees": [
+        15,
+        16,
+        15,
+        15,
+        15,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        15,
+        15,
+        15,
+        15,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        15,
+        15,
+        15,
+        16,
+        16,
+        15
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    }
+  ],
+  "open": []
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "E20_F69_D18_FRONTIER_V1",
+  "date": "2026-09-30",
+  "global_bound": [
+    54,
+    69
+  ],
+  "bound_status": "IMPORTED_CONDITIONAL",
+  "target_family_size": 69,
+  "target_mu": 42,
+  "degree_cap": 18,
+  "support_range": [
+    16,
+    23
+  ],
+  "fixed_blocks": 18,
+  "residual_target": 51,
+  "closed_in_this_task": [
+    "P10+P8_type1",
+    "P10+P8_type2",
+    "P10+Q8"
+  ],
+  "open": [
+    "P9+P9",
+    "maximum17",
+    "maximum_at_most16"
+  ],
+  "r99_interior_pair_orbits": 21,
+  "public_update": false
+}

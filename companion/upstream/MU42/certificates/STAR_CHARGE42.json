@@ -1,0 +1,22 @@
+{
+  "schema": "E20_MU42_STAR_CHARGE_V1",
+  "mu": 42,
+  "r10": 7,
+  "r9": 7,
+  "cap_degree": 20,
+  "minimum_degree": 4,
+  "no_P10_at17": false,
+  "denominator": 10000,
+  "constant": 3400,
+  "mantel": {
+    "4": 26
+  },
+  "balance": {
+    "17_7_10": -33,
+    "17_8_9": -21,
+    "18_8_10": -38,
+    "19_9_10": 9
+  },
+  "split16": 18,
+  "expected_rows": 292560
+}

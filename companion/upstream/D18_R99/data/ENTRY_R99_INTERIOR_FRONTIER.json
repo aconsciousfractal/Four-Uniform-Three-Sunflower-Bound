@@ -1,0 +1,600 @@
+{
+  "component": 9,
+  "full_orbits": 79,
+  "excluded_orbits": 73,
+  "remaining": [
+    {
+      "id": "P9_000",
+      "interiors": [],
+      "orbit_size": 1
+    },
+    {
+      "id": "P9_001",
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "orbit_size": 3
+    },
+    {
+      "id": "P9_002",
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 3
+    },
+    {
+      "id": "P9_003",
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ],
+      "orbit_size": 6
+    },
+    {
+      "id": "P9_004",
+      "interiors": [
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ],
+      "orbit_size": 3
+    },
+    {
+      "id": "P9_019",
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 3
+    }
+  ],
+  "labelled_remaining": 19,
+  "pair_roots": [
+    {
+      "id": "R99_0_0",
+      "types": [
+        "P9_000",
+        "P9_000"
+      ],
+      "interiors_first": [],
+      "interiors_second": [],
+      "labelled_orbit_size": 1,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_0_1",
+      "types": [
+        "P9_000",
+        "P9_001"
+      ],
+      "interiors_first": [],
+      "interiors_second": [
+        [
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "labelled_orbit_size": 6,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_0_2",
+      "types": [
+        "P9_000",
+        "P9_002"
+      ],
+      "interiors_first": [],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 6,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_0_3",
+      "types": [
+        "P9_000",
+        "P9_003"
+      ],
+      "interiors_first": [],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 12,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_0_4",
+      "types": [
+        "P9_000",
+        "P9_004"
+      ],
+      "interiors_first": [],
+      "interiors_second": [
+        [
+          6,
+          9,
+          10,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 6,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_0_5",
+      "types": [
+        "P9_000",
+        "P9_019"
+      ],
+      "interiors_first": [],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 6,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_1_1",
+      "types": [
+        "P9_001",
+        "P9_001"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "labelled_orbit_size": 9,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_1_2",
+      "types": [
+        "P9_001",
+        "P9_002"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_1_3",
+      "types": [
+        "P9_001",
+        "P9_003"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 36,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_1_4",
+      "types": [
+        "P9_001",
+        "P9_004"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          9,
+          10,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_1_5",
+      "types": [
+        "P9_001",
+        "P9_019"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_2_2",
+      "types": [
+        "P9_002",
+        "P9_002"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 9,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_2_3",
+      "types": [
+        "P9_002",
+        "P9_003"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 36,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_2_4",
+      "types": [
+        "P9_002",
+        "P9_004"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          9,
+          10,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_2_5",
+      "types": [
+        "P9_002",
+        "P9_019"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_3_3",
+      "types": [
+        "P9_003",
+        "P9_003"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 36,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_3_4",
+      "types": [
+        "P9_003",
+        "P9_004"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          9,
+          10,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 36,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_3_5",
+      "types": [
+        "P9_003",
+        "P9_019"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 36,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_4_4",
+      "types": [
+        "P9_004",
+        "P9_004"
+      ],
+      "interiors_first": [
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          9,
+          10,
+          11
+        ]
+      ],
+      "labelled_orbit_size": 9,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_4_5",
+      "types": [
+        "P9_004",
+        "P9_019"
+      ],
+      "interiors_first": [
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 18,
+      "status": "OPEN"
+    },
+    {
+      "id": "R99_5_5",
+      "types": [
+        "P9_019",
+        "P9_019"
+      ],
+      "interiors_first": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "interiors_second": [
+        [
+          6,
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      "labelled_orbit_size": 9,
+      "status": "OPEN"
+    }
+  ],
+  "labelled_pairs": 361
+}

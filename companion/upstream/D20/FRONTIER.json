@@ -1,0 +1,23 @@
+{
+  "schema": "E20_F69_D20_FRONTIER_V1",
+  "global_bound": [
+    54,
+    69
+  ],
+  "F69_excluded": false,
+  "F69_max20": "CLOSED_CONDITIONALLY",
+  "F69_max19": "OPEN",
+  "F69_max18": "OPEN",
+  "F69_max17": "OPEN",
+  "F69_max_le16": "OPEN",
+  "next_mu": 42,
+  "next_prescribed": 19,
+  "next_residuals": 50,
+  "next_universe_points": 23,
+  "next_support": [
+    16,
+    23
+  ],
+  "next_terminal_kappa": 11,
+  "next_deficit": 37
+}

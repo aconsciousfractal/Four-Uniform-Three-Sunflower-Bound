@@ -1,0 +1,52 @@
+{
+  "case": {
+    "id": "P9_053",
+    "component": 9,
+    "outside": 9,
+    "r10": 7,
+    "r9": 7,
+    "interiors": [
+      [
+        0,
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ]
+  },
+  "columns": 512,
+  "upper_rows": 18,
+  "equal_rows": 401,
+  "scale": 1000,
+  "value": -333,
+  "rhs": -333,
+  "box_min": 0,
+  "upper": [],
+  "equal": [
+    [
+      226,
+      -333
+    ],
+    [
+      364,
+      333
+    ],
+    [
+      387,
+      333
+    ]
+  ],
+  "schema": "E20_F69_D18_COMPONENT_CERT_V1"
+}

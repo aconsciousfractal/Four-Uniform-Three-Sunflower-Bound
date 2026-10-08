@@ -1,0 +1,56 @@
+{
+  "schema": "E20_F69_D17_COMPONENT_CERT_V1",
+  "case": {
+    "id": "P10_012",
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2,
+        4,
+        5
+      ]
+    ],
+    "component": 10,
+    "outside": 7,
+    "r10": 7,
+    "r9": 7
+  },
+  "scale": 1,
+  "rhs": -1,
+  "box_min": 0,
+  "value": -1,
+  "columns": 99,
+  "upper_rows": 12,
+  "equal_rows": 382,
+  "upper": [],
+  "equal": [
+    [
+      12,
+      -1
+    ]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "E20_F69_R99_FRONTIER_V1",
+  "global_bound": [
+    54,
+    69
+  ],
+  "target": 69,
+  "mu": 42,
+  "degree_cap_branch": 18,
+  "R99": "CLOSED_CONDITIONALLY",
+  "D18": "CLOSED_CONDITIONALLY",
+  "remaining_maxima": [
+    17,
+    "<=16"
+  ],
+  "F69_closed": false,
+  "new_certificates": 50,
+  "inherited_P9_certificates_replayed": 73,
+  "internal_pairs_closed": 20,
+  "internal_pair_passed_to_next_stage": "R99_0_0",
+  "mixed_four_orbits": 22,
+  "mixed_three_orbits": 8,
+  "residuals_required": 51,
+  "terminal_deficit_cap": 22,
+  "terminal_disjoint_pairs_lower": 488,
+  "terminal_disjoint_pairs_upper": 486
+}

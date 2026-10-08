@@ -1,0 +1,486 @@
+{
+  "status": "OPEN_NECESSARY_STATES",
+  "mu": 42,
+  "central_size": 9,
+  "outside_cap": 5,
+  "r10": 0,
+  "r9": 0,
+  "internal_count": 373,
+  "base_row_count": 39012,
+  "pre_external_cap_colorings": 666,
+  "remaining_colorings": 24,
+  "remaining_internals": 3,
+  "survivors": [
+    {
+      "internal_mask": 512,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            14,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            9,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            14,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            10,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            14,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            9,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            9,
+            9,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 22
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            9,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            16,
+            14,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            10,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            16,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            10,
+            9,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            16,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            10,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 8192,
+      "colorings": [
+        {
+          "degrees": [
+            14,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            9,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            14,
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            10,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            14,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            0,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            0,
+            9,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 22
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            15,
+            14,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            0,
+            9,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            15,
+            16,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 16384,
+      "colorings": [
+        {
+          "degrees": [
+            14,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            9,
+            0,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            14,
+            16,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            10,
+            0,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            14,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 22
+        },
+        {
+          "degrees": [
+            15,
+            16,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            9,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            14,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            15,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            9,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        },
+        {
+          "degrees": [
+            16,
+            16,
+            15,
+            16,
+            16,
+            16
+          ],
+          "external_lower": [
+            10,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    }
+  ]
+}

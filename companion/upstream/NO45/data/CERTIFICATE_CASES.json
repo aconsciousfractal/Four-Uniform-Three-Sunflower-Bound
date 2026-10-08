@@ -1,0 +1,42 @@
+[
+  {
+    "id": "C5_6",
+    "root": 5,
+    "core": 6,
+    "shared_degrees": false,
+    "total69": false,
+    "h27_cuts": false
+  },
+  {
+    "id": "C5_8",
+    "root": 5,
+    "core": 8,
+    "shared_degrees": false,
+    "total69": false,
+    "h27_cuts": false
+  },
+  {
+    "id": "G8_0_0",
+    "root": 8,
+    "core": 0,
+    "shared_degrees": true,
+    "total69": true,
+    "h27_cuts": false
+  },
+  {
+    "id": "G8_1_0",
+    "root": 8,
+    "core": 1,
+    "shared_degrees": true,
+    "total69": true,
+    "h27_cuts": false
+  },
+  {
+    "id": "H27_CORE_8_2",
+    "root": 8,
+    "core": 2,
+    "shared_degrees": true,
+    "total69": true,
+    "h27_cuts": true
+  }
+]

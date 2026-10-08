@@ -1,0 +1,135 @@
+[
+  {
+    "component_case": {
+      "id": "P9_000",
+      "component": 9,
+      "outside": 8,
+      "r10": 7,
+      "r9": 7,
+      "interiors": []
+    },
+    "directory": "certificates/forests/P9_000",
+    "profiles": 122,
+    "labelled_profiles": 520,
+    "joinnodes": 919446,
+    "margin_patterns": 567693,
+    "prefix_nodes": 13672861,
+    "leaf_reasons": [
+      0,
+      10611,
+      1695357,
+      988578,
+      357180,
+      1419134,
+      2810049,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "component_case": {
+      "id": "P9_002",
+      "component": 9,
+      "outside": 8,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ]
+    },
+    "directory": "certificates/forests/P9_002",
+    "profiles": 118,
+    "labelled_profiles": 218,
+    "joinnodes": 23992,
+    "margin_patterns": 13081,
+    "prefix_nodes": 20065,
+    "leaf_reasons": [
+      0,
+      0,
+      96,
+      3,
+      1,
+      113,
+      672,
+      0,
+      14271,
+      0
+    ]
+  },
+  {
+    "component_case": {
+      "id": "P9_003",
+      "component": 9,
+      "outside": 8,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ]
+    },
+    "directory": "certificates/forests/P9_003",
+    "profiles": 258,
+    "labelled_profiles": 258,
+    "joinnodes": 112533,
+    "margin_patterns": 49349,
+    "prefix_nodes": 104818,
+    "leaf_reasons": [
+      0,
+      1,
+      165,
+      23,
+      13,
+      493,
+      4465,
+      0,
+      63314,
+      0
+    ]
+  },
+  {
+    "component_case": {
+      "id": "P9_004",
+      "component": 9,
+      "outside": 8,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "directory": "certificates/forests/P9_004",
+    "profiles": 372,
+    "labelled_profiles": 671,
+    "joinnodes": 482457,
+    "margin_patterns": 240980,
+    "prefix_nodes": 582379,
+    "leaf_reasons": [
+      0,
+      23,
+      2641,
+      1224,
+      30,
+      16217,
+      35582,
+      0,
+      294387,
+      0
+    ]
+  }
+]

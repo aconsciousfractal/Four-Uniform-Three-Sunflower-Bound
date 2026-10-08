@@ -1,0 +1,44 @@
+{
+  "schema": "E20_F69_D17_COMPONENT_CERT_V1",
+  "case": {
+    "id": "P9_026",
+    "interiors": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "component": 9,
+    "outside": 8,
+    "r10": 7,
+    "r9": 7
+  },
+  "scale": 1,
+  "rhs": -1,
+  "box_min": 0,
+  "value": -1,
+  "columns": 149,
+  "upper_rows": 18,
+  "equal_rows": 389,
+  "upper": [],
+  "equal": [
+    [
+      12,
+      -1
+    ]
+  ]
+}

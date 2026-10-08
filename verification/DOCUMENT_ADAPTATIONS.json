@@ -1,0 +1,384 @@
+{
+  "schema": "BOUND68_DOCUMENT_ADAPTATIONS_V2",
+  "reviewed_distribution_manifest_sha256": "bedf670dd173ecccc6247c44d4f74cb359f771c9c8c44c8c5b2ed404a2c2d2d5",
+  "baseline_manifest_sha256": "16fb15948d631cd1abb25e276b3476516161feb8151594b829a23ecab923f6c1",
+  "baseline_computational_manifest_sha256": "f8cb8594e3138f38397804542a98f2d5611edcd4605fd3080da9478a78681b16",
+  "current_computational_manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18",
+  "relocations": {
+    "paper/main.pdf": "paper/Four-Uniform-Three-Sunflower-Bound.pdf"
+  },
+  "files": [
+    {
+      "path": "SUITE_PLAN.json",
+      "before": {
+        "bytes": 1254787,
+        "sha256": "38764dfbdf4c74675592ba7c94f9022529d99b5346ee443bea7a5704f0e27d91"
+      },
+      "after": {
+        "bytes": 1254491,
+        "sha256": "21798425155d8199b159ac27abc6d1de26876f349b26683ed36825036612ad24"
+      },
+      "reason": "Replace six historical source locator strings; every other plan field remains identical."
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "before": {
+        "bytes": 997,
+        "sha256": "b083c502d261335c56a8dd59dd8ce3325659248c226e124b26a467d76aa9776b"
+      },
+      "after": {
+        "bytes": 929,
+        "sha256": "52e0db7e85eeb9bac2af3ac4a78f8f1047a6e8b1da816b89bff48abe3f635f7d"
+      },
+      "reason": "Replace candidate-package and internal-process language with the existing reader-facing rights statement; no new license is granted."
+    },
+    {
+      "path": "companion/upstream/D17/CURRENT_PREMISES.md",
+      "before": {
+        "bytes": 5784,
+        "sha256": "f9a76c46a3c694c54db209797e26c7cdeebb317e82d1ae2ff759eeb8200bc44c"
+      },
+      "after": {
+        "bytes": 5140,
+        "sha256": "999411966f4697c7943df24f1536a70b958db5a7c0d411771b0102e81618fec4"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D17/PROOF.md",
+      "before": {
+        "bytes": 12917,
+        "sha256": "0c99e17d52748ae8a69631ab7b3300198891e0b877bab4de8a9502720c2c23cc"
+      },
+      "after": {
+        "bytes": 12811,
+        "sha256": "8cb806320aeb61abfe402ebfd101c458562fcf158280e10087ac3558fa3fceb7"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D17/PROVENANCE.json",
+      "before": {
+        "bytes": 521255,
+        "sha256": "4c65c7481e4e3486b50bf1be4a069d53acb401432173007094847dd37ef971cc"
+      },
+      "after": {
+        "bytes": 521211,
+        "sha256": "4a1a150bcc32640bc87865acff27bd2dc7f3d4504d5c1be09ae2211987ea7cbf"
+      },
+      "reason": "Replace only the declared documentary adaptation reason strings; other provenance fields remain identical."
+    },
+    {
+      "path": "companion/upstream/D17/UNIVERSAL_EXTENSION_LEMMAS.md",
+      "before": {
+        "bytes": 7249,
+        "sha256": "aa233291fb63cf57d9be4e8b9fc029ac1bf993459c9ccb883d2753a0232adb99"
+      },
+      "after": {
+        "bytes": 7209,
+        "sha256": "3c90b54a983413372d718d9969cde29523572d1872f97a97853767e73d06efb1"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D18_P10/PROOF.md",
+      "before": {
+        "bytes": 19607,
+        "sha256": "cd0fa58b50ec5849c3509e5cd3227bc3af982014a67f03d317e45707115f6697"
+      },
+      "after": {
+        "bytes": 19290,
+        "sha256": "065cf5c741dacb0733f1fcc074e0f2ae535b40e7c00b2e40103cc0adb80ddde8"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D18_P10/README.md",
+      "before": {
+        "bytes": 890,
+        "sha256": "fdc90122d5171809304b07b83120f1d25f0c07fee928114f6416c8cc289d97e3"
+      },
+      "after": {
+        "bytes": 1013,
+        "sha256": "5b9a704a0f418c50161c3d8f2b7ed72543564e2c8fccd39276a87b94f2f78d23"
+      },
+      "reason": "Adapt reader exposition and update the link to the descriptive public PDF."
+    },
+    {
+      "path": "companion/upstream/D18_R99/PROOF.md",
+      "before": {
+        "bytes": 16533,
+        "sha256": "d3967536f4d870f5307635f00608279cb26c08653b479d992906c49b9760b6f0"
+      },
+      "after": {
+        "bytes": 16483,
+        "sha256": "1e3dd479307157f99408ab343008536bade7a1be81d8456745d13f25f327c54a"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D18_R99/README.md",
+      "before": {
+        "bytes": 890,
+        "sha256": "efb9d07ff010599e9be83e7cf9b07bc261d62f39263030ef07f5ac30c4962590"
+      },
+      "after": {
+        "bytes": 1013,
+        "sha256": "90e99cd581fb04f6b3609e9787ac11618d5d2c9a2418038a57648afbdae19535"
+      },
+      "reason": "Adapt reader exposition and update the link to the descriptive public PDF."
+    },
+    {
+      "path": "companion/upstream/D19/PROOF.md",
+      "before": {
+        "bytes": 17086,
+        "sha256": "80fd2bd45acbe4c88939f2f0e7a415f5d676e946aabd681ff06064bf997d89df"
+      },
+      "after": {
+        "bytes": 16738,
+        "sha256": "25903de64460891b4e868349fc2d9a77e932ec24dd80cae2a3191d50585e6972"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D19/README.md",
+      "before": {
+        "bytes": 886,
+        "sha256": "eb5a2d6ae47b14735f92c9e4cc5ff12ba0db35588deae4868efa9cd784320b9b"
+      },
+      "after": {
+        "bytes": 1009,
+        "sha256": "23d02eb5044e6a9ae37c3f265f07882c294e10198d005c796c4ba7fe7ebf8907"
+      },
+      "reason": "Adapt reader exposition and update the link to the descriptive public PDF."
+    },
+    {
+      "path": "companion/upstream/D20/PROOF.md",
+      "before": {
+        "bytes": 16222,
+        "sha256": "dd4d8feeae1b5a646ecacb00abc79cca34c3a8c371bf4503a2051b4afaf3efc1"
+      },
+      "after": {
+        "bytes": 16036,
+        "sha256": "755fd60474332833a5d609a65317bdc34b322ce6f13fcccc5928aca3ab4cce42"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/D20/README.md",
+      "before": {
+        "bytes": 886,
+        "sha256": "0c91382c07e981b79a01dbd91aaaf40c10c529355debc0332aefba6c8e0ccbaa"
+      },
+      "after": {
+        "bytes": 1009,
+        "sha256": "eae8e534d7f400366e1a68726e8d68ebda24b1641bb913f3eae7cf90c7a4ddb5"
+      },
+      "reason": "Adapt reader exposition and update the link to the descriptive public PDF."
+    },
+    {
+      "path": "companion/upstream/LOW15/CURRENT_PREMISES.md",
+      "before": {
+        "bytes": 4889,
+        "sha256": "a42bf218c864a73c007906ddc9432fd2f50a5732b995b6e667bcd4aa602ceac2"
+      },
+      "after": {
+        "bytes": 4278,
+        "sha256": "26a6217baa91b4936a07f9ed5340686a52b5fdeb6f7ac12401ada70144647c7b"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/LOW15/PROOF.md",
+      "before": {
+        "bytes": 10831,
+        "sha256": "fac9483ec36fb59e735212f956a7afcec381b368e7f117adf3c4c5c19f7a46d2"
+      },
+      "after": {
+        "bytes": 11090,
+        "sha256": "45518ea9c976f748ad6bfb38c1e200a5958ac1ed49c46b2387d2a542b5d383ce"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/LOW15/PROVENANCE.json",
+      "before": {
+        "bytes": 5766,
+        "sha256": "42bd0b4fd3640430bb3cf95eb901479c3d12653898cde634bea7b6665a795413"
+      },
+      "after": {
+        "bytes": 5744,
+        "sha256": "4d09e34b1db53f1c799382e45a1564740dafa10145e02670c4d6e5559e7d8459"
+      },
+      "reason": "Replace only the declared documentary adaptation reason strings; other provenance fields remain identical."
+    },
+    {
+      "path": "companion/upstream/MU42/C5_PROOF.md",
+      "before": {
+        "bytes": 7054,
+        "sha256": "cf1a955fbf099a7c763362765874672d81bec84fabdc8df32bcc7744c1465a10"
+      },
+      "after": {
+        "bytes": 7006,
+        "sha256": "558fdb6b6bed4792ebdba52c0ff476ea0b85055b7b843f2810ad9ca64b299d81"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/MU42/PROOF.md",
+      "before": {
+        "bytes": 20508,
+        "sha256": "29cb1966db5fd2c4e5ac1b5a0f390a09afae738eef0846bde849d82c1a4717b5"
+      },
+      "after": {
+        "bytes": 20207,
+        "sha256": "523de538aa7605a8a9974a72f2886537a4175e7ed7454ffc81b16f1ff13e548f"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/MU42/README.md",
+      "before": {
+        "bytes": 887,
+        "sha256": "0d5c958dd06a2079c0c5175b55372b837e4140871ff2ca24478df69b1aee20fb"
+      },
+      "after": {
+        "bytes": 1010,
+        "sha256": "defe63d1551d33f3afb55329dd59db23349f241438cec1944d1824c73ab1030f"
+      },
+      "reason": "Adapt reader exposition and update the link to the descriptive public PDF."
+    },
+    {
+      "path": "companion/upstream/MU42/TRACE_FOUNDATIONS.md",
+      "before": {
+        "bytes": 14374,
+        "sha256": "e74c90104b9b5db5a850b7a62bad3f8f8faeea1cd01a98f53e495a2dd6c25f7a"
+      },
+      "after": {
+        "bytes": 14324,
+        "sha256": "124ada6105d57569aa12785608c20ee51240c67fb35701cf1bd5d433923bd981"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/NO45/CURRENT_PREMISES.md",
+      "before": {
+        "bytes": 4940,
+        "sha256": "8eeee0bb9c678f137bb45abaf76d59e707650110efd64f4e5241e0c25ed5d2e5"
+      },
+      "after": {
+        "bytes": 4299,
+        "sha256": "7f6435768eb0bb505835c8d1877676d7e0150c6821992305b52be71ba24824b9"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/NO45/PROOF.md",
+      "before": {
+        "bytes": 8776,
+        "sha256": "ab786ac7a199d233c650b45273b4191a6ab5db6d56b00b08c9d95de80d8690a7"
+      },
+      "after": {
+        "bytes": 8682,
+        "sha256": "c74fec34e9f25a9a322f31a8dd6eafe6e252b3faafebd4bd6501b415f59a1adb"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/NO45/PROVENANCE.json",
+      "before": {
+        "bytes": 9727,
+        "sha256": "c93aa38129dd1dedaf59aff50463d6fc6ad7a63cb26681acec25f1f5f76a58fb"
+      },
+      "after": {
+        "bytes": 9705,
+        "sha256": "c88fd6eccf26fabef0dbab2df075d0ec068205af06dba13ead4b1ae0d2c2495a"
+      },
+      "reason": "Replace only the declared documentary adaptation reason strings; other provenance fields remain identical."
+    },
+    {
+      "path": "companion/upstream/NO9/CURRENT_PREMISES.md",
+      "before": {
+        "bytes": 5078,
+        "sha256": "c3f5049b1d0535937510fdaa00f3c79f2d2b24eaf6ca42a4db37ae32bc873fd1"
+      },
+      "after": {
+        "bytes": 4459,
+        "sha256": "1cb5b3df25684916d4c919958bb3571b4cd550524094d8ee7cac7f88397df7e3"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/NO9/PROOF.md",
+      "before": {
+        "bytes": 11676,
+        "sha256": "43a61a9433dff7c53cc5847046d750ef4d9ab8dbee8b4701d23b8923d460975f"
+      },
+      "after": {
+        "bytes": 11582,
+        "sha256": "93ea23da4f478734eb956eda719553403148f7e342597538ba2003ff7b60fc8b"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "companion/upstream/NO9/PROVENANCE.json",
+      "before": {
+        "bytes": 80473,
+        "sha256": "9e87e9e8a939505b423e90cd31d2646c52444a4ed8054498d594a3fdbbdcd3e5"
+      },
+      "after": {
+        "bytes": 80451,
+        "sha256": "8e48ca804c603967f0176c73f94dc70a886ba55d2f172d90a13dbb13ed04d07d"
+      },
+      "reason": "Replace only the declared documentary adaptation reason strings; other provenance fields remain identical."
+    },
+    {
+      "path": "paper/main.pdf",
+      "before": {
+        "bytes": 418668,
+        "sha256": "65f6b24c2c63253b57ed13b25b37271c9bcac2700457f3d44c9676cf5b0d41a7"
+      },
+      "after": {
+        "bytes": 397314,
+        "sha256": "53ca6a078f95ac091397f5d87080e5458ef278ba787b6bd64658cee09f345e1b"
+      },
+      "reason": "Apply the published R4 article layout and metadata; compile and relocate the sole public PDF to its descriptive name."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": {
+        "bytes": 63994,
+        "sha256": "3751bf4989ccf00920698a1aba8c259582668c5edf7de143c7e00f97fcb4102b"
+      },
+      "after": {
+        "bytes": 65003,
+        "sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21"
+      },
+      "reason": "Apply the published R4 article preamble, metadata and repository link while preserving mathematical exposition."
+    },
+    {
+      "path": "proof/DEPENDENCIES.md",
+      "before": {
+        "bytes": 7957,
+        "sha256": "6da917ecf77d9ac9a0c95809a8226e379c5c6df8073c76e29e8cc36ba4db4570"
+      },
+      "after": {
+        "bytes": 7878,
+        "sha256": "bb1274072764572b2f4c29f736e12d190b1326ca241d9ddd7971a0b0e7ef14d5"
+      },
+      "reason": "Adapt reader exposition and references while preserving the relevant mathematical reductions."
+    },
+    {
+      "path": "scripts/build_pdf.py",
+      "before": {
+        "bytes": 1870,
+        "sha256": "7e0f3d47e0eafd32875d26f7ed7c965bad3bdbe53833729aaa15747b32223042"
+      },
+      "after": {
+        "bytes": 1959,
+        "sha256": "9f0e3d7637945323ff84e3cd2ee28f737132034beecc6301d853d0b3fb2a071a"
+      },
+      "reason": "Mechanically use the descriptive PDF name and matching TeX jobname; preserve the three-pass build and all checks."
+    }
+  ]
+}

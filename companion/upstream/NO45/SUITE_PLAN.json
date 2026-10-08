@@ -1,0 +1,177 @@
+{
+  "schema": "BOUND68_ESSENTIAL_SUITE_PLAN_V1",
+  "suite": "NO45",
+  "base": "BOUND68_REVIEWED root",
+  "python": "3.10+ standard library",
+  "status": "PROSPECTIVE_NOT_EXECUTED",
+  "commands": [
+    {
+      "id": "no45_cores",
+      "suite": "NO45",
+      "argv": [
+        "companion/upstream/NO45/scripts/check_cores.py"
+      ],
+      "cwd": ".",
+      "expected_semantic": {
+        "anchor_refutations": 2330,
+        "base_rows": 24002,
+        "cores": 2335,
+        "empty_root_orbits": 20,
+        "high_rows": 157,
+        "last_root_cores": 2210,
+        "linear_leaves": 5,
+        "oriented_rows": 147619,
+        "root_orbits": 36,
+        "same_complete_lists": true,
+        "status": "PASS"
+      },
+      "ignored_semantic_keys": [],
+      "historical_seconds_per_mode": 62.71732910000719,
+      "timeout_seconds": 281,
+      "stdout_path": "{output}/no45_cores_{mode}.stdout.json",
+      "stderr_path": "{output}/no45_cores_{mode}.stderr.txt",
+      "historical_evidence": {
+        "receipt": "agent_cross/f69tail/02_compat.json",
+        "sha256": "74fd6eef7e37ceba2b2631bdab6a5762428b1691be6d5ebf858195e36fffe490"
+      },
+      "coverage": "Complete semantic object equality; all certificate/domain/coverage counters and records bind the entire declared checker domain.",
+      "modes": [
+        "normal",
+        "optimized"
+      ],
+      "output_channel": "json",
+      "volatile_keys": [],
+      "lemma": "NO45 complete local branch import",
+      "domain": "SF4, M=69, maximum point degree16, mu>=42, singleton<=8 and bootstrap",
+      "inputs": [
+        "companion/upstream/NO45/certificates/C5_6.json",
+        "companion/upstream/NO45/certificates/C5_8.json",
+        "companion/upstream/NO45/certificates/G8_0_0.json",
+        "companion/upstream/NO45/certificates/G8_1_0.json",
+        "companion/upstream/NO45/certificates/H27_CORE_8_2.json",
+        "companion/upstream/NO45/data/ANCHOR_SCREEN.json",
+        "companion/upstream/NO45/data/CERTIFICATE_CASES.json",
+        "companion/upstream/NO45/data/CORES.json",
+        "companion/upstream/NO45/data/H27_CUTS.json",
+        "companion/upstream/NO45/data/no9_rows.bin",
+        "companion/upstream/NO45/scripts/audit_model.py",
+        "companion/upstream/NO45/scripts/check_certificates.py",
+        "companion/upstream/NO45/scripts/check_cores.py",
+        "companion/upstream/NO45/scripts/common.py",
+        "companion/upstream/NO45/scripts/core_generation.py",
+        "companion/upstream/NO45/scripts/inputs/audit43.py",
+        "companion/upstream/NO45/scripts/inputs/local43.py",
+        "companion/upstream/NO45/scripts/models.py"
+      ]
+    },
+    {
+      "id": "no45_certificates",
+      "suite": "NO45",
+      "argv": [
+        "companion/upstream/NO45/scripts/check_certificates.py"
+      ],
+      "cwd": ".",
+      "expected_semantic": {
+        "certificates": [
+          {
+            "H": -1500,
+            "L": -415,
+            "columns": 1962,
+            "equal_rows": 225,
+            "gap": -1085,
+            "id": "C5_6",
+            "upper_rows": 141,
+            "used_equal": 121,
+            "used_upper": 10
+          },
+          {
+            "H": -27,
+            "L": -15,
+            "columns": 1006,
+            "equal_rows": 225,
+            "gap": -12,
+            "id": "C5_8",
+            "upper_rows": 129,
+            "used_equal": 54,
+            "used_upper": 6
+          },
+          {
+            "H": -37,
+            "L": -33,
+            "columns": 1201,
+            "equal_rows": 416,
+            "gap": -4,
+            "id": "G8_0_0",
+            "upper_rows": 39,
+            "used_equal": 116,
+            "used_upper": 4
+          },
+          {
+            "H": -368,
+            "L": -354,
+            "columns": 1235,
+            "equal_rows": 417,
+            "gap": -14,
+            "id": "G8_1_0",
+            "upper_rows": 61,
+            "used_equal": 126,
+            "used_upper": 5
+          },
+          {
+            "H": -26703,
+            "L": -25964,
+            "columns": 1292,
+            "equal_rows": 418,
+            "gap": -739,
+            "id": "H27_CORE_8_2",
+            "upper_rows": 99,
+            "used_equal": 179,
+            "used_upper": 13
+          }
+        ],
+        "h27_pools": 7,
+        "literal_comparisons": 5,
+        "models_use_support_bound": false,
+        "status": "PASS"
+      },
+      "ignored_semantic_keys": [],
+      "historical_seconds_per_mode": 6.218176000053063,
+      "timeout_seconds": 120,
+      "stdout_path": "{output}/no45_certificates_{mode}.stdout.json",
+      "stderr_path": "{output}/no45_certificates_{mode}.stderr.txt",
+      "historical_evidence": {
+        "receipt": "agent_cross/f69tail/02_compat.json",
+        "sha256": "74fd6eef7e37ceba2b2631bdab6a5762428b1691be6d5ebf858195e36fffe490"
+      },
+      "coverage": "Complete semantic object equality; all certificate/domain/coverage counters and records bind the entire declared checker domain.",
+      "modes": [
+        "normal",
+        "optimized"
+      ],
+      "output_channel": "json",
+      "volatile_keys": [],
+      "lemma": "NO45 complete local branch import",
+      "domain": "SF4, M=69, maximum point degree16, mu>=42, singleton<=8 and bootstrap",
+      "inputs": [
+        "companion/upstream/NO45/certificates/C5_6.json",
+        "companion/upstream/NO45/certificates/C5_8.json",
+        "companion/upstream/NO45/certificates/G8_0_0.json",
+        "companion/upstream/NO45/certificates/G8_1_0.json",
+        "companion/upstream/NO45/certificates/H27_CORE_8_2.json",
+        "companion/upstream/NO45/data/ANCHOR_SCREEN.json",
+        "companion/upstream/NO45/data/CERTIFICATE_CASES.json",
+        "companion/upstream/NO45/data/CORES.json",
+        "companion/upstream/NO45/data/H27_CUTS.json",
+        "companion/upstream/NO45/data/no9_rows.bin",
+        "companion/upstream/NO45/scripts/audit_model.py",
+        "companion/upstream/NO45/scripts/check_certificates.py",
+        "companion/upstream/NO45/scripts/check_cores.py",
+        "companion/upstream/NO45/scripts/common.py",
+        "companion/upstream/NO45/scripts/core_generation.py",
+        "companion/upstream/NO45/scripts/inputs/audit43.py",
+        "companion/upstream/NO45/scripts/inputs/local43.py",
+        "companion/upstream/NO45/scripts/models.py"
+      ]
+    }
+  ]
+}

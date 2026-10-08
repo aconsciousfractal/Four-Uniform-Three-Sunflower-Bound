@@ -1,0 +1,1294 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs,longtable,array}
+\usepackage[margin=27mm]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!45!black,citecolor=blue!45!black,urlcolor=blue!45!black]{hyperref}
+\hypersetup{
+ pdftitle={An upper bound for three-sunflower-free families of four-element sets},
+ pdfauthor={Oleksiy Babanskyy},
+ pdfsubject={Extremal set theory: three-sunflower-free four-uniform families},
+ pdfkeywords={Sunflowers, four-uniform families, extremal set theory, exact certificates}
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Three-sunflower-free four-sets}
+\fancyhead[R]{\small O. Babanskyy}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\F}{\mathcal F}
+\renewcommand{\L}{\mathcal L}
+\newcommand{\Pten}{\mathcal P}
+\newcommand{\Qeight}{\mathcal Q}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\SF}{\operatorname{SF}}
+\newcommand{\dd}{\mathop{}\!\mathrm d}
+\newcommand{\Nclosed}[1]{N_{\F}[#1]}
+\newcommand{\disj}[1]{D_{\F}(#1)}
+\newcommand{\binomset}[2]{\binom{#1}{#2}}
+\setlength{\emergencystretch}{2em}
+\title{\vspace{-12mm}\textbf{An upper bound for three-sunflower-free families\\of four-element sets}}
+\author{Oleksiy Babanskyy}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Let $ M(4,3)$ be the maximum size of a finite simple family of four-element
+sets containing no three distinct members whose pairwise intersections are
+equal. The empty intersection is included in the forbidden configurations.
+We give a computer-assisted exclusion of families of size $69$,
+giving the bound $54\le M(4,3)\le 68$. The argument combines an
+imported bound of $27$ for intersecting families, structural analysis of
+point-links, exact trace constraints and finite exhaustions. The proof is
+organized at the cardinality $69$. A cap on families containing a complete $ R16$ point-link
+provides a shorter final contradiction. We make the imported results,
+computational lemma contracts and remaining verification limits explicit.
+The lower construction is classical. Neither exclusion of size $68$ nor
+optimality of the lower construction is claimed.
+\end{abstract}
+\noindent\textbf{Keywords:} Sunflowers; four-uniform families; extremal set theory;
+exact certificates.
+
+
+
+\section{The finite extremal problem}
+\label{sec:introduction}
+A three-sunflower is a triple of distinct sets $ A,B,C $ such that
+\[
+ A\cap B=A\cap C=B\cap C.
+\]
+The common intersection is the kernel. Allowing the empty kernel means that
+three pairwise disjoint sets are also forbidden. Throughout, families are
+simple: a set occurs at most once.
+
+The quantity studied here is
+\[
+ M(4,3)=\max\{\lvert\F\rvert:\F\text{ is a finite simple
+ four-uniform family without a three-sunflower}\}.
+\]
+Thus an upper bound $68$ is equivalent to saying that every such family of
+\emph{at least $69$} sets contains a three-sunflower. The convention that
+counts the first cardinality forcing a sunflower adds one to $ M $.
+
+\begin{theorem}[Computer-assisted bound]
+\label{thm:main}
+With H27 and the classification and finite-exclusion lemmas stated in this
+manuscript, no simple four-uniform three-sunflower-free family of size $69$
+exists. Consequently,
+\[
+ \boxed{54\le M(4,3)\le 68}.
+\]
+\end{theorem}
+
+The general sunflower conjecture of Erd\H{o}s and Rado~\cite{ER1960}
+concerns exponential dependence on the
+uniformity for each fixed number of petals. A bound for this particular
+four-uniform case does not resolve that asymptotic conjecture. The distinction
+also prevents a finite improvement from being described as a solution of the
+entire Erd\H{o}s problem.
+
+The contemporary primary comparison is the preprint of Axante et al.
+\cite{AXB2026}, whose Theorem~6.9 gives $54\le f(4,3)\le83$, with $ f $
+defined there as the maximum sunflower-free size. Their Proposition~6.7
+proves that an intersecting four-uniform three-sunflower-free family has at
+most $27$ members, and Proposition~6.8 gives equality. We use the upper bound
+as an imported theorem, denoted H27. It is not a claim that general
+three-uniform families have maximum $27$.
+
+The lower bound $54$ is attributed to Abbott and Hanson
+\cite{AH1974} in the table of Axante et al. We reproduce the construction
+and its elementary verification in Section~\ref{sec:lower}. No new lower
+bound or priority for that construction is asserted. The numerical
+comparison with $83$ provides the comparison for this bound; it does not by
+itself establish that $68$ is a new record. The historical upper
+bound $142$ of Abbott, Hanson and Sauer~\cite{AHS1972} is also
+reported in that table; the numerical attribution here is through
+the checked preprint rather than a new reading of the original article.
+
+
+
+The imported intersecting-family theorem and the exact finite lemmas are
+stated with their domains. The companion provides the complete named
+finite verification route; the written reductions establish why these
+finite domains cover every hypothetical family.
+
+\section{Notation and the proof architecture}
+\label{sec:notation}
+We abbreviate a finite simple $r$-uniform three-sunflower-free family
+as SF$r$; the forbidden configurations include the empty kernel.
+Only points that occur in a member of $\F $ belong to its support. Write
+$ d(x)=\lvert\{A\in\F:x\in A\}\rvert $ and
+$ d(x,y)=\lvert\{A\in\F:\{x,y\}\subseteq A\}\rvert $. For $ R\in\F $,
+\[
+ N_{\F}[R]=\{A\in\F:A\cap R\ne\varnothing\},\qquad
+ D_{\F}(R)=\{A\in\F:A\cap R=\varnothing\},
+\]
+and $\mu(\F)=\min_{R\in\F}\lvert N_{\F}[R]\rvert $.
+The neighborhood is closed: it includes $ R $ itself. The point-link
+\[
+ L_x=\{A\setminus\{x\}:A\in\F,\ x\in A\}
+\]
+is a complete link of the ambient family. A point degree in $ L_x $ is the
+global codegree $ d(x,y)$, not the global degree $ d(y)$.
+
+\begin{lemma}[The neighborhood lower bound]
+\label{lem:h27}
+If $\F $ is three-sunflower-free, then $ D_{\F}(R)$ is intersecting for every
+$ R\in\F $. Under H27,
+\[
+ \lvert N_{\F}[R]\rvert\ge\lvert\F\rvert-27.
+\]
+In particular, a hypothetical family of size $69$ has $\mu\ge 42$.
+\end{lemma}
+\begin{proof}
+If two members of $ D_{\F}(R)$ were disjoint, they and $ R $ would be a
+sunflower with empty kernel. H27 applies to this intersecting subfamily,
+which is still four-uniform, simple and sunflower-free.
+\end{proof}
+
+The disjointness graph has the \emph{members} of $\F $ as vertices; two are
+adjacent exactly when they are disjoint. This graph is triangle-free.
+Its degree at $ R $ is $\lvert\F\rvert-\lvert N_{\F}[R]\rvert $.
+Homomorphism fibers in this graph consist of members of $\F $, whereas the
+degrees and codegrees above count points. Maintaining this distinction is
+essential to the incidence arguments.
+
+Our imported graph theorem is due to Jin~\cite{JIN1993}, in the exact
+form stated as Theorem~A by Nikiforov~\cite{NIK2010}: for
+$1\le k\le 9$, every triangle-free graph of order $n$ with
+minimum degree strictly greater than $(k+1)n/(3k+2)$ is homomorphic
+to the Andr\'asfai graph $A_k$. Its cyclic definition is given in
+Section~\ref{sec:fibrebridge}. We verify the strict inequality at
+$k=3$ or $k=4$ in each use; equality does not suffice.
+
+The proof follows three reductions. First, universal link bounds and
+cardinality-$69$ trace constraints exclude maximum point degrees
+$20,19,18,17$ and at most $15$. In the remaining maximum-$16$ case, a
+triangle-free graph homomorphism and a near-transversal argument force
+every degree-$16$ point to have a complete $ R16$ link. Finally, the
+local $ R61$ lemma contradicts $\lvert\F\rvert=69$. The first
+reduction and all finite coverings are recorded with their hypotheses;
+none is transferred from cardinality $70$ without its own bridge.
+
+\section{Elementary link structure}
+\label{sec:foundations}
+\subsection{Graphs without three-sunflowers}
+\begin{lemma}
+\label{lem:sf2}
+A simple graph contains no three-sunflower of edges if and only if its
+maximum degree and matching number are both at most two. It has at most
+six edges. Equality gives two vertex-disjoint triangles.
+\end{lemma}
+\begin{proof}
+The two possible kernels of a three-sunflower of distinct edges are a
+single vertex and the empty set. They respectively give a three-edge
+star and a three-edge matching. Every nontrivial component of a graph
+with maximum degree two is a path or a cycle. With matching number $ q $,
+a path has at most $2q $ edges; an even cycle has $2q $ and an odd cycle
+$2q+1$. The total matching number is at most two, so the maximum six
+edges is attained precisely by two triangles. With five edges the
+possibilities are a five-cycle or a triangle and a two-edge path.
+\end{proof}
+
+\subsection{The canonical ten- and eight-member families}
+\label{sec:canonical}
+We abbreviate $\{0,1,2\}$ as $012$ when all labels are single digits. Put
+\[
+ \Pten=\{012,015,023,034,045,124,134,135,235,245\}.
+\]
+This intersecting family has ten triples, every point degree five and
+every pair codegree two. Every point-link is a five-cycle, so it is
+three-sunflower-free. Write $ P_9$ and $ P_8$ for subfamilies obtained by
+deleting respectively one and two blocks of $\Pten $.
+
+On seven distinct points let
+\[
+ Q(h,k;T;a,b)=\{\{h\}\cup S,\{k\}\cup S:S\in\binom{T}{2}\}
+ \cup\{\{h,k,a\},\{h,k,b\}\},\qquad |T|=3.
+\]
+This is the eight-member family $ Q_8$. The points $ h,k $ are its hubs,
+$ T $ its triad and $ a,b $ its leaves. The hubs have degree five, the triad
+points degree four and the leaves degree one. Pair codegrees are at
+most two, and every point-link has matching number at most two.
+
+\begin{proposition}[Intersecting triple classification]
+\label{prop:i810}
+An intersecting three-uniform three-sunflower-free family has at most
+ten members. At ten it is $\Pten $; at nine it is $ P_9$; at eight it is
+$ P_8$ or $ Q_8$, up to relabeling.
+\end{proposition}
+\begin{proof}
+Every point-link is a graph from Lemma~\ref{lem:sf2}, so its point
+degrees are at most six. A degree-six point has two triangles as its
+link. A triple avoiding it would have to cover both triangles with
+only three points, which is impossible; the whole family then has
+only six members. A degree-five point has link either a five-cycle
+or a triangle and a two-edge path. In the first case every triple
+avoiding the point is one of the five three-point vertex covers of
+the cycle, giving a subfamily of $\Pten $. In the second case there
+are at most three such triples, and at size eight all three occur,
+giving $ Q_8$.
+
+We justify the existence of a degree-five point at sizes at least
+eight. For an intersecting family $\mathcal H $ of $ m $ triples,
+every $ A\in\mathcal H $ satisfies
+\[
+ \sum_{x\in A}d_{\mathcal H}(x)\ge m+2.
+\]
+If all degrees are at most four this gives $ m\le 10$; at $ m=10$ all
+used points would have degree four, contrary to a degree sum of $30$.
+At $ m=9$ all used points have degree three or four. If their number
+is $ n $, and $ B $ counts pairs of points of codegree two, counting
+intersections of pairs of triples gives $ B=45-6n $. The degree sum
+$27$ and $ B\ge 0$ force $ n=7,B=3$. The triples would use
+$27-B=24$ distinct pairs on seven points, exceeding $\binom 72=21$.
+
+At $ m=8$ and maximum degree four all used degrees are at least two.
+Let $ a,b,c $ count degrees two, three, four. Then $ a+b+c=n $ and
+$2a+3b+4c=24$. Intersection counting gives $ B=20-3n+c $.
+For each point the number $ r(x)$ of codegree-two neighbors is at
+least $ d(x)-2$: the line graph of its point-link has independence
+number at most two, whereas deleting at most one endpoint per edge
+gives an independent set of size at least $ d(x)-r(x)$. Consequently
+$2B\ge b+2c $, so $40-6n\ge b $ and $ n\le 6$. The degree sum forces
+$ n=6$ and all degrees four. Now $ B=8$, so the eight triples use
+$24-B=16$ distinct pairs on six points, exceeding $15$. This final
+contradiction completes the classification without a support cutoff.
+\end{proof}
+
+\subsection{Isolation and a separated neighborhood}
+\begin{lemma}[Isolation]
+\label{lem:isolation}
+In a sunflower-free triple family containing $ P_{10},P_9$ or $ P_8$,
+every additional triple meeting the six-point support is one of the
+deleted blocks. For $ Q(h,k;T;a,b)$, every additional triple meeting
+the five-point core $\{h,k\}\cup T $ is $\{h,a,b\}$ or $\{k,a,b\}$.
+\end{lemma}
+\begin{proof}
+For $ P_{10}$ all pairs on its support already have codegree two.
+Meeting the support in one point gives a third disjoint edge in
+that point-link, using a matching of size two in a five-cycle.
+For $ P_9$ or $ P_8$, a new internal triple can use only pairs of the
+deleted blocks. The only triangles in the union of those one or
+two triangles are the deleted blocks themselves. A single-point
+intersection is still excluded by a matching of size two in a
+five-cycle with at most two edges removed. For a two-point
+intersection $ ij $, choose an endpoint contained in just one deleted
+block if the pair has remaining codegree one. Its link is a
+four-edge path with the other endpoint at an end; after removing
+that endpoint a matching of size two remains. If the pair has
+remaining codegree zero, the two deleted blocks both contain it;
+removing their two incident edges again leaves a three-edge path
+with matching number two. These matchings create a forbidden
+singleton-kernel sunflower with the new triple.
+
+All ten pairs of the $ Q_8$ core have codegree two. A new triple
+cannot use two core points. A single triad point has a matching of
+size two within the core, which excludes it. For a single hub,
+its link consists of the triad triangle and the two edges joining
+the other hub to the leaves. Unless both leaves occur in the new
+triple, one of those two edges and an edge of the triangle avoid
+its remaining points and form a forbidden matching. This leaves
+only the two stated triples.
+\end{proof}
+
+\begin{lemma}[B4 separation]
+\label{lem:b4}
+Let $ A $ belong to a sunflower-free triple family $\L $. If at least
+eight members of $\L $ are disjoint from $ A $, its closed neighborhood
+$ N_{\L}[A]$ is intersecting and has at most ten members.
+\end{lemma}
+\begin{proof}
+The disjoint members form an intersecting family $\mathcal H $.
+Proposition~\ref{prop:i810} classifies it. For a $ P $-type, isolation
+forces every member of the remaining part to avoid its support:
+deleted blocks cannot occur there, since they are also disjoint
+from $ A $ and would belong to $\mathcal H $. Two disjoint remaining
+members and a member of $\mathcal H $ would be an empty-kernel
+sunflower. For $ Q_8$, the same argument uses the five-point core;
+the two exceptional triples of Lemma~\ref{lem:isolation} are
+disjoint from $ A $ and cannot belong to the remaining part. A
+core-only block of $ Q_8$ gives the required empty-kernel sunflower
+if two remaining members were disjoint. The intersecting bound
+of ten now applies.
+\end{proof}
+
+The $ Q_8$ conclusion uses only core isolation. Its leaves may be
+shared by the remaining part; treating all seven support points
+as isolated would be incorrect.
+
+\begin{corollary}
+\label{cor:triple20}
+The maximum size of a simple three-uniform family without a
+three-sunflower is $20$. Therefore in a four-uniform such family,
+\[
+ d(x)\le 20,\qquad d(x,y)\le 6,\qquad d(x,y,z)\le 2.
+\]
+\end{corollary}
+\begin{proof}
+Relative to a triple $ A $, an exact singleton class has at most
+three members and an exact pair class at most one. The residues
+are intersecting sunflower-free graphs or singleton families,
+respectively. Thus $|N_{\L}[A]|\le 13$. If $|\L|\ge 21$, at least
+eight members avoid $ A $; B4 bounds the neighborhood by ten, and
+its disjoint intersecting part also has size at most ten, a
+contradiction. Two copies of $\Pten $ on disjoint supports give
+twenty members. The point, pair and triple links of a four-uniform
+family now give the three displayed caps.
+\end{proof}
+
+\section{Exact traces and the near-transversal argument}
+\label{sec:traces}
+For $ R\in\F $, let $ s_x,p_{xy},t_m $ count members with exact trace
+$\{x\},\{x,y\},R\setminus\{m\}$ on $ R $. Put
+$ S=\sum s_x $, $ P=\sum p_{xy}$ and $ T=\sum t_m $. Then
+\[
+ |N_{\F}[R]|=1+S+P+T,\qquad
+ \sum_{x\in R}d(x)=4+S+2P+3T.
+\]
+Exact residues are intersecting and sunflower-free: two disjoint
+residues with $ R $ give a sunflower with their exact trace as
+kernel. In particular $ s_x\le 10,p_{xy}\le 3,t_m\le 1$.
+For $ r_x=\sum_{y\ne x}p_{xy}$, the part of $ L_x $ meeting
+$ R\setminus\{x\}$ has size
+\[
+ k_x=1+r_x+T-t_x,\qquad d(x)=s_x+k_x.
+\]
+When $ s_x\ge 8$, B4 makes this part intersecting. The trace
+constraints keep the actual external points shared by its members;
+separate integer histograms do not certify their compatibility.
+
+Call a four-point set a \emph{complete transversal} of a triple
+family if it meets every member. Relative to $ A\in\L $, a
+\emph{near-transversal} is a four-point set avoiding $ A $ and
+meeting every other member of $\L $.
+
+\begin{lemma}[A near-transversal is unique]
+\label{lem:near}
+Let $\L $ be an SF3 family with $16$ members and, for some
+$ A_0\in\L $, a B4 separation $ H=D_{\L}(A_0)$,
+$ K=N_{\L}[A_0]$ into two intersecting parts of size eight.
+If it has a complete
+four-point transversal, each $ A\in\L $ has at most one
+near-transversal.
+\end{lemma}
+\begin{proof}
+The parts are $ P_8$ or $ Q_8$. If a part is $ P_8$, its support
+is isolated from the other part. If $ H $ is $ P_8$, its deleted blocks are disjoint from
+$ A_0$ and cannot belong to $ K $. If $ K $ is $ P_8$ and one member
+of $ H $ is a deleted block on its support, intersection of $ H $
+forces all eight members of $ H $ to meet that support; isolation
+would restrict them to at most two deleted blocks, a contradiction.
+Meeting at least seven members
+requires at least two points from its support, since its maximum
+point degree is five. All four transversal points are therefore
+allocated two to each part. For two $ Q_8$ parts, their five-point
+cores are disjoint; only leaves may be shared. Indeed, isolation
+forces $ K $ to avoid the core of $ H $: both exceptional triples avoid
+$ A_0$ and would belong to $ H $. Conversely a member of $ H $ meeting
+the core of $ K $ would have to be one of its two exceptional triples;
+this is impossible since every member of $ H $ uses core points of
+$ H $, which lie outside the entire support of $ K $.
+Each core has six
+core-only triples, and each point occurs in at most four of them.
+Meeting at least five core-only triples in each part requires
+two points in each core. Again all four points are allocated.
+
+A $ P_8$ part with a two-point cover must have its two deleted
+blocks intersecting in two points. The $60$ automorphisms of
+$\Pten $ act transitively on these $15$ pairs of deleted blocks
+(out of $45$). We may take
+$ P^*=\Pten\setminus\{012,015\}$, whose unique complete
+two-point cover is $34$. For the canonical $ Q_8$ with hubs
+$0,1$, triad $2,3,4$ and leaves $5,6$, the unique cover is $01$.
+The two-point near-transversals are exactly the following:
+\begin{center}
+\begin{tabular}{cccc}
+\toprule
+$ P^*$ block & Near-cover & $ Q_8$ block & Near-cover\\
+\midrule
+$023$ & $45$ & $023$ & $14$\\
+$034$ & none & $024$ & $13$\\
+$045$ & $23$ & $034$ & $12$\\
+$124$ & $35$ & $123$ & $04$\\
+$134$ & none & $124$ & $03$\\
+$135$ & $24$ & $134$ & $02$\\
+$235$ & none & $015$ & none\\
+$245$ & none & $016$ & none\\
+\bottomrule
+\end{tabular}
+\end{center}
+For an omitted block in one part, the two points in the other
+part form its unique complete cover; the first pair is unique
+when it exists by the table. This proves the assertion with
+zero, one or two shared $ Q_8$ leaves. The finite table and
+automorphism orbit are checked independently by
+\texttt{primary\_check.py}; the reduction above, rather than a
+chosen support cutoff, makes those finite checks complete.
+\end{proof}
+
+\section{The universal sixteen-link classification}
+\label{sec:r16classification}
+
+For an SF3 family $ L $, write $ D_L(T)=\{U\in L:U\cap T=\varnothing\}$ and
+$\rho(L)=\max_{T\in L}|D_L(T)|$. In this paper, ``R16'' means
+$|L|=16$ and $\rho(L)\le 7$, together with the SF3 condition. It is not an
+assertion that all SF3 families of size 16 are impossible.
+
+\begin{theorem}[Universal R16 classification]\label{thm:r16class}
+Every R16 is isomorphic to the following family. Take four distinct hubs
+$ K=\{u,v,a,b\}$ and two disjoint three-element sets $ D,E $, disjoint also
+from $ K $. Then
+\[
+ R=\{i\cup P:i\in\{u,v\},\ P\in\tbinom D2\}
+ \cup\tbinom K3
+ \cup\{i\cup Q:i\in\{a,b\},\ Q\in\tbinom E2\}.
+\]
+Here and below, a point in a union denotes its singleton. The proof uses
+the explicitly certified finite computations described below.
+\end{theorem}
+
+\begin{proof}
+We first classify the possible seven-member intersecting family that will
+occur as $ D_L(T)$. Its support has at most seven points. Here is an
+arbitrary-support proof of this reduction. A degree-six point would force
+only six triples: a triple avoiding it cannot cover two disjoint triangles.
+For maximum degree at most four and no degree-one point, let $ b,c,d $ count
+points of degrees 2,3,4. Then $2b+3c+4d=21$. If $ B $ counts used pairs of
+codegree two, counting intersections gives $ B=b+3c+6d-21$.
+For a point $ w $, its SF2 link has matching number at most two; if $ r(w)$
+counts its codegree-two neighbours, $ r(w)\ge d(w)-2$. Hence
+$2B\ge c+2d $, or $2d\ge 2b+c $. Together with
+$21=3n-b+d $, this implies $ n\le 7$. Equality would force $ b=d,c=0$ and
+$ n=2d $, impossible for $ n=7$. Thus this case has support at most six.
+
+If $\ell uv $ contains a degree-one point $\ell $, the other six triples
+meet $\{u,v\}$. Their distributions between only $ u $, only $ v $, and both
+are $(3,3,0)$ or $(3,2,1)$, after interchanging $ u,v $. A three-edge
+intersecting SF2 family is a triangle; cross-intersection confines the
+two residual graphs to the same triad. The first case has support six;
+the second has support seven. Finally, for a degree-five point, its
+link is $ C_5$ or $ K_3\sqcup P_3$, where $ P_3$ has two edges. A triple
+avoiding the point must be a three-vertex cover. In the cycle case it
+lies on those five vertices; in the other case it contains two vertices
+of the triangle and the middle vertex of the path. This gives support
+six or the unique seven-point model, respectively.
+
+The finite catalogue on six points is complete: every intersecting
+seven-triple family selects seven of the ten complementary pairs of
+triples, choosing one side from each. This gives
+$\binom{10}{7}2^7=15360$ choices. The checker reconstructs all 1860 SF3
+labelled families, partitions them into the seven disjoint orbits below,
+and adds the analytic seven-point case. It also checks every mixed trace
+of size 1 or 2 and its forbidden-pair witness, for 175 traces in total.
+Strings denote sets, so $012=\{0,1,2\}$.
+
+\begin{center}\small
+\begin{tabular}{c l r l}\toprule
+Type&Seven triples&Six-point orbit&Mixed traces allowed\\\midrule
+$ H_0$&$012,034,134,035,235,145,245$&120&$01,02,12$\\
+$ H_1$&$012,034,234,135,235,145,245$&360&$01,02,12$\\
+$ H_2$&$012,134,234,135,235,145,245$&60&$0,01,02,12$\\
+$ H_3$&$013,024,134,125,235,045,345$&240&none\\
+$ H_4$&$023,124,134,125,235,045,345$&360&none\\
+$ H_5$&$014,234,025,125,035,145,345$&360&$01,23$\\
+$ H_6$&$134,234,125,035,135,045,245$&360&$0,12$\\
+$ H_7$&$023,024,034,124,134,015,016$&---&$5,6,23,56$\\\bottomrule
+\end{tabular}
+\end{center}
+For a forbidden trace $ X $, the certificate exhibits two actual triples
+$ h_1,h_2$ with $ h_1\cap h_2=h_1\cap X=h_2\cap X $. Adding points outside
+the catalogue support does not change these intersections. Thus this is
+a trace obstruction on arbitrary support, rather than a cutoff on new
+point labels. Allowed traces are not assumed jointly realizable.
+
+We next rule out $|L|=16,\rho(L)\le 6$. Every closed triple-neighbourhood
+has size at least ten. A degree-one point cannot have a degree-six
+neighbour, because every used pair in the link of such a neighbour has
+codegree two. Its other two neighbours therefore have degrees at most
+five, and its root neighbourhood has size at most nine. For a degree-two
+point $ x $ with a degree-six neighbour $ a $, its triples are $ xab,xac $,
+and the link of $ a $ forces $ abc $. Hence
+$ d(xb)=1,d(ab)=d(ax)=2,d(b)\le 5$, giving $|N_L[xab]|\le 9$.
+Without a degree-six neighbour, a root $ xyz $ could have neighbourhood
+ten only with $ d(y)=d(z)=5$ and all three used pairs of codegree one.
+But the link of $ y $ then has $ x $ as a leaf of its $ P_3$ component and
+$ z $ as that component's middle vertex, forcing $ d(yz)=2$.
+The minimum used degree is consequently at least three.
+
+Let $ I $ count intersecting pairs of triples. Then $ I\ge 72$ and
+\[
+ I=\sum_w\left(\binom{d(w)}2-\frac{r(w)}2\right),\qquad \sum_w d(w)=48.
+\]
+At degrees 3,4,5,6 the minimum values of $ r(w)$ are 1,2,4,6.
+For those degrees the summand is at most $19d(w)/6-7$, so
+$72\le 152-7n $ and $ n\le 11$. If the maximum degree is at most five,
+the stronger upper bound $(11d(w)-23)/4$ gives $ n\le 10$; a degree-five
+point then exists, because otherwise $48\le 4n\le 40$.
+The following three padded domains therefore cover every remaining
+family. Padding permits unused points and does not discard smaller
+supports.
+
+\begin{center}
+\begin{tabular}{l r r r}\toprule
+Complete normalized point-star&Universe&Proof-tree nodes&Solutions\\\midrule
+Two triangles&11&16357&0\\
+$ C_5$&10&5874&0\\
+Triangle and two-edge path&10&3641&0\\\bottomrule
+\end{tabular}
+\end{center}
+For the first domain, six triples through point 0 are fixed and ten of
+the 120 triples avoiding 0 are required. In the other domains five are
+fixed and eleven of the 84 triples avoiding 0 are required. The supplied
+proof trees cover every choice. Their set-based checker verifies each
+branch and each terminal capacity, degree, disjointness or colouring
+bound. In particular, all 99953 pairs in a colour class conflict with an
+actual triple of the fixed star. A branch is assigned by its last chosen
+candidate in the certified order; the omitted prefix has fewer colours
+than the number of triples still required. The three supplied complete
+trees have 25872 nodes in total and no open
+leaves. The files are \path{companion/terminal/r16/results/r16_mu10_certificate.json.gz}
+and \path{companion/terminal/r16/src/check_r16.py}. Thus $\rho(L)\le6$ is impossible.
+
+Choose $ A\in L $ with exactly seven disjoint triples. Put $ H=D_L(A)$,
+$ W=\operatorname{supp}H $ and $ K'=L\setminus H $. The family $ H $ is
+intersecting and has one of the eight types above. No member of $ K'$ is
+entirely in $ W $, since it would be disjoint from $ A $ and belong to $ H $.
+The part $ K_0$ disjoint from $ W $ is intersecting, and $|K_0|\le 7$ because
+each member of $ H $ avoids all of it.
+For $ H_3,H_4$ there are no mixed members, giving $|K_0|=9$.
+For $ H_0,H_1,H_5$ there are at most three mixed members, each on a pair
+already used once. Hence there are at least two mixed members and at
+least six in $ K_0$. If a mixed member is $ P+r $, take a member of $ H $
+avoiding $ P $. Every member of $ K_0$ must contain $ r $ to avoid three
+disjoint triples. Distinct external points for two mixed members would
+force a common pair in at least six members of $ K_0$; a single common
+external point instead has degree at least eight. Both are impossible.
+For $ H_6$, its block 125 is disjoint from all of $ K'$ except possibly the
+single member with trace 12, giving at least eight disjoint members.
+The same argument uses 023 and 23 for $ H_7$.
+
+Only $ H_2$ remains. Its six-triple core can be renamed
+$\{u+P,v+P:P\in\binom D2\}$, and its seventh member is $ uvb $.
+Pair capacities and the two triples $ uij,vik $ forbid any further triple
+meeting $ D $. All remaining members have the forms $ uvw $, $ u+e $, $ v+f $,
+or avoid $\{u,v\}\cup D $; call the last part $ K^*$. The part $ K^*$ is
+intersecting and has size at most seven. There are either one or two
+members of the first form, by the capacity of $ uv $.
+If $ uvb $ is the only such member, the other two forms can only be
+$ ubr,vbs $, at most one each. Size 16 would require both and $|K^*|=7$.
+For $ r\ne s $, members of $ K^*$ avoiding $ b $ contain $ rs $, at most two;
+members containing $ b $ have residual edges meeting $ r $ or $ s $, each
+with at most one remaining incidence, at most two more. For $ r=s $,
+the pair $ br $ is already saturated and $ K^*$ splits into the $ b $ and
+$ r $ stars. Their residual graphs are cross-intersecting. If the first
+has 0,1,2,3 edges, the second has at most 6,4,3,3, respectively. The
+two-edge case is a two-edge path and the three-edge case a triangle.
+Thus $|K^*|\le 6$ in every case, again impossible.
+
+With two members $ uva,uvb $, each extra edge through $ u $ or $ v $ must be
+$ ab $, so each contributes at most one triple. At least one is necessary
+for size 16. Every member of $ K^*$ then meets $\{a,b\}$. In each hub-link
+the edge $ uv $ is already present, so residual edges form an intersecting
+SF2 family, at most three edges. Therefore $|K^*|\le 6$. Equality in
+$6+2+1+1+6=16$ forces both extra triples and two residual triangles,
+one through $ a $ and one through $ b $. Cross-intersection forces the same
+triad $ E $, disjoint from all existing core points. This is precisely $ R $.
+\end{proof}
+
+\begin{lemma}[Maximality and the high-link decompositions]\label{lem:r16maximal}
+No new triple, including one with new points, can be added to $ R $.
+Consequently every SF3 family of 17 triples is $\Pten\sqcup I_7$ or
+$ P_9\sqcup I_8$, and every such family of 18 triples is
+$\Pten\sqcup I_8$ or $ P_9\sqcup P_9$, on disjoint supports.
+Here $ I_j $ denotes an intersecting SF3 family of size $ j $, and
+$ P_9$ is $\Pten $ with one block removed.
+The size 19 and 20 decompositions are respectively
+$\Pten\sqcup P_9$ and $\Pten\sqcup\Pten $, again on disjoint supports.
+\end{lemma}
+\begin{proof}
+Every hub has degree six and its complete SF2 link is already maximum.
+A new triple avoids all hubs. Used pairs within $ D $ and within $ E $ have
+codegree two, so it uses at most one point in each triad. A pair of $ D $
+and a pair of $ E $ avoiding the new triple give two disjoint members of
+$ R $, disjoint also from that triple. This is a forbidden empty sunflower.
+If a family of 17--20 triples had at most seven disjoint triples per
+root, every sixteen-member subfamily would be $ R $ and could not extend.
+Thus some root has at least eight disjoint triples. B4 separates the
+family into two intersecting parts of size at most ten. Their size pairs
+are 10+7 or 9+8 at size 17,10+8 or 9+9 at size 18,10+9 at size 19,
+and 10+10 at size 20. Isolation makes their
+supports disjoint: a missing block of a P9 belongs to the same
+disjointness class as that P9 and cannot be inserted in the other part.
+\end{proof}
+
+\section{The direct reduction of a hypothetical family of size 69}
+\label{sec:f69branches}
+
+This section gives the local finite exclusions at cardinality $69$.
+The companion includes their full mathematical reductions, coefficient
+constructors, exact certificates and coverage checkers. The nine blocks
+are identified by their mathematical roles in \path{proof/DEPENDENCIES.md}.
+All file paths in this manuscript are relative to the companion repository root.
+All domains below use $\mu\ge42$; no exclusion at a larger cardinality is
+used as a premise.
+
+\begin{proposition}[Bootstrap at 42]\label{prop:bootstrap42}
+In an SF4 family with $\mu\ge 42$, a singleton of size 9 or 10 at an actual
+anchor requires at least seven other members through its centre.
+Every used point has degree at least four; co-occurring points have
+degree sum at least 20, and every member has degree sum at least 52.
+Moreover
+\[
+ \frac{37}{170}|\F|\le |\operatorname{supp}\F|
+ \le\frac{17}{50}|\F|.
+\]
+\end{proposition}
+\begin{proof}
+For an ordered anchor $ R=\{r_0,r_1,r_2,r_3\}$ let $ p_{ij}$ be its six
+exact pair traces, $ t_i $ its exact triple trace omitting $ r_i $, and $ s_i $
+its singleton traces. Then
+\[
+ k_i=1+\sum_{j\ne i}p_{ij}+\sum_h t_h-t_i,\quad d(r_i)=k_i+s_i,\quad
+ |N[R]|=1+\sum p+\sum t+\sum s.
+\]
+The intervals are $0\le p\le 3$, $ t\in\{0,1\}$, $0\le s\le 10$.
+The universal rooted signatures of the intersecting triple models and
+the high-link decompositions are imposed only in their valid cases.
+The full extension-point identifications, all five trace margins and the
+high-point bound are proved in
+\path{companion/upstream/MU42/TRACE_FOUNDATIONS.md}.
+The two complete row constructors yield 980624 degree-ordered rows and
+1233 degree profiles. They imply minimum degree 2 and minimum co-occurring
+degree sum 20. Permutations order an actual anchor; they do not impose
+symmetry on its completion.
+
+For an isolated P10 or P9 on six points, all internal quadruples are
+chosen, including absences. The respective catalogues have 292 and 373
+members, covering all $2^{15}$ masks. At each of the six neighbour
+points, the actual external triple family must be shared by every
+central anchor that mentions it. These families are cross-intersecting,
+and a triple appears in at most two of them. If one has size 10 their
+total is at most 20; if one has size 9 and none has 10 it is at most 22,
+by the complete triple-transversal catalogues. A singleton 8 in a Q8
+only guarantees its six core triples are external; it is not replaced
+by an external family of size 8.
+The 256 correlated lower-bound vectors in $\{0,6,9,10\}^6$ cover every
+actual choice. The exact joint check eliminates all 16 P10 and 24 P9
+scalar survivors with $ k\le 5$.
+
+At $ k=6$, the full 13 P10 interior orbits are checked before the 79 P9
+orbits. The P9 check may therefore use the already proved P10 bound 7.
+Each system uses the 41 nonempty traces of sizes 1--3 on the six points;
+empty traces and the number of exterior points are unrestricted.
+The same variables encode the same members in all central anchors.
+Ninety systems have an empty anchor domain. The two remaining P9 systems
+have exact integer certificate gaps $-53$ and $-200$, including all
+variable-box contributions. Thus $ k\ge 7$ for both singleton sizes.
+
+The only degree-two raw row is
+$ p=(0,0,0,3,3,3)$, $ t=(1,0,0,0)$,
+$ s=(1,10,10,10)$, $ d=(2,18,18,18)$.
+Thus a degree-two point $ x $ has two members $ xA,xB $ with disjoint triples
+$ A,B $, whose six points all have degree 18. In every $ L_a $, $ a\in A $,
+the point $ x $ is a leaf, so the 18-link decomposition forces P10+Q8,
+with $ x $ a Q8 leaf and $ A\setminus\{a\}$ its two hubs. The other leaf
+is the same point $ y $ for all $ a $: otherwise the global triple $ A $
+would have more than two completions. Comparing the actual members
+through a pair $ a,b\in A $ forces the same Q8 triad $ C $ in all three
+links. Hence $ xA,yA $ and all nine members
+$ E_A\cup E_C $, $ E_A\in\binom A2,E_C\in\binom C2$, are present.
+Each opposite P10$ H_a $ avoids $ A\cup C\cup\{x,y\}$.
+The point $ y $ is not in $ B $: otherwise its degree 18 link would contain
+$ A $ with all three points of degree one in that link, which no 18-link
+model permits.
+
+If $ B\cap C=\varnothing $, then $ B $ avoids all of that core. For
+$ T\in H_a $, a disjointness $ B\cap T=\varnothing $ would make $ xB,aT $
+and $(A\setminus\{a\})\cup E_C $ three disjoint members. Thus $ B $
+is a triple-transversal of every $ H_a $, and therefore a block of each
+P10. The three actual members $ aB $, $ a\in A $, form a sunflower with
+kernel $ B $.
+If $ c\in B\cap C $, the six prescribed triples in $ L_c $ are
+$ t\cup E_A $, $ t\in C\setminus\{c\}$ and $ E_A\in\binom A2$.
+They occupy the same intersecting 18-link component. The point-links
+of all three points of $ A $ contain $ C_4$, whereas every point-link of
+P10 is $ C_5$ and contains no $ C_4$ subgraph. Thus that component is
+Q8 with triad $ A $ and hubs $ C\setminus\{c\}$. Its leaf $ x $ forces
+$ B\setminus\{c\}=C\setminus\{c\}$, so $ B=C $.
+For $ a\in A,c\in C $, disjoint tails $ T\in H_a,V\in H_c $ would make
+$ aT,cV,(A\setminus\{a\})\cup(C\setminus\{c\})$ three disjoint
+members. These P10s are cross-intersecting, so each is contained in
+the triple-transversal catalogue of the other and they coincide.
+A shared block again supplies three members $ aT $ with kernel $ T $.
+This excludes the degree-two row on arbitrary support.
+Each of the four degree-three raw rows has singleton 2 at that point
+for every one of its roots. The three triples of its complete link
+would consequently be pairwise disjoint, a forbidden sunflower at
+the point. There is no degree-one raw row. Reconstructing the filtered
+domain gives 292560 rows and 966 degree profiles, with member degree
+sum at least 52.
+
+For completeness, the support calculation is a global identity rather
+than a maximization of unrelated anchors. Put $ c(R)=\sum_{v\in R}1/d(v)$.
+The verified pointwise row inequality is
+\begin{align*}
+10000c(R)\le 3400+26G_4(R)-33B_{17a}(R)-21B_{17b}(R)
+ -38B_{18}(R)+9B_{19}(R)+18T_{16}(R).
+\end{align*}
+Here $ G_4=\sum_{v\in R,d(v)=4}(4s_v-8)$; the high-link corrections are
+\begin{align*}
+B_{17a}&=\sum_{d(v)=17}(7[s_v=7]-10[s_v=10]),&
+B_{17b}&=\sum_{d(v)=17}(8[s_v=8]-9[s_v=9]),\\
+B_{18}&=\sum_{d(v)=18}(8[s_v=8]-10[s_v=10]),&
+B_{19}&=\sum_{d(v)=19}(9[s_v=9]-10[s_v=10]),\\
+T_{16}&=\sum_{d(v)=16}(9[s_v=9]-7[s_v=7]).
+\end{align*}
+All displayed sums are over the indicated points of the same $ R $.
+The $ B $ corrections sum to zero across all members, by their complete
+two-part link decompositions; $\sum_R G_4(R)\le 0$ follows from the
+triangle-free disjointness graph of a four-triple point-link and
+Mantel's elementary bound, and $\sum_R T_{16}(R)\le 0$ follows from
+B4 and isolation of any P9 in a sixteen-link. The positive coefficients
+26 and 18 preserve these inequalities after summation. The row check
+is performed after multiplying by $\operatorname{lcm}(1,\ldots,20)$;
+its exact margin is 181/85000. Since $\sum_R c(R)=|\operatorname{supp}\F|$,
+the upper support bound follows. The pointwise lower bound 37/170 gives
+the other bound. The source, finite objects and exact arithmetic contract
+are listed in \path{proof/DEPENDENCIES.md}, under
+\emph{MU42: Neighbourhood bootstrap and separate C5}.
+\end{proof}
+
+\begin{proposition}[Complete F69 degree reduction]\label{prop:f69reduction}
+A hypothetical SF4 family of 69 members satisfying H27 has maximum degree 16.
+Every exact singleton has size at most 8 and every closed neighbourhood
+has size at most 44.
+\end{proposition}
+\begin{proof}
+H27 supplies $\mu\ge 42$ directly. The previous proposition gives minimum
+used degree 4 and support 16--23. The classified maximum-degree cases and
+their finite covers are as follows. All quantities refer to necessary
+local domains, not to counts of realized global families.
+\begin{center}\small
+\begin{tabular}{c p{9.5cm}}\toprule
+Maximum degree&Exclusion and final ordinary contradiction\\\midrule
+20&P10+P10. One internal certificate and six external certificates force
+each residual member to use at least two exterior points. A mixed-member
+cover then has capacity 44, below the required 49. Without a mixed member,
+each of 49 residual members avoids at least 12 of the 20 cones, giving
+$12\cdot 49=588>20\cdot 27=540$.\\
+19&P10+P9. All P9 interiors are eliminated before empty P10 is imposed.
+The mixed cover retains the pure-three P5 exceptions and has capacity 44,
+below 50. The terminal three-unit deficit gives $547>19\cdot 27=513$.\\
+18&All P10+I8 roots are covered by 12 internal certificates and 18 complete
+extension forests. The P9+P9 root uses the same external identities in
+both trace systems:20 internal,22 mixed-four and 8 mixed-three exact
+certificates. Mixed-two has capacity 44 below 51. The joint external
+capacity of the two complementary P9 traces is 2, giving deficit 22 and
+$488>18\cdot 27=486$.\\
+17&The P10+I7 and P9+I8 alternatives are both covered. The P10 bridge
+regenerates the 17/42 domain and identifies all 18249 states with two
+universal finite cores; it imports no F70 family. Twelve P10 and 75 P9
+certificates, together with 870 complete extension forests, exclude 17.\\
+$\le 15$&All 28 high-neighbourhood row orbits and 35 realized cores are covered.
+Thirty-three fail another actual anchor; two equivalent remaining cores
+share one 87-trace system. Its exact certificate has $ H=-435,L=-89$,
+contradicting $ L\le H $. Thus all closed neighbourhoods are at most 43,
+contradicting the graph lemma below.\\\bottomrule
+\end{tabular}
+\end{center}
+Every LP certificate excludes a relaxation containing every actual
+family in its stated root. For $ Az\le b,Ez=f,l\le z\le u $, an integer
+certificate $ y\ge 0,\eta $ gives $ q=A^Ty+E^T\eta $ and
+\[
+ L=\sum_j\min(l_jq_j,u_jq_j)\le q\cdot z
+ \le H=y\cdot b+\eta\cdot f.
+\]
+The decisive comparison is $ H<L $. Forest verifiers independently
+reconstruct all children and the reason for each closed leaf. The
+source-to-model maps keep actual anchors, shared degrees and shared
+exterior identities; they do not assume that extensions symmetric in
+the labels exist. The exact source sections, branch counts, files and
+companion checks are recorded in \path{proof/DEPENDENCIES.md}, under
+\emph{Preliminary finite blocks}.
+
+We justify the graph contradiction used in the last row. The
+disjointness graph $ G $ has vertices the members of $\F $, is
+triangle-free, and has $\alpha(G)\le 27$. If all neighbourhoods have
+size at most 43, its minimum degree is at least 26. Jin with $ k=3$
+applies because $26\cdot 11>4\cdot 69$. The cyclic $ A_3$ definition
+below is carried to Wagner labels by $ i\mapsto 3i\pmod 8$:
+cyclic differences $3,4,5$ become $1,4,7$. In the Wagner labelling of
+$ A_3$, let the fibre sizes be $ a_i $ and put
+$ b_i=a_{i-1}+a_{i+1}+a_{i+4}\le 27$. Set $ e_i=27-b_i $;
+$\sum e_i=9$, and the inverse incidence identity gives
+$ a_i=12-e_{i-1}-e_i-e_{i+1}\ge 3$. Thus every fibre is occupied and
+$ b_i\ge 26$. But $8\cdot 26\le\sum b_i=3\cdot 69=207$, impossible.
+
+It remains to state the two finite reductions at maximum 16. The full
+P9 interior cover has 373 assignments in 79 orbits; the LOW15 bonus
+excludes 77 and leaves only the empty assignment and the three labelled
+copies of 0345. NO9 closes these with 60 newly checked forests and 22777
+closed leaves, without importing the old 17-degree domain. Consequently
+no singleton 9 remains; singleton 10 already requires $ k\ge 7$ and cannot
+occur at degree 16. The NO45 cover has 36 high-anchor orbits and 2335
+actual cores. Of these,2330 fail another anchor and five exact systems
+exclude the rest, so no closed neighbourhood reaches 45. This gives
+the claimed singleton and neighbourhood bounds.
+\end{proof}
+
+\section{The fibre bridge forces an R16 point-link}
+\label{sec:fibrebridge}
+
+We use the cyclic definition $ V(A_k)=\mathbb Z/(3k-1)$ and
+$ i\sim j $ when $ k\le j-i\le 2k-1$ modulo $3k-1$. Jin provides an
+image $ A_4$ because the disjointness graph now has minimum degree 25 and
+$25\cdot 14>5\cdot 69$. Deleting an unoccupied fibre and applying the
+explicit edge-preserving deletion map $ A_k-v\to A_{k-1}$ yields a
+surjective image with $ k\le 4$. The cases $ k=1,2$ are impossible: the
+maximum independent-fibre mass would give respectively $69\le 2\cdot 27$
+or $2\cdot 69\le 5\cdot 27$. Thus $ k=3$ or 4.
+
+Here are the required deletion maps for $ v=0$; entries list the images
+of vertices $1,\ldots,3k-2$ in their cyclic order:
+\[
+\begin{array}{c|l}
+k& A_k-0\longrightarrow A_{k-1}\\\hline
+2&(0,0,1,1)\\
+3&(0,1,1,2,3,3,4)\\
+4&(0,7,6,6,5,4,3,3,2,1).
+\end{array}
+\]
+Checking the cyclic edge differences verifies every edge. Rotation
+gives the map for any deleted vertex. If the resulting image has
+another empty fibre, repeat; $ k $ strictly decreases. The displayed maps supply the entire deletion argument without an
+additional archived witness.
+
+Let $ a_i $ be the fibre masses and $ b_i=\sum_{j\sim i}a_j $.
+Neighbourhoods of vertices of $ A_k $ are independent, so $ b_i\le 27$.
+Surjectivity and the minimum degree give $ b_i\ge 25$. With
+$ r_i=b_i-25$, the inverse fibre identity is
+\[
+ r_i\in\{0,1,2\},\qquad \sum_i r_i=25-6k,\qquad
+ a_i=6+r_i+r_{i+k}+r_{i+2k-1}.
+\]
+The formula is an identity for this cyclic incidence matrix; it does
+not assume that all permissible edges between fibres are present.
+
+\begin{proposition}[Every degree16 point has an R16 link]\label{prop:allr16}
+Under the conclusions of Proposition~\ref{prop:f69reduction}, every
+point of degree 16 in $\F $ has an R16 complete point-link.
+\end{proposition}
+\begin{proof}
+Fix such a point $ x $, and let $ t_i $ count its star members in fibre $ i $.
+Set $ I=\{i:t_i>0\}$ and $ J=\{j:N_{A_k}(j)\cap I=\varnothing\}$.
+Every actual member of a fibre in $ J $ avoiding $ x $ meets all star
+members of $ x $, hence is a full four-transversal of $ L_x $. These members
+are distinct, and their number is
+$ B(x)=\sum_{j\in J}(a_j-t_j)$.
+Because two star members cannot be adjacent in the disjointness graph,
+every occupied star fibre satisfies
+\[
+ \sum_i t_i=16,\qquad \sum_{j\sim i}t_j\le r_i\quad(i\in I).
+\]
+The second inequality counts absent permissible edges of any one star
+member; its budget is $ b_i-25=r_i $, which can be 2. It is not assumed
+to be a matching. If $ I $ is independent, choose a cyclic window $ W $
+of $ k $ consecutive indices with $ I\subseteq W $. Such a window is
+independent and is the neighbourhood of a vertex of $ A_k $, so
+$ I\subseteq W\subseteq J $ and $\sum_{j\in W}a_j\ge25$.
+Since $\sum_{j\in J}t_j=16$, it follows that
+$ B(x)=\sum_{j\in J}a_j-16\ge9$.
+The remaining finite domain consists of all positive star vectors on
+nonindependent supports subject to the displayed inequalities and
+$ t_i\le a_i $. A nonisolated coordinate has $ t_i\le 2$, since an
+adjacent occupied coordinate has budget at most 2; isolated coordinates
+retain their entire possible interval. No point-star vector is lost.
+
+The complete census and its new set-based reconstruction give:
+\begin{center}
+\begin{tabular}{c r r r}\toprule
+Image&Dihedral fibre profiles&Nonindependent star vectors&$ B=1$ vectors\\\midrule
+$ A_3$&70&1293&52\\
+$ A_4$&1&0&0\\\bottomrule
+\end{tabular}
+\end{center}
+All vectors have $ B\ge 1$. For every one of the 52 exceptional vectors,
+in 23 profiles, a certified index $ i $ satisfies
+\[
+ \sum_{j\sim i}t_j=1,\qquad a_i-t_i\ge 9.
+\]
+This census is reconstructed by \path{companion/terminal/check_f69_bridge.py}; its
+output lists all 52 witness vectors and indices.
+
+Suppose $ L_x $ is not R16. A root has at least eight disjoint triples;
+by the singleton bound these are exactly eight, and B4 gives two
+intersecting parts of size 8. The separated parts are P8 or Q8, with
+disjoint supports whenever a P8 occurs and with at most shared leaves
+when both are Q8. A full four-transversal uses two points in each P8
+support, or two points in each of the disjoint five-point Q8 cores.
+Consequently it is unique. Only P8s whose two omissions meet in two
+points have a two-cover; the 15 such P8s form one orbit, represented
+by $ P^*=\Pten\setminus\{012,015\}$. The quasi-transversal lemma and
+table in the preceding foundations section allow at most one
+four-set avoiding a prescribed triple and meeting the other fifteen.
+The complete 80-case check covers $ P^*/P^*$, $ P^*/Q8$, and $ Q8/Q8$ with
+0,1,2 shared leaves; it has 54 nonempty quasi-transversal sets and
+maximum cardinality 1. Arbitrary exterior points cannot occur because
+the four available positions are already exhausted by the two covers.
+
+Thus $ B(x)=1$, and $ x $ realizes one of the 52 exceptional vectors.
+For its witness fibre $ i $, there is exactly one star member $ A $ in an
+adjacent fibre. Every one of the at least nine members of fibre $ i $
+avoiding $ x $ meets the other fifteen star members automatically, since
+their fibres are nonadjacent. The unique full transversal belongs to
+$ J $, whereas $ i\notin J $, so these nine members are distinct from it.
+None can also meet $ A $, since that would be a second full transversal.
+They therefore avoid $ A $ and are nine distinct quasi-transversals of
+$ L_x $ relative to the same triple $ A\setminus\{x\}$. This contradicts
+the upper bound 1. Hence $ L_x $ is R16.
+\end{proof}
+
+\section{A complete R16 point-link gives a local upper bound 61}
+\label{sec:r61}
+
+\begin{lemma}[Crowding bound]\label{lem:crowding26}
+In an SF4 family with $\mu\ge 41$ and $\Delta\le 18$, the three largest
+exact singleton counts of any one actual anchor sum to at most 26.
+\end{lemma}
+\begin{proof}
+Each singleton tail is intersecting SF3 and has size at most 10; all
+anchor centres avoid every tail support. A violation contains actual
+three-colour subfamilies of sizes $(10,10,7),(10,9,8)$ or $(9,9,9)$.
+They are rainbow-sunflower-free, since their lifts have distinct
+centres. Normalize the first P10/P9 on six points. Every second support
+consists of a subset of these six and consecutively renamed fresh
+points. Testing every labelled P10 and omission gives 768,7680,7680
+positions, in 18,59,411 orbits, respectively. Only automorphisms of
+the first colour and fresh-point permutations are factored out.
+
+For a third tail, its intersection with the first two supports determines
+all rainbow intersections. Every trace of size 0--3 is tested against
+all pairs from the first two colours. In the $(10,10,7)$ regime,15 of
+the 18 first-pair orbits have an actual anchor with certified
+neighbourhood at most 40. The cover capacities subtract the twenty
+already present members from global point/pair/triple/four-set
+capacities 18,6,2,1. In two of the remaining orbits all permitted tails
+are internal and no seven-subset is intersecting. In the last they
+are blocks on disjoint P10 supports and an intersecting third family
+must lie in one support, yielding cross-intersecting stars of 10+7.
+
+For $(10,9,8)$, one first-pair orbit is already cross-intersecting, two
+have neighbourhood covers 33, and the remaining 56 admit exactly 90
+third P8/Q8 records, each containing an actual cross-intersecting pair.
+For $(9,9,9)$, three first-pair orbits are cross-intersecting; the
+other 408 admit exactly 20 third P9 records, again with such a pair.
+All support identifications, including fresh Q8 leaves, are retained.
+
+The cross-star theorem used here has the following precise guard: both
+centres are outside both tail supports, both tail families are
+intersecting SF3, the two tail families are cross-intersecting, and all
+lifted members are actual members of the
+same SF4. For total size at least 16, there is an actual root with
+$|N[R]|\le d(x)+d(y)-d(xy)+4\le 40$. Its arbitrary-support reduction
+extracts 10+6,9+7, or 8+8 tails. P10/P9 triple transversals are internal;
+an 8-tail has a unique two-cover or none, and at most two triples
+using that two-cover with new points. Thus all 433 normalized pairs
+are covered on a derived finite support. Their resource certificates
+cover all 21567 useful traces; the residual capacity is 4 in 420 cases,
+2 in 12 cases, and 0 in one case. The bound counts members through a
+centre once as $ d(x)+d(y)-d(xy)$, and charges every remaining member
+to a triple or four-set resource after subtracting its occurrences
+in the sixteen known members. This proves the quoted root inequality.
+
+All three regimes therefore contradict $\mu\ge 41$. The finite
+objects and independent set-based checkers are
+\path{companion/terminal/crowding/certificates/crowding26.json.gz},
+\path{companion/terminal/crowding/code/verify.py},
+\path{companion/terminal/cross15/results/cross16_certificate.json} and
+\path{companion/terminal/cross15/src/verify.py}. The written reductions above
+justify their application on arbitrary support; a finite count alone
+would not do so.
+\end{proof}
+
+\begin{theorem}[R61]\label{thm:r61}
+Let $\F $ be SF4 with $\mu\ge 41$ and $\Delta\le 18$. If a complete
+point-link is R16, then $|\F|\le 61$.
+\end{theorem}
+\begin{proof}
+Use Theorem~\ref{thm:r16class} to label this complete link by four hubs
+$ K=\{0,1,2,3\}$, peripheral triads $ D,E $, and centre $ x $.
+There are sixteen members through $ x $, including four central members
+$ R_i=\{x\}\cup(K\setminus\{i\})$.
+Each hub $ i $ has codegree $ d(xi)=6$. A point of global degree 17 or 18
+cannot have such a neighbour: its link separates into intersecting
+parts of size at least seven on disjoint supports, and each such
+part has point degree at most five. Thus all four hubs have global
+degrees at most 16, even though the ambient cap is 18.
+
+Among members avoiding $ x $, use exact traces on the same $ K $: singleton
+counts $ s_i $, pair counts $ p_{ij}$, triple counts $ t_i $ omitting $ i $, and
+four-set count $ q $. Put
+\[
+ P=\sum p_{ij},\quad T=\sum t_i,\quad E_*=\sum s_i+P+T+q,
+ \qquad d_i=6+s_i+\sum_{j\ne i}p_{ij}+T-t_i+q.
+\]
+The empty trace is unrestricted. Exact root identities and capacities
+are
+\begin{gather*}
+ 0\le s_i\le 10,\quad 0\le p_{ij}\le 3,\quad t_i,q\in\{0,1\},
+ \quad t_i+q\le 1,\quad p_{ij}+t_\ell\le 3\quad(\ell\notin\{i,j\}),\\
+ |N[R_i]|=16+E_*-s_i\ge 41,\qquad d_i\le 16.
+\end{gather*}
+For $ i\ne j $, the exact singleton of $ j $ at $ R_i $ has size
+$ u_{ij}=s_j+p_{ij}$. Hence $ u_{ij}\le 10$ and
+$\sum_{j\ne i}u_{ij}\le 26$ by Lemma~\ref{lem:crowding26}.
+If $ u_{ij}\ge 8$, B4 makes the complementary part of $ L_j $
+intersecting. It contains the six triples through $ x $; an intersecting
+SF3 with a degree-six point has exactly six members. Therefore
+\[
+ u_{ij}\ge 8\quad\Longrightarrow\quad d_j-u_{ij}=6.
+\]
+
+If $ d_j=16$, its complete link is either 10+6 or R16, because $ x $
+has degree six there. In 10+6, the opposite P10 avoids both triangles
+of the six-star, giving $ u_{ij}=10$ for all $ i\ne j $. In R16 the
+triangle $ K\setminus\{j\}$ is either the other-hub triangle or a
+peripheral triad; all three singleton values are then 3 or 7. Its used
+pairs have codegree two, so each opposite global triple has codegree
+two as well. The full necessary guard is
+\[
+ d_j=16\Longrightarrow
+ (u_{ij}:i\ne j)\in\{(3,3,3),(7,7,7),(10,10,10)\},
+\]
+and in the first two alternatives $ t_i+q=1$ for $ i\ne j $.
+No other 16-link is lost: the separated 9+7 and 8+8 parts have point
+degree at most five, with shared Q8 leaves having degree at most two.
+
+There are $4^6\cdot 2^4\cdot 2=131072$ choices of $(p,t,q)$.
+For each, enumerate all four singleton counts satisfying the exact
+degree and neighbourhood inequalities. A second construction enumerates
+the total $ E_*$ and its bounded compositions, using
+\[
+ E_*\ge\left\lceil\frac{100-P-T-q}{3}\right\rceil,
+ \qquad E_*\le 40-P-2T-3q.
+\]
+These inequalities follow by summing the four root-neighbourhood and
+degree constraints; they do not constrain exterior labels. The exact
+reconstruction gives 21652 profiles before the singleton/B4 guards,
+111 after them, and 11 after the complete-link guard. The eleven
+records are exactly the following labelled forms.
+\begin{center}\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{c l l l c l r}\toprule
+Form&$ s $&$ p $&$ t $&$ q $&Hub degrees&Records\\\midrule
+A&Permutations of $(8,8,9,9)$&all 0&all 0&0&$(14,14,15,15)$&6\\
+B&$(7,7,7,7)$&2 on a perfect matching&all 0&0&$(15,15,15,15)$&3\\
+C&$(7,7,7,7)$&all 0&all 1&0&$(16,16,16,16)$&1\\
+D&$(6,6,6,6)$&all 1&all 0&1&$(16,16,16,16)$&1\\\bottomrule
+\end{tabular}
+\end{center}
+The finite proof is \path{companion/terminal/cap61/certificates/core_certificate.json}
+with its complete reconstruction in \path{companion/terminal/cap61/src/verify.py}.
+
+In form B choose a matching edge $ ij $. The singleton of $ j $ at $ R_i $
+has nine tails, hence is P9, but $ i $ occurs in exactly two of them.
+All positive point degrees of P9 are 4 or 5. In form D each hub-link
+is R16 with $ K\setminus\{j\}$ peripheral, whereas the actual member $ K $
+would insert that forbidden peripheral triad. In form C take the
+actual member $\{1,2,3,z\}$ furnished by $ t_0=1$.
+Its reading in $ L_1$ forces $ z\in D $: the peripheral pair 23 can be
+completed only by the centre $ x $ or its partner hub, and $ z\ne x $.
+The same member read in $ L_2$ forces $ z\in E $. Since $ D\cap E=\varnothing $,
+this is impossible. The outside label is kept identical in both links.
+
+Only the six form-A records remain. For a hub $ i $ with $ s_i=9$,
+$ E_*=34$ and $|N[R_i]|=16+34-9=41$ exactly. The complement $ D(R_i)$
+is intersecting. Its complete $ i $-link consists of the nine pure
+singleton tails, hence is exactly P9: all other nonempty hub traces
+are zero, and all six members through $ xi $ are removed with $ N[R_i]$.
+
+We prove the required ordinary bound for this complement. If an
+intersecting SF4 family $\mathcal I $ has a complete point-link $ H=P9$
+or $ P10$ at $ a $, put $ W=\operatorname{supp}H $ and $ h=|H|$.
+Every member avoiding $ a $ covers $ H $, so uses at least three points of $ W $.
+Let $ b $ count internal four-sets and $ e $ count members with a three-point
+trace on $ W $. If $ h=10$, every internal four-set contains two P10
+blocks, whose remaining triple capacities give $ e+2b\le 10$ and
+$|\mathcal I|=10+b+e\le 20$. If $ H=P10\setminus\{T\}$,
+every internal four-set contains at least one block of $ H $, so
+$ e_H+b\le 9$. Its only other possible triple traces are $ T $ and
+$ W\setminus T $, which are disjoint. If both occur, intersection of
+the resulting members forces their single exterior points to coincide,
+and each class has size at most one. If only one occurs it has size at
+most two by triple capacity. Therefore $ e_T+e_{W\setminus T}\le 2$
+and $|\mathcal I|\le 9+9+2=20$.
+This argument subtracts the same internal occurrences before adding
+external capacities. It requires a complete P9/P10 point-link and
+intersection of $\mathcal I $, both already established here.
+Consequently $|\F|=|N[R_i]|+|D(R_i)|\le 41+20=61$.
+\end{proof}
+
+\section{Conclusion and finite evidence boundary}
+\label{sec:terminalconclusion}
+
+\begin{proof}[Proof of the upper bound 68]
+Suppose an SF4 family has at least 69 members and take a 69-member
+subfamily. It remains SF4. H27 gives $\mu\ge 42$, and the universal
+triple bound gives $\Delta\le 20$. Proposition~\ref{prop:f69reduction}
+leaves maximum degree 16, so a degree 16 point exists.
+Proposition~\ref{prop:allr16} makes its complete link R16.
+Theorem~\ref{thm:r61} applies because $42\ge 41$ and $16\le 18$, and
+gives $69\le 61$, a contradiction. Thus every SF4 family has size at most 68.
+\end{proof}
+
+The contradiction uses the complete local R61 theorem, including its
+crowding lemma, after the nine preliminary finite blocks and the fibre
+bridge. The classification and maximality of R16 supply the high-link
+decompositions. The separate C5 finite lemma remains an explicit input;
+the complete route and its acyclic dependency order are given in the
+companion. The local R61 conclusion does not imply a global bound of $61$.
+
+\section{The classical lower construction}
+\label{sec:lower}
+Partition nine points into three groups $ U_1,U_2,U_3$ of size
+three, and take all quadruples formed from a pair in each of
+two groups. This gives $3\cdot 3\cdot 3=27$ members, denoted
+$\mathcal D_{27}$.
+
+\begin{proposition}
+$\mathcal D_{27}$ is intersecting and three-sunflower-free.
+Two copies on disjoint supports give a three-sunflower-free
+family of size $54$.
+\end{proposition}
+\begin{proof}
+Two members use two of the three groups, so they share a group;
+their two-element subsets in that three-point group intersect.
+Suppose three distinct members formed a sunflower. A group
+cannot occur in exactly two of them: the two active pairs
+intersect, whereas an inactive member intersects that group
+in no point. A group occurring in all three members must use
+the same pair in all three. Indeed, two equal pairs and one
+different pair yield unequal pairwise intersections, and the
+three distinct pairs have three different singleton
+intersections. Group occurrence counts are consequently
+$0,1,3$. Their sum is six, since each member uses two groups.
+On three groups the only possibility is $3+3+0$; the three
+members then have identical pairs in the two active groups
+and are equal, a contradiction. For two disjoint copies,
+a triple using both copies has two intersecting members
+in one copy and a third member disjoint from them. Its
+pairwise intersections cannot all coincide.
+\end{proof}
+
+\section{The remaining extremal question}
+\label{sec:residual}
+The proof excludes $69$ members and every larger size by heredity.
+It does not exclude $68$ members or establish that the classical
+$54$-member construction is optimal. H27 gives only $\mu\ge41$ at
+cardinality $68$, so the $\mu\ge42$ trace and fibre domains cannot be
+transferred automatically. Determining $M(4,3)$ remains open.
+
+\section{Computational evidence and reproducibility}
+\label{sec:reproduction}
+Each finite lemma has two obligations: a written reduction places every
+candidate in the enumerated domain, and a checker verifies that entire
+domain using necessary constraints. Symmetry normalization, complete
+root coverage and sound monotone pruning are parts of the proof.
+
+The companion supplies nine preliminary blocks and the final structural
+checks, including C5 and both transported degree-17 cores. It contains
+no optimizer dependency. Model coefficients and certificate inequalities
+use integer or rational arithmetic. The full route is
+\path{scripts/verify.py} with mode \texttt{complete}; mode
+\texttt{quick} checks only explicit constructions and local tables.
+The exact commands and finite coverage are given in \texttt{REPRODUCE.md}
+and \path{proof/DEPENDENCIES.md}, relative to the repository root.
+The paper and companion are available at
+\url{https://github.com/aconsciousfractal/Four-Uniform-Three-Sunflower-Bound}.
+
+The verifier requires a fresh receipt directory, checks the input manifest
+and exact suite identity, and compares every scientific result with its
+declared semantic outcome and coverage counters. It runs ordinary and
+optimized Python and requires matching normalized results. Failure,
+timeout or incomplete coverage cannot produce a complete PASS.
+The verification route is exercised from an allowlisted separate copy;
+a Python filesystem audit boundary restricts reads to the package,
+receipts and interpreter. This is not an operating-system sandbox.
+
+The small construction checker tests the $54$-member witness on all
+$24\,804$ triples, the $45$ P8 omission pairs and $60$ P10 automorphisms.
+Across five separated link models it checks $80$ near-transversal cases:
+$54$ are nonempty, each with one member. A positive R16 control has seven
+complete transversals, showing why the separation hypothesis is essential.
+
+\section{Scope of verification}
+H27 is imported from Proposition~6.7 of the cited preprint version;
+its original exhaustive search is not re-executed here. Jin's precise
+strict homomorphism theorem is stated through Nikiforov's Theorem~A.
+The companion verifies the named finite computations, rather than a
+proof-assistant formalization of the entire theorem. Agreement between
+Python modes does not provide independence from shared mathematical
+assumptions. The comparison with the published endpoint $83$ refers
+specifically to the cited preprint version; no claim of priority is made.
+
+\paragraph{Use of computational assistance.}
+Generative AI tools assisted proof development, software preparation and
+manuscript review. They are not authors; responsibility for the manuscript
+and its claims rests with the named author.
+
+% Inline bibliography fragment. The containing document loads hyperref.
+\begin{thebibliography}{9}
+\bibitem{ER1960}
+P.~Erd\H{o}s and R.~Rado,
+Intersection theorems for systems of sets,
+\emph{Journal of the London Mathematical Society} \textbf{35} (1960), 85--90.
+\href{https://doi.org/10.1112/jlms/s1-35.1.85}{doi:10.1112/jlms/s1-35.1.85}.
+
+\bibitem{AH1974}
+H.~L.~Abbott and D.~Hanson,
+On finite Delta-systems,
+\emph{Discrete Mathematics} \textbf{8} (1974), 1--12.
+\href{https://doi.org/10.1016/0012-365X(74)90103-4}{doi:10.1016/0012-365X(74)90103-4}.
+
+\bibitem{AHS1972}
+H.~L.~Abbott, D.~Hanson and N.~Sauer,
+Intersection theorems for systems of sets,
+\emph{Journal of Combinatorial Theory, Series A} \textbf{12} (1972), 381--389.
+\href{https://doi.org/10.1016/0097-3165(72)90103-3}{doi:10.1016/0097-3165(72)90103-3}.
+
+\bibitem{AXB2026}
+E.~Axante, C.~Budala, D.~Chitic, B.~Dumitru and M.~Nacu,
+\emph{Sunflower-Free Uniform Families: Recursive Constructions and Explicit Bounds},
+preprint (2026).
+\href{https://arxiv.org/abs/2609.06175v1}{arXiv:2609.06175v1}.
+
+\bibitem{JIN1993}
+G.~Jin,
+Triangle-Free Graphs with High Minimal Degrees,
+\emph{Combinatorics, Probability and Computing} \textbf{2}(4) (1993), 479--490.
+\href{https://doi.org/10.1017/S0963548300000845}{doi:10.1017/S0963548300000845}.
+
+\bibitem{NIK2010}
+V.~Nikiforov,
+\emph{Chromatic number and minimum degree of \(K_r\)-free graphs},
+preprint (2010).
+\href{https://arxiv.org/abs/1001.2070v1}{arXiv:1001.2070v1}.
+
+\end{thebibliography}
+
+
+\end{document}

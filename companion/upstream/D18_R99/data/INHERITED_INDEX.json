@@ -1,0 +1,2416 @@
+[
+  {
+    "id": "P9_005",
+    "component": 9,
+    "path": "certificates/inherited/P9_005.json",
+    "case": {
+      "id": "P9_005",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_006",
+    "component": 9,
+    "path": "certificates/inherited/P9_006.json",
+    "case": {
+      "id": "P9_006",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_007",
+    "component": 9,
+    "path": "certificates/inherited/P9_007.json",
+    "case": {
+      "id": "P9_007",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_008",
+    "component": 9,
+    "path": "certificates/inherited/P9_008.json",
+    "case": {
+      "id": "P9_008",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_009",
+    "component": 9,
+    "path": "certificates/inherited/P9_009.json",
+    "case": {
+      "id": "P9_009",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_010",
+    "component": 9,
+    "path": "certificates/inherited/P9_010.json",
+    "case": {
+      "id": "P9_010",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_011",
+    "component": 9,
+    "path": "certificates/inherited/P9_011.json",
+    "case": {
+      "id": "P9_011",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_012",
+    "component": 9,
+    "path": "certificates/inherited/P9_012.json",
+    "case": {
+      "id": "P9_012",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_013",
+    "component": 9,
+    "path": "certificates/inherited/P9_013.json",
+    "case": {
+      "id": "P9_013",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_014",
+    "component": 9,
+    "path": "certificates/inherited/P9_014.json",
+    "case": {
+      "id": "P9_014",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_015",
+    "component": 9,
+    "path": "certificates/inherited/P9_015.json",
+    "case": {
+      "id": "P9_015",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_016",
+    "component": 9,
+    "path": "certificates/inherited/P9_016.json",
+    "case": {
+      "id": "P9_016",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_017",
+    "component": 9,
+    "path": "certificates/inherited/P9_017.json",
+    "case": {
+      "id": "P9_017",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_018",
+    "component": 9,
+    "path": "certificates/inherited/P9_018.json",
+    "case": {
+      "id": "P9_018",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_020",
+    "component": 9,
+    "path": "certificates/inherited/P9_020.json",
+    "case": {
+      "id": "P9_020",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_021",
+    "component": 9,
+    "path": "certificates/inherited/P9_021.json",
+    "case": {
+      "id": "P9_021",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_022",
+    "component": 9,
+    "path": "certificates/inherited/P9_022.json",
+    "case": {
+      "id": "P9_022",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_023",
+    "component": 9,
+    "path": "certificates/inherited/P9_023.json",
+    "case": {
+      "id": "P9_023",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_024",
+    "component": 9,
+    "path": "certificates/inherited/P9_024.json",
+    "case": {
+      "id": "P9_024",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_025",
+    "component": 9,
+    "path": "certificates/inherited/P9_025.json",
+    "case": {
+      "id": "P9_025",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_026",
+    "component": 9,
+    "path": "certificates/inherited/P9_026.json",
+    "case": {
+      "id": "P9_026",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_027",
+    "component": 9,
+    "path": "certificates/inherited/P9_027.json",
+    "case": {
+      "id": "P9_027",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_028",
+    "component": 9,
+    "path": "certificates/inherited/P9_028.json",
+    "case": {
+      "id": "P9_028",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_029",
+    "component": 9,
+    "path": "certificates/inherited/P9_029.json",
+    "case": {
+      "id": "P9_029",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_030",
+    "component": 9,
+    "path": "certificates/inherited/P9_030.json",
+    "case": {
+      "id": "P9_030",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_031",
+    "component": 9,
+    "path": "certificates/inherited/P9_031.json",
+    "case": {
+      "id": "P9_031",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_032",
+    "component": 9,
+    "path": "certificates/inherited/P9_032.json",
+    "case": {
+      "id": "P9_032",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_033",
+    "component": 9,
+    "path": "certificates/inherited/P9_033.json",
+    "case": {
+      "id": "P9_033",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_034",
+    "component": 9,
+    "path": "certificates/inherited/P9_034.json",
+    "case": {
+      "id": "P9_034",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_035",
+    "component": 9,
+    "path": "certificates/inherited/P9_035.json",
+    "case": {
+      "id": "P9_035",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_036",
+    "component": 9,
+    "path": "certificates/inherited/P9_036.json",
+    "case": {
+      "id": "P9_036",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_037",
+    "component": 9,
+    "path": "certificates/inherited/P9_037.json",
+    "case": {
+      "id": "P9_037",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_038",
+    "component": 9,
+    "path": "certificates/inherited/P9_038.json",
+    "case": {
+      "id": "P9_038",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_039",
+    "component": 9,
+    "path": "certificates/inherited/P9_039.json",
+    "case": {
+      "id": "P9_039",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_040",
+    "component": 9,
+    "path": "certificates/inherited/P9_040.json",
+    "case": {
+      "id": "P9_040",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_041",
+    "component": 9,
+    "path": "certificates/inherited/P9_041.json",
+    "case": {
+      "id": "P9_041",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_042",
+    "component": 9,
+    "path": "certificates/inherited/P9_042.json",
+    "case": {
+      "id": "P9_042",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_043",
+    "component": 9,
+    "path": "certificates/inherited/P9_043.json",
+    "case": {
+      "id": "P9_043",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_044",
+    "component": 9,
+    "path": "certificates/inherited/P9_044.json",
+    "case": {
+      "id": "P9_044",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_045",
+    "component": 9,
+    "path": "certificates/inherited/P9_045.json",
+    "case": {
+      "id": "P9_045",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_046",
+    "component": 9,
+    "path": "certificates/inherited/P9_046.json",
+    "case": {
+      "id": "P9_046",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_047",
+    "component": 9,
+    "path": "certificates/inherited/P9_047.json",
+    "case": {
+      "id": "P9_047",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_048",
+    "component": 9,
+    "path": "certificates/inherited/P9_048.json",
+    "case": {
+      "id": "P9_048",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_049",
+    "component": 9,
+    "path": "certificates/inherited/P9_049.json",
+    "case": {
+      "id": "P9_049",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_050",
+    "component": 9,
+    "path": "certificates/inherited/P9_050.json",
+    "case": {
+      "id": "P9_050",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_051",
+    "component": 9,
+    "path": "certificates/inherited/P9_051.json",
+    "case": {
+      "id": "P9_051",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_052",
+    "component": 9,
+    "path": "certificates/inherited/P9_052.json",
+    "case": {
+      "id": "P9_052",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_053",
+    "component": 9,
+    "path": "certificates/inherited/P9_053.json",
+    "case": {
+      "id": "P9_053",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_054",
+    "component": 9,
+    "path": "certificates/inherited/P9_054.json",
+    "case": {
+      "id": "P9_054",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_055",
+    "component": 9,
+    "path": "certificates/inherited/P9_055.json",
+    "case": {
+      "id": "P9_055",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_056",
+    "component": 9,
+    "path": "certificates/inherited/P9_056.json",
+    "case": {
+      "id": "P9_056",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_057",
+    "component": 9,
+    "path": "certificates/inherited/P9_057.json",
+    "case": {
+      "id": "P9_057",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_058",
+    "component": 9,
+    "path": "certificates/inherited/P9_058.json",
+    "case": {
+      "id": "P9_058",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_059",
+    "component": 9,
+    "path": "certificates/inherited/P9_059.json",
+    "case": {
+      "id": "P9_059",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_060",
+    "component": 9,
+    "path": "certificates/inherited/P9_060.json",
+    "case": {
+      "id": "P9_060",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_061",
+    "component": 9,
+    "path": "certificates/inherited/P9_061.json",
+    "case": {
+      "id": "P9_061",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_062",
+    "component": 9,
+    "path": "certificates/inherited/P9_062.json",
+    "case": {
+      "id": "P9_062",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_063",
+    "component": 9,
+    "path": "certificates/inherited/P9_063.json",
+    "case": {
+      "id": "P9_063",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_064",
+    "component": 9,
+    "path": "certificates/inherited/P9_064.json",
+    "case": {
+      "id": "P9_064",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_065",
+    "component": 9,
+    "path": "certificates/inherited/P9_065.json",
+    "case": {
+      "id": "P9_065",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_066",
+    "component": 9,
+    "path": "certificates/inherited/P9_066.json",
+    "case": {
+      "id": "P9_066",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_067",
+    "component": 9,
+    "path": "certificates/inherited/P9_067.json",
+    "case": {
+      "id": "P9_067",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_068",
+    "component": 9,
+    "path": "certificates/inherited/P9_068.json",
+    "case": {
+      "id": "P9_068",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_069",
+    "component": 9,
+    "path": "certificates/inherited/P9_069.json",
+    "case": {
+      "id": "P9_069",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_070",
+    "component": 9,
+    "path": "certificates/inherited/P9_070.json",
+    "case": {
+      "id": "P9_070",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_071",
+    "component": 9,
+    "path": "certificates/inherited/P9_071.json",
+    "case": {
+      "id": "P9_071",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_072",
+    "component": 9,
+    "path": "certificates/inherited/P9_072.json",
+    "case": {
+      "id": "P9_072",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_073",
+    "component": 9,
+    "path": "certificates/inherited/P9_073.json",
+    "case": {
+      "id": "P9_073",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_074",
+    "component": 9,
+    "path": "certificates/inherited/P9_074.json",
+    "case": {
+      "id": "P9_074",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_075",
+    "component": 9,
+    "path": "certificates/inherited/P9_075.json",
+    "case": {
+      "id": "P9_075",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_076",
+    "component": 9,
+    "path": "certificates/inherited/P9_076.json",
+    "case": {
+      "id": "P9_076",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_077",
+    "component": 9,
+    "path": "certificates/inherited/P9_077.json",
+    "case": {
+      "id": "P9_077",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "P9_078",
+    "component": 9,
+    "path": "certificates/inherited/P9_078.json",
+    "case": {
+      "id": "P9_078",
+      "component": 9,
+      "outside": 9,
+      "r10": 7,
+      "r9": 7,
+      "interiors": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          5
+        ],
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ]
+    }
+  }
+]

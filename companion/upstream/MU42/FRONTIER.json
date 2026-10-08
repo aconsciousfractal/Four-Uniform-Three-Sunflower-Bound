@@ -1,0 +1,80 @@
+{
+  "schema": "E20_F69_MU42_FRONTIER_V1",
+  "date": "2026-09-30",
+  "global_bound": [
+    54,
+    69
+  ],
+  "bound_status": "IMPORTED_CONDITIONAL_UNCHANGED",
+  "target_cardinality": 69,
+  "target_to_exclude_for_next_bound": 69,
+  "next_bound_only_if_target_excluded": 68,
+  "mu": 42,
+  "support": [
+    16,
+    23
+  ],
+  "minimum_used_degree": 4,
+  "r10_min_k": 7,
+  "r9_min_k": 7,
+  "no_P10_at17": false,
+  "H27_imported": true,
+  "current_task_excludes_any_F69_maximum_degree_branch": false,
+  "branches": [
+    {
+      "maximum_degree": "at_most_16",
+      "status": "OPEN",
+      "support": [
+        18,
+        23
+      ]
+    },
+    {
+      "maximum_degree": 17,
+      "status": "OPEN",
+      "support": [
+        17,
+        23
+      ]
+    },
+    {
+      "maximum_degree": 18,
+      "status": "OPEN",
+      "support": [
+        16,
+        23
+      ]
+    },
+    {
+      "maximum_degree": 19,
+      "status": "OPEN",
+      "support": [
+        16,
+        23
+      ]
+    },
+    {
+      "maximum_degree": 20,
+      "status": "OPEN",
+      "support": [
+        16,
+        23
+      ]
+    }
+  ],
+  "local_results": {
+    "bootstrap": "s=9,10 => k>=6",
+    "strengthened": "s=9,10 => k>=7",
+    "support_theorem": "(37/170)|F| <= |supp F| <= (17/50)|F|, under mu>=42 and declared inputs"
+  },
+  "next_root": {
+    "maximum_degree": 20,
+    "link": "P10 disjoint-union P10",
+    "fixed_members": 20,
+    "residual_members": 49,
+    "ambient_labels": 23,
+    "residual_universe": 7315,
+    "target_kappa": 12,
+    "necessary_deficit": 48
+  }
+}

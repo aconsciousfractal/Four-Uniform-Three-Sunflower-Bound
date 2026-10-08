@@ -1,0 +1,331 @@
+{
+  "mu": 42,
+  "central_size": 9,
+  "outside_cap": 5,
+  "r10": 0,
+  "r9": 0,
+  "lower_levels": [
+    0,
+    6,
+    9,
+    10
+  ],
+  "budget_vectors": 256,
+  "input_states": 24,
+  "open_states": 0,
+  "states": [
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        14,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        14,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        15,
+        14,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        15,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        16,
+        14,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        16,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 512,
+      "degrees": [
+        15,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        14,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        14,
+        15,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        15,
+        15,
+        14,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        15,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        15,
+        15,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        16,
+        15,
+        14,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 8192,
+      "degrees": [
+        16,
+        15,
+        16,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        14,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        14,
+        16,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        15,
+        14,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        15,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        15,
+        16,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        16,
+        14,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        16,
+        15,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    },
+    {
+      "internal_mask": 16384,
+      "degrees": [
+        16,
+        16,
+        15,
+        16,
+        16,
+        16
+      ],
+      "H_bits": "0x0",
+      "H_count": 0
+    }
+  ],
+  "open": []
+}

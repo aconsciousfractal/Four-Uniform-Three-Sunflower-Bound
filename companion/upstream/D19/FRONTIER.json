@@ -1,0 +1,40 @@
+{
+  "schema": "E20_F69_D19_FRONTIER_V1",
+  "global_bound": [
+    54,
+    69
+  ],
+  "conditional": true,
+  "F69_excluded": false,
+  "closed_maxima": [
+    19,
+    20
+  ],
+  "new_closed_maxima": [
+    19
+  ],
+  "open_maxima": [
+    18,
+    17,
+    "<=16"
+  ],
+  "H27_required": true,
+  "formal_proof": false,
+  "external_human_review_completed": false,
+  "next": {
+    "family_size": 69,
+    "degree": 18,
+    "fixed": 18,
+    "residuals": 51,
+    "mu": 42,
+    "support_max": 23,
+    "roots": [
+      "P10+P8-type1",
+      "P10+P8-type2",
+      "P10+Q8",
+      "P9+P9"
+    ],
+    "terminal_reference": 10,
+    "terminal_deficit_required": 24
+  }
+}

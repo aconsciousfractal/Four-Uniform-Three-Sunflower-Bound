@@ -1,0 +1,36 @@
+{
+  "status": "NECESSARY_DOMAIN_ENUMERATED",
+  "mu": 42,
+  "cap": 20,
+  "r10": 0,
+  "r9": 0,
+  "rows": 980624,
+  "profiles": 1233,
+  "min_degree": 2,
+  "min_pair": 20,
+  "min_sum": 46,
+  "max_reciprocal": "2/3",
+  "worst": [
+    [
+      2,
+      18,
+      18,
+      18
+    ]
+  ],
+  "neighbourhoods": {
+    "42": 344375,
+    "43": 242605,
+    "44": 163470,
+    "45": 104311,
+    "46": 62392,
+    "47": 34510,
+    "48": 17250,
+    "49": 7575,
+    "50": 2917,
+    "51": 951,
+    "52": 224,
+    "53": 44
+  },
+  "sha256": "82cc7e652abaffd22cf475f97830bfcddb125ab1eb343ccbc5f8ea191eab9092"
+}

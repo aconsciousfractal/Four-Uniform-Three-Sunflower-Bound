@@ -1,0 +1,1004 @@
+{
+  "schema": "E20_F69_D19_PROOF_INDEX_V1",
+  "contract": {
+    "family_size": 69,
+    "mu_min": 42,
+    "max_degree": 19,
+    "pair_cap": 6,
+    "triple_cap": 2,
+    "simple": true,
+    "empty_core_forbidden": true,
+    "support_min": 16,
+    "support_max": 23,
+    "minimum_used_degree": 4,
+    "minimum_used_pair_degree_sum": 20,
+    "minimum_anchor_degree_sum": 52,
+    "center_label": 22,
+    "fixed_members": 19,
+    "residual_members": 50,
+    "r10": 7,
+    "r9": 7,
+    "global_bound": [
+      54,
+      69
+    ],
+    "F69_excluded": false,
+    "max19_excluded": true,
+    "max20_imported_excluded": true,
+    "max18_excluded": false,
+    "max17_excluded": false,
+    "low16_excluded": false
+  },
+  "records": [
+    {
+      "stage": "P9-individual",
+      "file": "certificates/I01.json",
+      "case": {
+        "id": "I01",
+        "mark": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "P9-individual",
+      "file": "certificates/I02.json",
+      "case": {
+        "id": "I02",
+        "mark": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "P9-individual",
+      "file": "certificates/I03.json",
+      "case": {
+        "id": "I03",
+        "mark": [
+          6,
+          7,
+          9,
+          11
+        ],
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "P9-complete",
+      "file": "certificates/J1.json",
+      "case": {
+        "id": "J1",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "1": [
+            [
+              6,
+              9,
+              10,
+              11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "stage": "P9-complete",
+      "file": "certificates/J2.json",
+      "case": {
+        "id": "J2",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "1": [
+            [
+              6,
+              9,
+              10,
+              11
+            ],
+            [
+              7,
+              9,
+              10,
+              11
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P01.json",
+      "case": {
+        "id": "P01",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P02.json",
+      "case": {
+        "id": "P02",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P03.json",
+      "case": {
+        "id": "P03",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P04.json",
+      "case": {
+        "id": "P04",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P05.json",
+      "case": {
+        "id": "P05",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P06.json",
+      "case": {
+        "id": "P06",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              2,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P07.json",
+      "case": {
+        "id": "P07",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              1,
+              2,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P08.json",
+      "case": {
+        "id": "P08",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P09.json",
+      "case": {
+        "id": "P09",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              4,
+              5
+            ],
+            [
+              1,
+              3,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P10.json",
+      "case": {
+        "id": "P10",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              2,
+              3,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P11.json",
+      "case": {
+        "id": "P11",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "P10-after-P9-empty",
+      "file": "certificates/P12.json",
+      "case": {
+        "id": "P12",
+        "mark": null,
+        "empty": false,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality",
+        "assigned": {
+          "0": [
+            [
+              0,
+              1,
+              2,
+              3
+            ],
+            [
+              0,
+              1,
+              3,
+              4
+            ],
+            [
+              0,
+              1,
+              4,
+              5
+            ],
+            [
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              1,
+              2,
+              4,
+              5
+            ]
+          ],
+          "1": []
+        }
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E00.json",
+      "case": {
+        "id": "E00",
+        "mark": [
+          0,
+          1,
+          2,
+          6
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E01.json",
+      "case": {
+        "id": "E01",
+        "mark": [
+          0,
+          1,
+          2,
+          9
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E02.json",
+      "case": {
+        "id": "E02",
+        "mark": [
+          0,
+          1,
+          2,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E03.json",
+      "case": {
+        "id": "E03",
+        "mark": [
+          0,
+          1,
+          3,
+          6
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E04.json",
+      "case": {
+        "id": "E04",
+        "mark": [
+          0,
+          1,
+          3,
+          9
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E05.json",
+      "case": {
+        "id": "E05",
+        "mark": [
+          0,
+          1,
+          3,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E06.json",
+      "case": {
+        "id": "E06",
+        "mark": [
+          0,
+          1,
+          6,
+          7
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E07.json",
+      "case": {
+        "id": "E07",
+        "mark": [
+          0,
+          1,
+          6,
+          9
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E08.json",
+      "case": {
+        "id": "E08",
+        "mark": [
+          0,
+          1,
+          6,
+          10
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E09M.json",
+      "case": {
+        "id": "E09M",
+        "mark": [
+          0,
+          1,
+          6,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E10.json",
+      "case": {
+        "id": "E10",
+        "mark": [
+          0,
+          1,
+          9,
+          10
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E11M.json",
+      "case": {
+        "id": "E11M",
+        "mark": [
+          0,
+          1,
+          9,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E12.json",
+      "case": {
+        "id": "E12",
+        "mark": [
+          0,
+          6,
+          7,
+          8
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E13.json",
+      "case": {
+        "id": "E13",
+        "mark": [
+          0,
+          6,
+          7,
+          9
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E14.json",
+      "case": {
+        "id": "E14",
+        "mark": [
+          0,
+          6,
+          7,
+          11
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E15M.json",
+      "case": {
+        "id": "E15M",
+        "mark": [
+          0,
+          6,
+          7,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E16.json",
+      "case": {
+        "id": "E16",
+        "mark": [
+          0,
+          6,
+          9,
+          10
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E17.json",
+      "case": {
+        "id": "E17",
+        "mark": [
+          0,
+          6,
+          9,
+          11
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E18M.json",
+      "case": {
+        "id": "E18M",
+        "mark": [
+          0,
+          6,
+          9,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E19M.json",
+      "case": {
+        "id": "E19M",
+        "mark": [
+          0,
+          6,
+          10,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E20.json",
+      "case": {
+        "id": "E20",
+        "mark": [
+          0,
+          9,
+          10,
+          11
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E21M.json",
+      "case": {
+        "id": "E21M",
+        "mark": [
+          0,
+          9,
+          10,
+          12
+        ],
+        "empty": true,
+        "marked": true,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E22.json",
+      "case": {
+        "id": "E22",
+        "mark": [
+          6,
+          7,
+          8,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E23.json",
+      "case": {
+        "id": "E23",
+        "mark": [
+          6,
+          7,
+          9,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E25.json",
+      "case": {
+        "id": "E25",
+        "mark": [
+          6,
+          9,
+          10,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    },
+    {
+      "stage": "external-after-interiors-empty",
+      "file": "certificates/E27.json",
+      "case": {
+        "id": "E27",
+        "mark": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "empty": true,
+        "marked": false,
+        "min_w": 0,
+        "objective": "cardinality"
+      }
+    }
+  ],
+  "admitted_large_orbits": [
+    "E24",
+    "E26"
+  ],
+  "terminal": {
+    "mixed_residual_cap": 44,
+    "residual_target": 50,
+    "kappa_reference": 11,
+    "deficit_upper": 3,
+    "deficit_required": 37,
+    "lower_disjoint_pairs": 547,
+    "H27_capacity": 513
+  }
+}

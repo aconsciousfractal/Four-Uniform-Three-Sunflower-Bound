@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "mu": 42,
+  "degree_cap": 17,
+  "r10": 7,
+  "r9": 7,
+  "rows": 207341,
+  "profiles": 256,
+  "sha256": "d22ae6ea6885f2a62c095eaa3a53916fb589cdc0d4064313a4940d7760efa0df",
+  "min_degree": 4,
+  "min_pair_sum": 20,
+  "min_member_sum": 52,
+  "max_neighbourhood": 53,
+  "next_cardinality": 69,
+  "prescribed_at_degree17": 17,
+  "residuals_at_degree17": 52,
+  "support": [
+    17,
+    23
+  ]
+}

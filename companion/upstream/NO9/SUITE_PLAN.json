@@ -1,0 +1,4679 @@
+{
+  "schema": "BOUND68_ESSENTIAL_SUITE_PLAN_V1",
+  "suite": "NO9",
+  "base": "BOUND68_REVIEWED root",
+  "python": "3.10+ standard library",
+  "status": "PROSPECTIVE_NOT_EXECUTED",
+  "commands": [
+    {
+      "id": "no9_inherited",
+      "suite": "NO9",
+      "argv": [
+        "companion/upstream/NO9/scripts/check_inherited.py"
+      ],
+      "cwd": ".",
+      "expected_semantic": {
+        "certificates_replayed": 77,
+        "immediate": 75,
+        "models_compared": 79,
+        "primal_points_verified": 2,
+        "records": [
+          {
+            "historical_status": "OPEN",
+            "id": "P9_000",
+            "result": {
+              "columns": 374,
+              "noninteger": 80,
+              "singleton_sum": "1504/51"
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_001",
+            "result": {
+              "box_min": -23,
+              "case": {
+                "component": 9,
+                "id": "P9_001",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 312,
+              "equal_terms": 12,
+              "gap": -174,
+              "live_sizes": [
+                48,
+                36,
+                10,
+                7,
+                48,
+                18,
+                18,
+                10,
+                7
+              ],
+              "rhs": -197,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_002",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_002",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 382,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                49,
+                89,
+                12,
+                10,
+                89,
+                12,
+                10,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_003",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_003",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 434,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                50,
+                98,
+                22,
+                15,
+                56,
+                10,
+                17,
+                55,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "OPEN",
+            "id": "P9_004",
+            "result": {
+              "columns": 595,
+              "noninteger": 66,
+              "singleton_sum": "350/29"
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_005",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_005",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 107,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_006",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_006",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 115,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                1,
+                0,
+                0,
+                7,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_007",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_007",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 131,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0,
+                5,
+                17,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_008",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_008",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 285,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                3,
+                0,
+                6,
+                7,
+                50,
+                30,
+                28,
+                4,
+                49
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_009",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_009",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 114,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                3,
+                3,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_010",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_010",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 292,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                14,
+                0,
+                5,
+                0,
+                17,
+                32,
+                35,
+                32,
+                49
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_011",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_011",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 366,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                87,
+                0,
+                0,
+                42,
+                87,
+                0,
+                0,
+                0,
+                42
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_012",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_012",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 125,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                4,
+                0,
+                0,
+                10,
+                0,
+                0,
+                3,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_013",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_013",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 235,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                22,
+                0,
+                0,
+                15,
+                83,
+                0,
+                3,
+                0,
+                4
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_014",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_014",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 206,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                42,
+                42,
+                0,
+                0,
+                6,
+                0,
+                4,
+                4,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_015",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_015",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 125,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                17,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_016",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_016",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 223,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                11,
+                0,
+                0,
+                22,
+                79,
+                0,
+                0,
+                0,
+                3
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_017",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_017",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 154,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                47,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_018",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_018",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 213,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                64,
+                18,
+                3,
+                2,
+                17,
+                1,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_019",
+            "result": {
+              "box_min": -21,
+              "case": {
+                "component": 9,
+                "id": "P9_019",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 385,
+              "equal_terms": 21,
+              "gap": -1,
+              "live_sizes": [
+                50,
+                61,
+                37,
+                4,
+                50,
+                17,
+                17,
+                37,
+                4
+              ],
+              "rhs": -22,
+              "status": "PASS",
+              "upper_terms": 2
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_020",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_020",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 337,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                61,
+                41,
+                3,
+                92,
+                32,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_021",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_021",
+                "interiors": [
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 144,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                34,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_022",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_022",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 103,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_023",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_023",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_024",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_024",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_025",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_025",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_026",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_026",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 106,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_027",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_027",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_028",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_028",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_029",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_029",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 106,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_030",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_030",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_031",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_031",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_032",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_032",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_033",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_033",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_034",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_034",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 106,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_035",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_035",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_036",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_036",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_037",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_037",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_038",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_038",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 180,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                1,
+                75,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_039",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_039",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 154,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                14,
+                0,
+                8,
+                24,
+                4,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_040",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_040",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_041",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_041",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 113,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_042",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_042",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_043",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_043",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_044",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_044",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_045",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_045",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_046",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_046",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_047",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_047",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 122,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                10,
+                0,
+                0,
+                4,
+                0,
+                0,
+                4,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_048",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_048",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 107,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_049",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_049",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    4
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 105,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_050",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_050",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    4
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 104,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_051",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_051",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 152,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                1,
+                47,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_052",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_052",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 127,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                22,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_053",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_053",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 127,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                22,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_054",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_054",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_055",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_055",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_056",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_056",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_057",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_057",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_058",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_058",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_059",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_059",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_060",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_060",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_061",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_061",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_062",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_062",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_063",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_063",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_064",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_064",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_065",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_065",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_066",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_066",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_067",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_067",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_068",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_068",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_069",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_069",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_070",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_070",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_071",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_071",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 114,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                14,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_072",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_072",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_073",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_073",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    2,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 100,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_074",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_074",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 119,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                19,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_075",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_075",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    2,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 96,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_076",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_076",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    2,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 96,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_077",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_077",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    4
+                  ],
+                  [
+                    0,
+                    1,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 96,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          },
+          {
+            "historical_status": "CLOSED",
+            "id": "P9_078",
+            "result": {
+              "box_min": 0,
+              "case": {
+                "component": 9,
+                "id": "P9_078",
+                "interiors": [
+                  [
+                    0,
+                    1,
+                    2,
+                    3
+                  ],
+                  [
+                    0,
+                    1,
+                    3,
+                    5
+                  ],
+                  [
+                    0,
+                    3,
+                    4,
+                    5
+                  ],
+                  [
+                    1,
+                    2,
+                    3,
+                    4
+                  ],
+                  [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                ],
+                "outside": 7,
+                "r10": 7,
+                "r9": 7
+              },
+              "columns": 96,
+              "equal_terms": 1,
+              "gap": -1,
+              "live_sizes": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "rhs": -1,
+              "status": "PASS",
+              "upper_terms": 0
+            }
+          }
+        ],
+        "remaining_before_new_forests": [
+          "P9_000",
+          "P9_004"
+        ],
+        "status": "PASS"
+      },
+      "ignored_semantic_keys": [],
+      "historical_seconds_per_mode": 13.900991200003773,
+      "timeout_seconds": 120,
+      "stdout_path": "{output}/no9_inherited_{mode}.stdout.json",
+      "stderr_path": "{output}/no9_inherited_{mode}.stderr.txt",
+      "historical_evidence": {
+        "receipt": "agent_cross/f69tail/01_original.json",
+        "sha256": "67d72901e3949a55c8a3174673d96dc1fe292d87d1c591069b6897ddf1f91eee"
+      },
+      "coverage": "Complete semantic object equality; all certificate/domain/coverage counters and records bind the entire declared checker domain.",
+      "modes": [
+        "normal",
+        "optimized"
+      ],
+      "output_channel": "json",
+      "volatile_keys": [],
+      "lemma": "NO9 complete local branch import",
+      "domain": "SF4, mu>=42, maximum point degree<=16, actual isolated P9 point16, bootstrap and C5",
+      "inputs": [
+        "companion/upstream/NO9/data/empty/EXPECTED.json",
+        "companion/upstream/NO9/data/empty/forest.domain.txt",
+        "companion/upstream/NO9/data/empty/forest.profiles.json",
+        "companion/upstream/NO9/data/empty/forest_0.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_1.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_10.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_2.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_3.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_4.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_5.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_6.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_7.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_8.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_9.bin.gz",
+        "companion/upstream/NO9/data/inherited/D16_INTERIORS.json",
+        "companion/upstream/NO9/data/inherited/P9_000_PRIMAL.json",
+        "companion/upstream/NO9/data/inherited/P9_004_PRIMAL.json",
+        "companion/upstream/NO9/data/no9_rows.bin",
+        "companion/upstream/NO9/data/single/EXPECTED.json",
+        "companion/upstream/NO9/data/single/forest.domain.txt",
+        "companion/upstream/NO9/data/single/forest.profiles.json",
+        "companion/upstream/NO9/data/single/forest_0.bin.gz",
+        "companion/upstream/NO9/data/single/forest_1.bin.gz",
+        "companion/upstream/NO9/data/single/forest_10.bin.gz",
+        "companion/upstream/NO9/data/single/forest_11.bin.gz",
+        "companion/upstream/NO9/data/single/forest_12.bin.gz",
+        "companion/upstream/NO9/data/single/forest_13.bin.gz",
+        "companion/upstream/NO9/data/single/forest_14.bin.gz",
+        "companion/upstream/NO9/data/single/forest_15.bin.gz",
+        "companion/upstream/NO9/data/single/forest_16.bin.gz",
+        "companion/upstream/NO9/data/single/forest_17.bin.gz",
+        "companion/upstream/NO9/data/single/forest_18.bin.gz",
+        "companion/upstream/NO9/data/single/forest_19.bin.gz",
+        "companion/upstream/NO9/data/single/forest_2.bin.gz",
+        "companion/upstream/NO9/data/single/forest_20.bin.gz",
+        "companion/upstream/NO9/data/single/forest_21.bin.gz",
+        "companion/upstream/NO9/data/single/forest_22.bin.gz",
+        "companion/upstream/NO9/data/single/forest_23.bin.gz",
+        "companion/upstream/NO9/data/single/forest_24.bin.gz",
+        "companion/upstream/NO9/data/single/forest_25.bin.gz",
+        "companion/upstream/NO9/data/single/forest_26.bin.gz",
+        "companion/upstream/NO9/data/single/forest_27.bin.gz",
+        "companion/upstream/NO9/data/single/forest_28.bin.gz",
+        "companion/upstream/NO9/data/single/forest_29.bin.gz",
+        "companion/upstream/NO9/data/single/forest_3.bin.gz",
+        "companion/upstream/NO9/data/single/forest_30.bin.gz",
+        "companion/upstream/NO9/data/single/forest_31.bin.gz",
+        "companion/upstream/NO9/data/single/forest_32.bin.gz",
+        "companion/upstream/NO9/data/single/forest_33.bin.gz",
+        "companion/upstream/NO9/data/single/forest_34.bin.gz",
+        "companion/upstream/NO9/data/single/forest_35.bin.gz",
+        "companion/upstream/NO9/data/single/forest_36.bin.gz",
+        "companion/upstream/NO9/data/single/forest_37.bin.gz",
+        "companion/upstream/NO9/data/single/forest_38.bin.gz",
+        "companion/upstream/NO9/data/single/forest_39.bin.gz",
+        "companion/upstream/NO9/data/single/forest_4.bin.gz",
+        "companion/upstream/NO9/data/single/forest_40.bin.gz",
+        "companion/upstream/NO9/data/single/forest_41.bin.gz",
+        "companion/upstream/NO9/data/single/forest_42.bin.gz",
+        "companion/upstream/NO9/data/single/forest_43.bin.gz",
+        "companion/upstream/NO9/data/single/forest_44.bin.gz",
+        "companion/upstream/NO9/data/single/forest_45.bin.gz",
+        "companion/upstream/NO9/data/single/forest_46.bin.gz",
+        "companion/upstream/NO9/data/single/forest_47.bin.gz",
+        "companion/upstream/NO9/data/single/forest_48.bin.gz",
+        "companion/upstream/NO9/data/single/forest_5.bin.gz",
+        "companion/upstream/NO9/data/single/forest_6.bin.gz",
+        "companion/upstream/NO9/data/single/forest_7.bin.gz",
+        "companion/upstream/NO9/data/single/forest_8.bin.gz",
+        "companion/upstream/NO9/data/single/forest_9.bin.gz",
+        "companion/upstream/NO9/inherited/certificates/P9_001.json",
+        "companion/upstream/NO9/inherited/certificates/P9_002.json",
+        "companion/upstream/NO9/inherited/certificates/P9_003.json",
+        "companion/upstream/NO9/inherited/certificates/P9_005.json",
+        "companion/upstream/NO9/inherited/certificates/P9_006.json",
+        "companion/upstream/NO9/inherited/certificates/P9_007.json",
+        "companion/upstream/NO9/inherited/certificates/P9_008.json",
+        "companion/upstream/NO9/inherited/certificates/P9_009.json",
+        "companion/upstream/NO9/inherited/certificates/P9_010.json",
+        "companion/upstream/NO9/inherited/certificates/P9_011.json",
+        "companion/upstream/NO9/inherited/certificates/P9_012.json",
+        "companion/upstream/NO9/inherited/certificates/P9_013.json",
+        "companion/upstream/NO9/inherited/certificates/P9_014.json",
+        "companion/upstream/NO9/inherited/certificates/P9_015.json",
+        "companion/upstream/NO9/inherited/certificates/P9_016.json",
+        "companion/upstream/NO9/inherited/certificates/P9_017.json",
+        "companion/upstream/NO9/inherited/certificates/P9_018.json",
+        "companion/upstream/NO9/inherited/certificates/P9_019.json",
+        "companion/upstream/NO9/inherited/certificates/P9_020.json",
+        "companion/upstream/NO9/inherited/certificates/P9_021.json",
+        "companion/upstream/NO9/inherited/certificates/P9_022.json",
+        "companion/upstream/NO9/inherited/certificates/P9_023.json",
+        "companion/upstream/NO9/inherited/certificates/P9_024.json",
+        "companion/upstream/NO9/inherited/certificates/P9_025.json",
+        "companion/upstream/NO9/inherited/certificates/P9_026.json",
+        "companion/upstream/NO9/inherited/certificates/P9_027.json",
+        "companion/upstream/NO9/inherited/certificates/P9_028.json",
+        "companion/upstream/NO9/inherited/certificates/P9_029.json",
+        "companion/upstream/NO9/inherited/certificates/P9_030.json",
+        "companion/upstream/NO9/inherited/certificates/P9_031.json",
+        "companion/upstream/NO9/inherited/certificates/P9_032.json",
+        "companion/upstream/NO9/inherited/certificates/P9_033.json",
+        "companion/upstream/NO9/inherited/certificates/P9_034.json",
+        "companion/upstream/NO9/inherited/certificates/P9_035.json",
+        "companion/upstream/NO9/inherited/certificates/P9_036.json",
+        "companion/upstream/NO9/inherited/certificates/P9_037.json",
+        "companion/upstream/NO9/inherited/certificates/P9_038.json",
+        "companion/upstream/NO9/inherited/certificates/P9_039.json",
+        "companion/upstream/NO9/inherited/certificates/P9_040.json",
+        "companion/upstream/NO9/inherited/certificates/P9_041.json",
+        "companion/upstream/NO9/inherited/certificates/P9_042.json",
+        "companion/upstream/NO9/inherited/certificates/P9_043.json",
+        "companion/upstream/NO9/inherited/certificates/P9_044.json",
+        "companion/upstream/NO9/inherited/certificates/P9_045.json",
+        "companion/upstream/NO9/inherited/certificates/P9_046.json",
+        "companion/upstream/NO9/inherited/certificates/P9_047.json",
+        "companion/upstream/NO9/inherited/certificates/P9_048.json",
+        "companion/upstream/NO9/inherited/certificates/P9_049.json",
+        "companion/upstream/NO9/inherited/certificates/P9_050.json",
+        "companion/upstream/NO9/inherited/certificates/P9_051.json",
+        "companion/upstream/NO9/inherited/certificates/P9_052.json",
+        "companion/upstream/NO9/inherited/certificates/P9_053.json",
+        "companion/upstream/NO9/inherited/certificates/P9_054.json",
+        "companion/upstream/NO9/inherited/certificates/P9_055.json",
+        "companion/upstream/NO9/inherited/certificates/P9_056.json",
+        "companion/upstream/NO9/inherited/certificates/P9_057.json",
+        "companion/upstream/NO9/inherited/certificates/P9_058.json",
+        "companion/upstream/NO9/inherited/certificates/P9_059.json",
+        "companion/upstream/NO9/inherited/certificates/P9_060.json",
+        "companion/upstream/NO9/inherited/certificates/P9_061.json",
+        "companion/upstream/NO9/inherited/certificates/P9_062.json",
+        "companion/upstream/NO9/inherited/certificates/P9_063.json",
+        "companion/upstream/NO9/inherited/certificates/P9_064.json",
+        "companion/upstream/NO9/inherited/certificates/P9_065.json",
+        "companion/upstream/NO9/inherited/certificates/P9_066.json",
+        "companion/upstream/NO9/inherited/certificates/P9_067.json",
+        "companion/upstream/NO9/inherited/certificates/P9_068.json",
+        "companion/upstream/NO9/inherited/certificates/P9_069.json",
+        "companion/upstream/NO9/inherited/certificates/P9_070.json",
+        "companion/upstream/NO9/inherited/certificates/P9_071.json",
+        "companion/upstream/NO9/inherited/certificates/P9_072.json",
+        "companion/upstream/NO9/inherited/certificates/P9_073.json",
+        "companion/upstream/NO9/inherited/certificates/P9_074.json",
+        "companion/upstream/NO9/inherited/certificates/P9_075.json",
+        "companion/upstream/NO9/inherited/certificates/P9_076.json",
+        "companion/upstream/NO9/inherited/certificates/P9_077.json",
+        "companion/upstream/NO9/inherited/certificates/P9_078.json",
+        "companion/upstream/NO9/scripts/audit_projection.py",
+        "companion/upstream/NO9/scripts/check_domain.py",
+        "companion/upstream/NO9/scripts/check_forests.py",
+        "companion/upstream/NO9/scripts/check_inherited.py",
+        "companion/upstream/NO9/scripts/common.py",
+        "companion/upstream/NO9/scripts/inputs/audit43.py",
+        "companion/upstream/NO9/scripts/inputs/local43.py",
+        "companion/upstream/NO9/scripts/projection.py",
+        "companion/upstream/NO9/scripts/verify_component.py"
+      ]
+    },
+    {
+      "id": "no9_forests",
+      "suite": "NO9",
+      "argv": [
+        "companion/upstream/NO9/scripts/check_forests.py"
+      ],
+      "cwd": ".",
+      "expected_semantic": {
+        "all_profiles_covered": true,
+        "canonical_profiles": 60,
+        "open_leaves": 0,
+        "records": [
+          {
+            "anchor_rows": 261,
+            "canonical_profiles": 11,
+            "case": {
+              "component": 9,
+              "id": "P9_000",
+              "interiors": [],
+              "outside": 7,
+              "r10": 7,
+              "r9": 7
+            },
+            "joinnodes": 2626,
+            "labelled_profiles": 30,
+            "margin_patterns": 1280,
+            "name": "empty",
+            "open_leaves": 0,
+            "projections": 31321,
+            "reasons": [
+              0,
+              3,
+              5077,
+              3307,
+              392,
+              3712,
+              4630,
+              0,
+              0,
+              0
+            ],
+            "refutation_leaves": 17121
+          },
+          {
+            "anchor_rows": 483,
+            "canonical_profiles": 49,
+            "case": {
+              "component": 9,
+              "id": "P9_004",
+              "interiors": [
+                [
+                  0,
+                  3,
+                  4,
+                  5
+                ]
+              ],
+              "outside": 7,
+              "r10": 7,
+              "r9": 7
+            },
+            "joinnodes": 9529,
+            "labelled_profiles": 82,
+            "margin_patterns": 3916,
+            "name": "single",
+            "open_leaves": 0,
+            "projections": 9705,
+            "reasons": [
+              0,
+              0,
+              16,
+              8,
+              1,
+              287,
+              451,
+              0,
+              4893,
+              0
+            ],
+            "refutation_leaves": 5656
+          }
+        ],
+        "status": "PASS"
+      },
+      "ignored_semantic_keys": [],
+      "historical_seconds_per_mode": 7.974566399818286,
+      "timeout_seconds": 120,
+      "stdout_path": "{output}/no9_forests_{mode}.stdout.json",
+      "stderr_path": "{output}/no9_forests_{mode}.stderr.txt",
+      "historical_evidence": {
+        "receipt": "agent_cross/f69tail/01_original.json",
+        "sha256": "67d72901e3949a55c8a3174673d96dc1fe292d87d1c591069b6897ddf1f91eee"
+      },
+      "coverage": "Complete semantic object equality; all certificate/domain/coverage counters and records bind the entire declared checker domain.",
+      "modes": [
+        "normal",
+        "optimized"
+      ],
+      "output_channel": "json",
+      "volatile_keys": [],
+      "lemma": "NO9 complete local branch import",
+      "domain": "SF4, mu>=42, maximum point degree<=16, actual isolated P9 point16, bootstrap and C5",
+      "inputs": [
+        "companion/upstream/NO9/data/empty/EXPECTED.json",
+        "companion/upstream/NO9/data/empty/forest.domain.txt",
+        "companion/upstream/NO9/data/empty/forest.profiles.json",
+        "companion/upstream/NO9/data/empty/forest_0.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_1.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_10.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_2.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_3.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_4.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_5.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_6.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_7.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_8.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_9.bin.gz",
+        "companion/upstream/NO9/data/inherited/D16_INTERIORS.json",
+        "companion/upstream/NO9/data/inherited/P9_000_PRIMAL.json",
+        "companion/upstream/NO9/data/inherited/P9_004_PRIMAL.json",
+        "companion/upstream/NO9/data/no9_rows.bin",
+        "companion/upstream/NO9/data/single/EXPECTED.json",
+        "companion/upstream/NO9/data/single/forest.domain.txt",
+        "companion/upstream/NO9/data/single/forest.profiles.json",
+        "companion/upstream/NO9/data/single/forest_0.bin.gz",
+        "companion/upstream/NO9/data/single/forest_1.bin.gz",
+        "companion/upstream/NO9/data/single/forest_10.bin.gz",
+        "companion/upstream/NO9/data/single/forest_11.bin.gz",
+        "companion/upstream/NO9/data/single/forest_12.bin.gz",
+        "companion/upstream/NO9/data/single/forest_13.bin.gz",
+        "companion/upstream/NO9/data/single/forest_14.bin.gz",
+        "companion/upstream/NO9/data/single/forest_15.bin.gz",
+        "companion/upstream/NO9/data/single/forest_16.bin.gz",
+        "companion/upstream/NO9/data/single/forest_17.bin.gz",
+        "companion/upstream/NO9/data/single/forest_18.bin.gz",
+        "companion/upstream/NO9/data/single/forest_19.bin.gz",
+        "companion/upstream/NO9/data/single/forest_2.bin.gz",
+        "companion/upstream/NO9/data/single/forest_20.bin.gz",
+        "companion/upstream/NO9/data/single/forest_21.bin.gz",
+        "companion/upstream/NO9/data/single/forest_22.bin.gz",
+        "companion/upstream/NO9/data/single/forest_23.bin.gz",
+        "companion/upstream/NO9/data/single/forest_24.bin.gz",
+        "companion/upstream/NO9/data/single/forest_25.bin.gz",
+        "companion/upstream/NO9/data/single/forest_26.bin.gz",
+        "companion/upstream/NO9/data/single/forest_27.bin.gz",
+        "companion/upstream/NO9/data/single/forest_28.bin.gz",
+        "companion/upstream/NO9/data/single/forest_29.bin.gz",
+        "companion/upstream/NO9/data/single/forest_3.bin.gz",
+        "companion/upstream/NO9/data/single/forest_30.bin.gz",
+        "companion/upstream/NO9/data/single/forest_31.bin.gz",
+        "companion/upstream/NO9/data/single/forest_32.bin.gz",
+        "companion/upstream/NO9/data/single/forest_33.bin.gz",
+        "companion/upstream/NO9/data/single/forest_34.bin.gz",
+        "companion/upstream/NO9/data/single/forest_35.bin.gz",
+        "companion/upstream/NO9/data/single/forest_36.bin.gz",
+        "companion/upstream/NO9/data/single/forest_37.bin.gz",
+        "companion/upstream/NO9/data/single/forest_38.bin.gz",
+        "companion/upstream/NO9/data/single/forest_39.bin.gz",
+        "companion/upstream/NO9/data/single/forest_4.bin.gz",
+        "companion/upstream/NO9/data/single/forest_40.bin.gz",
+        "companion/upstream/NO9/data/single/forest_41.bin.gz",
+        "companion/upstream/NO9/data/single/forest_42.bin.gz",
+        "companion/upstream/NO9/data/single/forest_43.bin.gz",
+        "companion/upstream/NO9/data/single/forest_44.bin.gz",
+        "companion/upstream/NO9/data/single/forest_45.bin.gz",
+        "companion/upstream/NO9/data/single/forest_46.bin.gz",
+        "companion/upstream/NO9/data/single/forest_47.bin.gz",
+        "companion/upstream/NO9/data/single/forest_48.bin.gz",
+        "companion/upstream/NO9/data/single/forest_5.bin.gz",
+        "companion/upstream/NO9/data/single/forest_6.bin.gz",
+        "companion/upstream/NO9/data/single/forest_7.bin.gz",
+        "companion/upstream/NO9/data/single/forest_8.bin.gz",
+        "companion/upstream/NO9/data/single/forest_9.bin.gz",
+        "companion/upstream/NO9/inherited/certificates/P9_001.json",
+        "companion/upstream/NO9/inherited/certificates/P9_002.json",
+        "companion/upstream/NO9/inherited/certificates/P9_003.json",
+        "companion/upstream/NO9/inherited/certificates/P9_005.json",
+        "companion/upstream/NO9/inherited/certificates/P9_006.json",
+        "companion/upstream/NO9/inherited/certificates/P9_007.json",
+        "companion/upstream/NO9/inherited/certificates/P9_008.json",
+        "companion/upstream/NO9/inherited/certificates/P9_009.json",
+        "companion/upstream/NO9/inherited/certificates/P9_010.json",
+        "companion/upstream/NO9/inherited/certificates/P9_011.json",
+        "companion/upstream/NO9/inherited/certificates/P9_012.json",
+        "companion/upstream/NO9/inherited/certificates/P9_013.json",
+        "companion/upstream/NO9/inherited/certificates/P9_014.json",
+        "companion/upstream/NO9/inherited/certificates/P9_015.json",
+        "companion/upstream/NO9/inherited/certificates/P9_016.json",
+        "companion/upstream/NO9/inherited/certificates/P9_017.json",
+        "companion/upstream/NO9/inherited/certificates/P9_018.json",
+        "companion/upstream/NO9/inherited/certificates/P9_019.json",
+        "companion/upstream/NO9/inherited/certificates/P9_020.json",
+        "companion/upstream/NO9/inherited/certificates/P9_021.json",
+        "companion/upstream/NO9/inherited/certificates/P9_022.json",
+        "companion/upstream/NO9/inherited/certificates/P9_023.json",
+        "companion/upstream/NO9/inherited/certificates/P9_024.json",
+        "companion/upstream/NO9/inherited/certificates/P9_025.json",
+        "companion/upstream/NO9/inherited/certificates/P9_026.json",
+        "companion/upstream/NO9/inherited/certificates/P9_027.json",
+        "companion/upstream/NO9/inherited/certificates/P9_028.json",
+        "companion/upstream/NO9/inherited/certificates/P9_029.json",
+        "companion/upstream/NO9/inherited/certificates/P9_030.json",
+        "companion/upstream/NO9/inherited/certificates/P9_031.json",
+        "companion/upstream/NO9/inherited/certificates/P9_032.json",
+        "companion/upstream/NO9/inherited/certificates/P9_033.json",
+        "companion/upstream/NO9/inherited/certificates/P9_034.json",
+        "companion/upstream/NO9/inherited/certificates/P9_035.json",
+        "companion/upstream/NO9/inherited/certificates/P9_036.json",
+        "companion/upstream/NO9/inherited/certificates/P9_037.json",
+        "companion/upstream/NO9/inherited/certificates/P9_038.json",
+        "companion/upstream/NO9/inherited/certificates/P9_039.json",
+        "companion/upstream/NO9/inherited/certificates/P9_040.json",
+        "companion/upstream/NO9/inherited/certificates/P9_041.json",
+        "companion/upstream/NO9/inherited/certificates/P9_042.json",
+        "companion/upstream/NO9/inherited/certificates/P9_043.json",
+        "companion/upstream/NO9/inherited/certificates/P9_044.json",
+        "companion/upstream/NO9/inherited/certificates/P9_045.json",
+        "companion/upstream/NO9/inherited/certificates/P9_046.json",
+        "companion/upstream/NO9/inherited/certificates/P9_047.json",
+        "companion/upstream/NO9/inherited/certificates/P9_048.json",
+        "companion/upstream/NO9/inherited/certificates/P9_049.json",
+        "companion/upstream/NO9/inherited/certificates/P9_050.json",
+        "companion/upstream/NO9/inherited/certificates/P9_051.json",
+        "companion/upstream/NO9/inherited/certificates/P9_052.json",
+        "companion/upstream/NO9/inherited/certificates/P9_053.json",
+        "companion/upstream/NO9/inherited/certificates/P9_054.json",
+        "companion/upstream/NO9/inherited/certificates/P9_055.json",
+        "companion/upstream/NO9/inherited/certificates/P9_056.json",
+        "companion/upstream/NO9/inherited/certificates/P9_057.json",
+        "companion/upstream/NO9/inherited/certificates/P9_058.json",
+        "companion/upstream/NO9/inherited/certificates/P9_059.json",
+        "companion/upstream/NO9/inherited/certificates/P9_060.json",
+        "companion/upstream/NO9/inherited/certificates/P9_061.json",
+        "companion/upstream/NO9/inherited/certificates/P9_062.json",
+        "companion/upstream/NO9/inherited/certificates/P9_063.json",
+        "companion/upstream/NO9/inherited/certificates/P9_064.json",
+        "companion/upstream/NO9/inherited/certificates/P9_065.json",
+        "companion/upstream/NO9/inherited/certificates/P9_066.json",
+        "companion/upstream/NO9/inherited/certificates/P9_067.json",
+        "companion/upstream/NO9/inherited/certificates/P9_068.json",
+        "companion/upstream/NO9/inherited/certificates/P9_069.json",
+        "companion/upstream/NO9/inherited/certificates/P9_070.json",
+        "companion/upstream/NO9/inherited/certificates/P9_071.json",
+        "companion/upstream/NO9/inherited/certificates/P9_072.json",
+        "companion/upstream/NO9/inherited/certificates/P9_073.json",
+        "companion/upstream/NO9/inherited/certificates/P9_074.json",
+        "companion/upstream/NO9/inherited/certificates/P9_075.json",
+        "companion/upstream/NO9/inherited/certificates/P9_076.json",
+        "companion/upstream/NO9/inherited/certificates/P9_077.json",
+        "companion/upstream/NO9/inherited/certificates/P9_078.json",
+        "companion/upstream/NO9/scripts/audit_projection.py",
+        "companion/upstream/NO9/scripts/check_domain.py",
+        "companion/upstream/NO9/scripts/check_forests.py",
+        "companion/upstream/NO9/scripts/check_inherited.py",
+        "companion/upstream/NO9/scripts/common.py",
+        "companion/upstream/NO9/scripts/inputs/audit43.py",
+        "companion/upstream/NO9/scripts/inputs/local43.py",
+        "companion/upstream/NO9/scripts/projection.py",
+        "companion/upstream/NO9/scripts/verify_component.py"
+      ]
+    },
+    {
+      "id": "no9_domain",
+      "suite": "NO9",
+      "argv": [
+        "companion/upstream/NO9/scripts/check_domain.py"
+      ],
+      "cwd": ".",
+      "expected_semantic": {
+        "cap": 16,
+        "degree_profiles": 71,
+        "global_support_from_pointwise_charge": [
+          18,
+          21
+        ],
+        "method": "literal comparison of the full two independently generated lists",
+        "mu": 42,
+        "rows": 24002,
+        "singleton_cap": 8,
+        "status": "PASS",
+        "strata": [
+          {
+            "max_charge": "5/16",
+            "min_degree": 8,
+            "min_member_sum": 54,
+            "min_pair_sum": 24,
+            "neighbourhood": 42,
+            "rows": 16823
+          },
+          {
+            "max_charge": "43/144",
+            "min_degree": 9,
+            "min_member_sum": 56,
+            "min_pair_sum": 25,
+            "neighbourhood": 43,
+            "rows": 5732
+          },
+          {
+            "max_charge": "18/65",
+            "min_degree": 13,
+            "min_member_sum": 58,
+            "min_pair_sum": 27,
+            "neighbourhood": 44,
+            "rows": 1290
+          },
+          {
+            "max_charge": "4/15",
+            "min_degree": 14,
+            "min_member_sum": 60,
+            "min_pair_sum": 29,
+            "neighbourhood": 45,
+            "rows": 157
+          }
+        ]
+      },
+      "ignored_semantic_keys": [],
+      "historical_seconds_per_mode": 12.169128900161013,
+      "timeout_seconds": 120,
+      "stdout_path": "{output}/no9_domain_{mode}.stdout.json",
+      "stderr_path": "{output}/no9_domain_{mode}.stderr.txt",
+      "historical_evidence": {
+        "receipt": "agent_cross/f69tail/01_original.json",
+        "sha256": "67d72901e3949a55c8a3174673d96dc1fe292d87d1c591069b6897ddf1f91eee"
+      },
+      "coverage": "Complete semantic object equality; all certificate/domain/coverage counters and records bind the entire declared checker domain.",
+      "modes": [
+        "normal",
+        "optimized"
+      ],
+      "output_channel": "json",
+      "volatile_keys": [],
+      "lemma": "NO9 complete local branch import",
+      "domain": "SF4, mu>=42, maximum point degree<=16, actual isolated P9 point16, bootstrap and C5",
+      "inputs": [
+        "companion/upstream/NO9/data/empty/EXPECTED.json",
+        "companion/upstream/NO9/data/empty/forest.domain.txt",
+        "companion/upstream/NO9/data/empty/forest.profiles.json",
+        "companion/upstream/NO9/data/empty/forest_0.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_1.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_10.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_2.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_3.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_4.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_5.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_6.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_7.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_8.bin.gz",
+        "companion/upstream/NO9/data/empty/forest_9.bin.gz",
+        "companion/upstream/NO9/data/inherited/D16_INTERIORS.json",
+        "companion/upstream/NO9/data/inherited/P9_000_PRIMAL.json",
+        "companion/upstream/NO9/data/inherited/P9_004_PRIMAL.json",
+        "companion/upstream/NO9/data/no9_rows.bin",
+        "companion/upstream/NO9/data/single/EXPECTED.json",
+        "companion/upstream/NO9/data/single/forest.domain.txt",
+        "companion/upstream/NO9/data/single/forest.profiles.json",
+        "companion/upstream/NO9/data/single/forest_0.bin.gz",
+        "companion/upstream/NO9/data/single/forest_1.bin.gz",
+        "companion/upstream/NO9/data/single/forest_10.bin.gz",
+        "companion/upstream/NO9/data/single/forest_11.bin.gz",
+        "companion/upstream/NO9/data/single/forest_12.bin.gz",
+        "companion/upstream/NO9/data/single/forest_13.bin.gz",
+        "companion/upstream/NO9/data/single/forest_14.bin.gz",
+        "companion/upstream/NO9/data/single/forest_15.bin.gz",
+        "companion/upstream/NO9/data/single/forest_16.bin.gz",
+        "companion/upstream/NO9/data/single/forest_17.bin.gz",
+        "companion/upstream/NO9/data/single/forest_18.bin.gz",
+        "companion/upstream/NO9/data/single/forest_19.bin.gz",
+        "companion/upstream/NO9/data/single/forest_2.bin.gz",
+        "companion/upstream/NO9/data/single/forest_20.bin.gz",
+        "companion/upstream/NO9/data/single/forest_21.bin.gz",
+        "companion/upstream/NO9/data/single/forest_22.bin.gz",
+        "companion/upstream/NO9/data/single/forest_23.bin.gz",
+        "companion/upstream/NO9/data/single/forest_24.bin.gz",
+        "companion/upstream/NO9/data/single/forest_25.bin.gz",
+        "companion/upstream/NO9/data/single/forest_26.bin.gz",
+        "companion/upstream/NO9/data/single/forest_27.bin.gz",
+        "companion/upstream/NO9/data/single/forest_28.bin.gz",
+        "companion/upstream/NO9/data/single/forest_29.bin.gz",
+        "companion/upstream/NO9/data/single/forest_3.bin.gz",
+        "companion/upstream/NO9/data/single/forest_30.bin.gz",
+        "companion/upstream/NO9/data/single/forest_31.bin.gz",
+        "companion/upstream/NO9/data/single/forest_32.bin.gz",
+        "companion/upstream/NO9/data/single/forest_33.bin.gz",
+        "companion/upstream/NO9/data/single/forest_34.bin.gz",
+        "companion/upstream/NO9/data/single/forest_35.bin.gz",
+        "companion/upstream/NO9/data/single/forest_36.bin.gz",
+        "companion/upstream/NO9/data/single/forest_37.bin.gz",
+        "companion/upstream/NO9/data/single/forest_38.bin.gz",
+        "companion/upstream/NO9/data/single/forest_39.bin.gz",
+        "companion/upstream/NO9/data/single/forest_4.bin.gz",
+        "companion/upstream/NO9/data/single/forest_40.bin.gz",
+        "companion/upstream/NO9/data/single/forest_41.bin.gz",
+        "companion/upstream/NO9/data/single/forest_42.bin.gz",
+        "companion/upstream/NO9/data/single/forest_43.bin.gz",
+        "companion/upstream/NO9/data/single/forest_44.bin.gz",
+        "companion/upstream/NO9/data/single/forest_45.bin.gz",
+        "companion/upstream/NO9/data/single/forest_46.bin.gz",
+        "companion/upstream/NO9/data/single/forest_47.bin.gz",
+        "companion/upstream/NO9/data/single/forest_48.bin.gz",
+        "companion/upstream/NO9/data/single/forest_5.bin.gz",
+        "companion/upstream/NO9/data/single/forest_6.bin.gz",
+        "companion/upstream/NO9/data/single/forest_7.bin.gz",
+        "companion/upstream/NO9/data/single/forest_8.bin.gz",
+        "companion/upstream/NO9/data/single/forest_9.bin.gz",
+        "companion/upstream/NO9/inherited/certificates/P9_001.json",
+        "companion/upstream/NO9/inherited/certificates/P9_002.json",
+        "companion/upstream/NO9/inherited/certificates/P9_003.json",
+        "companion/upstream/NO9/inherited/certificates/P9_005.json",
+        "companion/upstream/NO9/inherited/certificates/P9_006.json",
+        "companion/upstream/NO9/inherited/certificates/P9_007.json",
+        "companion/upstream/NO9/inherited/certificates/P9_008.json",
+        "companion/upstream/NO9/inherited/certificates/P9_009.json",
+        "companion/upstream/NO9/inherited/certificates/P9_010.json",
+        "companion/upstream/NO9/inherited/certificates/P9_011.json",
+        "companion/upstream/NO9/inherited/certificates/P9_012.json",
+        "companion/upstream/NO9/inherited/certificates/P9_013.json",
+        "companion/upstream/NO9/inherited/certificates/P9_014.json",
+        "companion/upstream/NO9/inherited/certificates/P9_015.json",
+        "companion/upstream/NO9/inherited/certificates/P9_016.json",
+        "companion/upstream/NO9/inherited/certificates/P9_017.json",
+        "companion/upstream/NO9/inherited/certificates/P9_018.json",
+        "companion/upstream/NO9/inherited/certificates/P9_019.json",
+        "companion/upstream/NO9/inherited/certificates/P9_020.json",
+        "companion/upstream/NO9/inherited/certificates/P9_021.json",
+        "companion/upstream/NO9/inherited/certificates/P9_022.json",
+        "companion/upstream/NO9/inherited/certificates/P9_023.json",
+        "companion/upstream/NO9/inherited/certificates/P9_024.json",
+        "companion/upstream/NO9/inherited/certificates/P9_025.json",
+        "companion/upstream/NO9/inherited/certificates/P9_026.json",
+        "companion/upstream/NO9/inherited/certificates/P9_027.json",
+        "companion/upstream/NO9/inherited/certificates/P9_028.json",
+        "companion/upstream/NO9/inherited/certificates/P9_029.json",
+        "companion/upstream/NO9/inherited/certificates/P9_030.json",
+        "companion/upstream/NO9/inherited/certificates/P9_031.json",
+        "companion/upstream/NO9/inherited/certificates/P9_032.json",
+        "companion/upstream/NO9/inherited/certificates/P9_033.json",
+        "companion/upstream/NO9/inherited/certificates/P9_034.json",
+        "companion/upstream/NO9/inherited/certificates/P9_035.json",
+        "companion/upstream/NO9/inherited/certificates/P9_036.json",
+        "companion/upstream/NO9/inherited/certificates/P9_037.json",
+        "companion/upstream/NO9/inherited/certificates/P9_038.json",
+        "companion/upstream/NO9/inherited/certificates/P9_039.json",
+        "companion/upstream/NO9/inherited/certificates/P9_040.json",
+        "companion/upstream/NO9/inherited/certificates/P9_041.json",
+        "companion/upstream/NO9/inherited/certificates/P9_042.json",
+        "companion/upstream/NO9/inherited/certificates/P9_043.json",
+        "companion/upstream/NO9/inherited/certificates/P9_044.json",
+        "companion/upstream/NO9/inherited/certificates/P9_045.json",
+        "companion/upstream/NO9/inherited/certificates/P9_046.json",
+        "companion/upstream/NO9/inherited/certificates/P9_047.json",
+        "companion/upstream/NO9/inherited/certificates/P9_048.json",
+        "companion/upstream/NO9/inherited/certificates/P9_049.json",
+        "companion/upstream/NO9/inherited/certificates/P9_050.json",
+        "companion/upstream/NO9/inherited/certificates/P9_051.json",
+        "companion/upstream/NO9/inherited/certificates/P9_052.json",
+        "companion/upstream/NO9/inherited/certificates/P9_053.json",
+        "companion/upstream/NO9/inherited/certificates/P9_054.json",
+        "companion/upstream/NO9/inherited/certificates/P9_055.json",
+        "companion/upstream/NO9/inherited/certificates/P9_056.json",
+        "companion/upstream/NO9/inherited/certificates/P9_057.json",
+        "companion/upstream/NO9/inherited/certificates/P9_058.json",
+        "companion/upstream/NO9/inherited/certificates/P9_059.json",
+        "companion/upstream/NO9/inherited/certificates/P9_060.json",
+        "companion/upstream/NO9/inherited/certificates/P9_061.json",
+        "companion/upstream/NO9/inherited/certificates/P9_062.json",
+        "companion/upstream/NO9/inherited/certificates/P9_063.json",
+        "companion/upstream/NO9/inherited/certificates/P9_064.json",
+        "companion/upstream/NO9/inherited/certificates/P9_065.json",
+        "companion/upstream/NO9/inherited/certificates/P9_066.json",
+        "companion/upstream/NO9/inherited/certificates/P9_067.json",
+        "companion/upstream/NO9/inherited/certificates/P9_068.json",
+        "companion/upstream/NO9/inherited/certificates/P9_069.json",
+        "companion/upstream/NO9/inherited/certificates/P9_070.json",
+        "companion/upstream/NO9/inherited/certificates/P9_071.json",
+        "companion/upstream/NO9/inherited/certificates/P9_072.json",
+        "companion/upstream/NO9/inherited/certificates/P9_073.json",
+        "companion/upstream/NO9/inherited/certificates/P9_074.json",
+        "companion/upstream/NO9/inherited/certificates/P9_075.json",
+        "companion/upstream/NO9/inherited/certificates/P9_076.json",
+        "companion/upstream/NO9/inherited/certificates/P9_077.json",
+        "companion/upstream/NO9/inherited/certificates/P9_078.json",
+        "companion/upstream/NO9/scripts/audit_projection.py",
+        "companion/upstream/NO9/scripts/check_domain.py",
+        "companion/upstream/NO9/scripts/check_forests.py",
+        "companion/upstream/NO9/scripts/check_inherited.py",
+        "companion/upstream/NO9/scripts/common.py",
+        "companion/upstream/NO9/scripts/inputs/audit43.py",
+        "companion/upstream/NO9/scripts/inputs/local43.py",
+        "companion/upstream/NO9/scripts/projection.py",
+        "companion/upstream/NO9/scripts/verify_component.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# D18_R99 exact verification
+
+The scripts and finite certificates are portable standard-library mathematical checks. Invoke the commands in the unified companion plan; each command is run once normally and once with -O. Output files must be fresh and outside this directory. Independent constructors rebuild the same matrices/domains as the auditors; methods named producer or model are necessary coefficient reconstruction and are not optimizer executions.
+
+[PROOF.md](PROOF.md) gives the local mathematical reductions and coverage. The [paper](../../../paper/Four-Uniform-Three-Sunflower-Bound.pdf) proves the ordinary foundations and universal R16 classification and maximality; the [dependency map](../../../proof/DEPENDENCIES.md) specifies their use and the separate C5 obstruction. Preserved FRONTIER fields record the local branch at the time of its verification. The paper and complete dependency chain state the composed global theorem. The unified computational manifest binds all selected inputs.

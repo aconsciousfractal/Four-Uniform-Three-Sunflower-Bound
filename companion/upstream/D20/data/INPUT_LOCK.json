@@ -1,0 +1,11 @@
+{
+  "schema": "E20_F69_D20_INPUT_LOCK_V1",
+  "baseline": {
+    "file": "baseline/E20_F69_MU42_SUPPORT23_20260930.zip",
+    "sha256": "fed82e22143e1cd8a9fffa1850976f291c2b22ac314850f409d2e60720ab8348"
+  },
+  "sources": {
+    "sources/audit43.py": "04607eec74802b97e365fd90953ab0ec57f7766dde98494407e58198e2ac7f79",
+    "sources/local43.py": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b"
+  }
+}

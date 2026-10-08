@@ -1,0 +1,196 @@
+{
+  "schema": "BOUND68_PORTABLE_UPSTREAM_PROVENANCE_V1",
+  "suite": "NO45",
+  "files": [
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/PROOF.md",
+      "original_sha256": "7c7581a7d62d12462b0f3a864cbbdf0bb7109640a9a2458661a5aad06a12b952",
+      "destination": "upstream/NO45/PROOF.md",
+      "destination_sha256": "ab786ac7a199d233c650b45273b4191a6ab5db6d56b00b08c9d95de80d8690a7",
+      "bytes": 18405,
+      "adaptation_reason": "Reader document adaptation: preserve the relevant local mathematical reductions and identify their current premises; original source identities and adapted destination identities are recorded separately.",
+      "destination_bytes": 8776
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/certificates/C5_6.json",
+      "original_sha256": "7a9d7099abcfb708813b69a2713dc0bafa8b9734f47a860b20c82a6b046ffc9f",
+      "destination": "upstream/NO45/certificates/C5_6.json",
+      "destination_sha256": "7a9d7099abcfb708813b69a2713dc0bafa8b9734f47a860b20c82a6b046ffc9f",
+      "bytes": 4554,
+      "adaptation_reason": null,
+      "destination_bytes": 4554
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/certificates/C5_8.json",
+      "original_sha256": "e30b725284e22618d63a2c0ba0cc5b775bf64f1b6f27dd7146565a750db31f20",
+      "destination": "upstream/NO45/certificates/C5_8.json",
+      "destination_sha256": "e30b725284e22618d63a2c0ba0cc5b775bf64f1b6f27dd7146565a750db31f20",
+      "bytes": 2070,
+      "adaptation_reason": null,
+      "destination_bytes": 2070
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/certificates/G8_0_0.json",
+      "original_sha256": "c70f9c87713addd07ec026e266a6137bbd749bd2bef309025bc07ec51a13a6f6",
+      "destination": "upstream/NO45/certificates/G8_0_0.json",
+      "destination_sha256": "c70f9c87713addd07ec026e266a6137bbd749bd2bef309025bc07ec51a13a6f6",
+      "bytes": 4064,
+      "adaptation_reason": null,
+      "destination_bytes": 4064
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/certificates/G8_1_0.json",
+      "original_sha256": "ddc05586df1fd3c274c7f1ce1612628e5e280ef3b4c86d456aeefe349d7b8479",
+      "destination": "upstream/NO45/certificates/G8_1_0.json",
+      "destination_sha256": "ddc05586df1fd3c274c7f1ce1612628e5e280ef3b4c86d456aeefe349d7b8479",
+      "bytes": 4533,
+      "adaptation_reason": null,
+      "destination_bytes": 4533
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/certificates/H27_CORE_8_2.json",
+      "original_sha256": "86e93b9beca7e502ef52c13195007afcf20ac3d7f7c4bb9ed36a5cc6641f924e",
+      "destination": "upstream/NO45/certificates/H27_CORE_8_2.json",
+      "destination_sha256": "86e93b9beca7e502ef52c13195007afcf20ac3d7f7c4bb9ed36a5cc6641f924e",
+      "bytes": 6870,
+      "adaptation_reason": null,
+      "destination_bytes": 6870
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/data/ANCHOR_SCREEN.json",
+      "original_sha256": "b877226f5ebf070f5388a8aa2dbc8059e7b9cdfb776334b5099555d20bb304d1",
+      "destination": "upstream/NO45/data/ANCHOR_SCREEN.json",
+      "destination_sha256": "b877226f5ebf070f5388a8aa2dbc8059e7b9cdfb776334b5099555d20bb304d1",
+      "bytes": 364962,
+      "adaptation_reason": null,
+      "destination_bytes": 364962
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/data/CERTIFICATE_CASES.json",
+      "original_sha256": "ec7e0502fd0e396badc5bfdf81c4575acba31b584f7207be81bd127411e90e98",
+      "destination": "upstream/NO45/data/CERTIFICATE_CASES.json",
+      "destination_sha256": "ec7e0502fd0e396badc5bfdf81c4575acba31b584f7207be81bd127411e90e98",
+      "bytes": 658,
+      "adaptation_reason": null,
+      "destination_bytes": 658
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/data/CORES.json",
+      "original_sha256": "fd17947bca68d7b6e433978cbc36c82e02b23b3f86254b3dd85544f06802a475",
+      "destination": "upstream/NO45/data/CORES.json",
+      "destination_sha256": "fd17947bca68d7b6e433978cbc36c82e02b23b3f86254b3dd85544f06802a475",
+      "bytes": 571252,
+      "adaptation_reason": null,
+      "destination_bytes": 571252
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/data/H27_CUTS.json",
+      "original_sha256": "27c063cdd90e6126e3bf8598ace2b930ab8d853df5658b73f3167fe82019eb6b",
+      "destination": "upstream/NO45/data/H27_CUTS.json",
+      "destination_sha256": "27c063cdd90e6126e3bf8598ace2b930ab8d853df5658b73f3167fe82019eb6b",
+      "bytes": 1206,
+      "adaptation_reason": null,
+      "destination_bytes": 1206
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/data/no9_rows.bin",
+      "original_sha256": "7d13c06120b50b65b22d367169eea7c6e501447697388cb1dc5ea7439a72e345",
+      "destination": "upstream/NO45/data/no9_rows.bin",
+      "destination_sha256": "7d13c06120b50b65b22d367169eea7c6e501447697388cb1dc5ea7439a72e345",
+      "bytes": 336028,
+      "adaptation_reason": null,
+      "destination_bytes": 336028
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/audit_model.py",
+      "original_sha256": "7246d357d1ac8dcbd9d66405b56ea3ecb4c47c802ec1374f8a8c30c4c678ece1",
+      "destination": "upstream/NO45/scripts/audit_model.py",
+      "destination_sha256": "7246d357d1ac8dcbd9d66405b56ea3ecb4c47c802ec1374f8a8c30c4c678ece1",
+      "bytes": 4093,
+      "adaptation_reason": null,
+      "destination_bytes": 4093
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/check_certificates.py",
+      "original_sha256": "5ea72760b7260c9a7f683a434ed41f5ed4bfdd05399c3a631240cd5ac962e3b9",
+      "destination": "upstream/NO45/scripts/check_certificates.py",
+      "destination_sha256": "5ea72760b7260c9a7f683a434ed41f5ed4bfdd05399c3a631240cd5ac962e3b9",
+      "bytes": 705,
+      "adaptation_reason": null,
+      "destination_bytes": 705
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/check_cores.py",
+      "original_sha256": "e95d294d2d40804f6e7653d882c02d51457ebd8ec4e57d38140739eb460bda82",
+      "destination": "upstream/NO45/scripts/check_cores.py",
+      "destination_sha256": "e95d294d2d40804f6e7653d882c02d51457ebd8ec4e57d38140739eb460bda82",
+      "bytes": 2347,
+      "adaptation_reason": null,
+      "destination_bytes": 2347
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/common.py",
+      "original_sha256": "e4740401613f4edc2d5765705629d4439edafc8deffb19a3e0782ed3809347a9",
+      "destination": "upstream/NO45/scripts/common.py",
+      "destination_sha256": "e4740401613f4edc2d5765705629d4439edafc8deffb19a3e0782ed3809347a9",
+      "bytes": 2724,
+      "adaptation_reason": null,
+      "destination_bytes": 2724
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/core_generation.py",
+      "original_sha256": "d2bbb0c56ba8af96c38b961f879ca2e43e1d95169860f1edf13a3fa8ebf7a398",
+      "destination": "upstream/NO45/scripts/core_generation.py",
+      "destination_sha256": "d2bbb0c56ba8af96c38b961f879ca2e43e1d95169860f1edf13a3fa8ebf7a398",
+      "bytes": 4324,
+      "adaptation_reason": null,
+      "destination_bytes": 4324
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/inputs/audit43.py",
+      "original_sha256": "04607eec74802b97e365fd90953ab0ec57f7766dde98494407e58198e2ac7f79",
+      "destination": "upstream/NO45/scripts/inputs/audit43.py",
+      "destination_sha256": "04607eec74802b97e365fd90953ab0ec57f7766dde98494407e58198e2ac7f79",
+      "bytes": 6667,
+      "adaptation_reason": null,
+      "destination_bytes": 6667
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/inputs/local43.py",
+      "original_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "destination": "upstream/NO45/scripts/inputs/local43.py",
+      "destination_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "bytes": 5900,
+      "adaptation_reason": null,
+      "destination_bytes": 5900
+    },
+    {
+      "archive": "E20_F69_D16_NO45_A3A4_20260930.zip",
+      "archive_member": "E20_F69_D16_NO45_A3A4_20260930/scripts/models.py",
+      "original_sha256": "e099abc7cf85aff552e6f56130e4b794b5d687a08e29576add723b5fab1cfa42",
+      "destination": "upstream/NO45/scripts/models.py",
+      "destination_sha256": "e099abc7cf85aff552e6f56130e4b794b5d687a08e29576add723b5fab1cfa42",
+      "bytes": 5154,
+      "adaptation_reason": null,
+      "destination_bytes": 5154
+    }
+  ]
+}

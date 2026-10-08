@@ -1,0 +1,63 @@
+{
+  "schema": "E20_F69_D19_TERMINAL_V1",
+  "H27_anchor_weights": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "extra_triple_caps": [
+    [
+      [
+        6,
+        7,
+        11
+      ],
+      1,
+      1
+    ],
+    [
+      [
+        6,
+        8,
+        9
+      ],
+      1,
+      1
+    ],
+    [
+      [
+        7,
+        8,
+        10
+      ],
+      1,
+      1
+    ]
+  ],
+  "terminal_column_count": 3060,
+  "minimum_column_coefficient": 11,
+  "combined_rhs": 516,
+  "required_residuals": 50,
+  "deficit_required": 37,
+  "deficit_upper": 3,
+  "global_bound_unchanged": [
+    54,
+    69
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "E20_F69_D19_ASSIGNED_V1",
+  "case": {
+    "id": "P06",
+    "mark": null,
+    "empty": false,
+    "marked": false,
+    "min_w": 0,
+    "objective": "cardinality",
+    "assigned": {
+      "0": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ],
+      "1": []
+    }
+  },
+  "target": 50,
+  "columns": 249167,
+  "upper_rows": 1897,
+  "equal_rows": 1063,
+  "mode": "infeasible",
+  "scale": 1,
+  "value": -1,
+  "upper": [],
+  "equal": [
+    [
+      44,
+      -1
+    ]
+  ]
+}

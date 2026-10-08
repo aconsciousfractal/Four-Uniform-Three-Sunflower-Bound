@@ -1,0 +1,1039 @@
+[
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_0_1",
+      "pair": {
+        "id": "R99_0_1",
+        "types": [
+          "P9_000",
+          "P9_001"
+        ],
+        "interiors_first": [],
+        "interiors_second": [
+          [
+            6,
+            7,
+            8,
+            9
+          ]
+        ],
+        "labelled_orbit_size": 6,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_0_1.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_0_2",
+      "pair": {
+        "id": "R99_0_2",
+        "types": [
+          "P9_000",
+          "P9_002"
+        ],
+        "interiors_first": [],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 6,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_0_2.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_0_3",
+      "pair": {
+        "id": "R99_0_3",
+        "types": [
+          "P9_000",
+          "P9_003"
+        ],
+        "interiors_first": [],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 12,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_0_3.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_0_4",
+      "pair": {
+        "id": "R99_0_4",
+        "types": [
+          "P9_000",
+          "P9_004"
+        ],
+        "interiors_first": [],
+        "interiors_second": [
+          [
+            6,
+            9,
+            10,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 6,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_0_4.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_0_5",
+      "pair": {
+        "id": "R99_0_5",
+        "types": [
+          "P9_000",
+          "P9_019"
+        ],
+        "interiors_first": [],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 6,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_0_5.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_1_1",
+      "pair": {
+        "id": "R99_1_1",
+        "types": [
+          "P9_001",
+          "P9_001"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            8,
+            9
+          ]
+        ],
+        "labelled_orbit_size": 9,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_1_1.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_1_2",
+      "pair": {
+        "id": "R99_1_2",
+        "types": [
+          "P9_001",
+          "P9_002"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_1_2.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_1_3",
+      "pair": {
+        "id": "R99_1_3",
+        "types": [
+          "P9_001",
+          "P9_003"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 36,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_1_3.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_1_4",
+      "pair": {
+        "id": "R99_1_4",
+        "types": [
+          "P9_001",
+          "P9_004"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            9,
+            10,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_1_4.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_1_5",
+      "pair": {
+        "id": "R99_1_5",
+        "types": [
+          "P9_001",
+          "P9_019"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_1_5.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_2_2",
+      "pair": {
+        "id": "R99_2_2",
+        "types": [
+          "P9_002",
+          "P9_002"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            4
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 9,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_2_2.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_2_3",
+      "pair": {
+        "id": "R99_2_3",
+        "types": [
+          "P9_002",
+          "P9_003"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            4
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 36,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_2_3.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_2_4",
+      "pair": {
+        "id": "R99_2_4",
+        "types": [
+          "P9_002",
+          "P9_004"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            4
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            9,
+            10,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_2_4.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_2_5",
+      "pair": {
+        "id": "R99_2_5",
+        "types": [
+          "P9_002",
+          "P9_019"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            4
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_2_5.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_3_3",
+      "pair": {
+        "id": "R99_3_3",
+        "types": [
+          "P9_003",
+          "P9_003"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            5
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 36,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_3_3.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_3_4",
+      "pair": {
+        "id": "R99_3_4",
+        "types": [
+          "P9_003",
+          "P9_004"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            5
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            9,
+            10,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 36,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_3_4.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_3_5",
+      "pair": {
+        "id": "R99_3_5",
+        "types": [
+          "P9_003",
+          "P9_019"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            5
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 36,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_3_5.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_4_4",
+      "pair": {
+        "id": "R99_4_4",
+        "types": [
+          "P9_004",
+          "P9_004"
+        ],
+        "interiors_first": [
+          [
+            0,
+            3,
+            4,
+            5
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            9,
+            10,
+            11
+          ]
+        ],
+        "labelled_orbit_size": 9,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_4_4.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_4_5",
+      "pair": {
+        "id": "R99_4_5",
+        "types": [
+          "P9_004",
+          "P9_019"
+        ],
+        "interiors_first": [
+          [
+            0,
+            3,
+            4,
+            5
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 18,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_4_5.json"
+  },
+  {
+    "problem": {
+      "stage": "interior_pair",
+      "id": "R99_5_5",
+      "pair": {
+        "id": "R99_5_5",
+        "types": [
+          "P9_019",
+          "P9_019"
+        ],
+        "interiors_first": [
+          [
+            0,
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "interiors_second": [
+          [
+            6,
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            8,
+            9,
+            10
+          ]
+        ],
+        "labelled_orbit_size": 9,
+        "status": "OPEN"
+      }
+    },
+    "certificate": "certificates/new/R99_5_5.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_00_K2",
+      "mark": [
+        0,
+        1,
+        6,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_00_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_01",
+      "mark": [
+        0,
+        1,
+        2,
+        6
+      ]
+    },
+    "certificate": "certificates/new/MIX_01.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_02",
+      "mark": [
+        0,
+        1,
+        3,
+        6
+      ]
+    },
+    "certificate": "certificates/new/MIX_02.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_03",
+      "mark": [
+        0,
+        1,
+        5,
+        6
+      ]
+    },
+    "certificate": "certificates/new/MIX_03.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_04_K2",
+      "mark": [
+        0,
+        3,
+        6,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_04_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_05",
+      "mark": [
+        0,
+        3,
+        4,
+        6
+      ]
+    },
+    "certificate": "certificates/new/MIX_05.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_06",
+      "mark": [
+        0,
+        3,
+        5,
+        6
+      ]
+    },
+    "certificate": "certificates/new/MIX_06.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_07_K2",
+      "mark": [
+        0,
+        4,
+        6,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_07_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_08_K2",
+      "mark": [
+        0,
+        9,
+        10,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_08_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_09",
+      "mark": [
+        0,
+        9,
+        10,
+        11
+      ]
+    },
+    "certificate": "certificates/new/MIX_09.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_10",
+      "mark": [
+        0,
+        1,
+        6,
+        7
+      ]
+    },
+    "certificate": "certificates/new/MIX_10.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_11",
+      "mark": [
+        0,
+        1,
+        6,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_11.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_12",
+      "mark": [
+        0,
+        1,
+        6,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_12.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_13",
+      "mark": [
+        0,
+        1,
+        9,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_13.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_14",
+      "mark": [
+        0,
+        3,
+        6,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_14.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_15",
+      "mark": [
+        0,
+        3,
+        6,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_15.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_16",
+      "mark": [
+        0,
+        3,
+        9,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_16.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_17",
+      "mark": [
+        0,
+        4,
+        6,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_17.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_18",
+      "mark": [
+        0,
+        4,
+        9,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_18.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_19_K2",
+      "mark": [
+        0,
+        1,
+        9,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_19_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_20",
+      "mark": [
+        0,
+        1,
+        2,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_20.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_21",
+      "mark": [
+        0,
+        1,
+        3,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_21.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_22",
+      "mark": [
+        0,
+        1,
+        5,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_22.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_23_K2",
+      "mark": [
+        0,
+        3,
+        9,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_23_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_24",
+      "mark": [
+        0,
+        3,
+        4,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_24.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_25",
+      "mark": [
+        0,
+        3,
+        5,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_25.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_26_K2",
+      "mark": [
+        0,
+        4,
+        9,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_26_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_three",
+      "id": "MIX_27_K2",
+      "mark": [
+        3,
+        4,
+        9,
+        12
+      ]
+    },
+    "certificate": "certificates/new/MIX_27_K2.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_28",
+      "mark": [
+        3,
+        4,
+        5,
+        9
+      ]
+    },
+    "certificate": "certificates/new/MIX_28.json"
+  },
+  {
+    "problem": {
+      "stage": "mixed_four",
+      "id": "MIX_29",
+      "mark": [
+        3,
+        4,
+        9,
+        10
+      ]
+    },
+    "certificate": "certificates/new/MIX_29.json"
+  }
+]

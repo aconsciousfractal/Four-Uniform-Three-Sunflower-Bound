@@ -1,0 +1,116 @@
+{
+  "schema": "BOUND68_PORTABLE_UPSTREAM_PROVENANCE_V1",
+  "suite": "LOW15",
+  "files": [
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/PROOF.md",
+      "original_sha256": "ae306ccdaddc55fa3187cbba55e85405f98fcc0395f4540e55f71791ee9c1b20",
+      "destination": "upstream/LOW15/PROOF.md",
+      "destination_sha256": "fac9483ec36fb59e735212f956a7afcec381b368e7f117adf3c4c5c19f7a46d2",
+      "bytes": 20629,
+      "adaptation_reason": "Reader document adaptation: preserve the relevant local mathematical reductions and identify their current premises; original source identities and adapted destination identities are recorded separately.",
+      "destination_bytes": 10831
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/certificates/FINAL_CORE.json",
+      "original_sha256": "e3a2de3de3c2ef5a0a8c2dc2eb35bd142097153811514e5a2db6b6291f3020ed",
+      "destination": "upstream/LOW15/certificates/FINAL_CORE.json",
+      "destination_sha256": "e3a2de3de3c2ef5a0a8c2dc2eb35bd142097153811514e5a2db6b6291f3020ed",
+      "bytes": 1308,
+      "adaptation_reason": null,
+      "destination_bytes": 1308
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/data/CORES.json",
+      "original_sha256": "b212f13a20547504aeb820e660be49888060180057a3e54ae79f1d4ab27cd3e8",
+      "destination": "upstream/LOW15/data/CORES.json",
+      "destination_sha256": "b212f13a20547504aeb820e660be49888060180057a3e54ae79f1d4ab27cd3e8",
+      "bytes": 46097,
+      "adaptation_reason": null,
+      "destination_bytes": 46097
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/data/FINAL_CERTIFICATE_EXPANSION.json",
+      "original_sha256": "3fd5e4df9ad5fcb69f79dccadca115b800dfbebf76573220a660825763804d55",
+      "destination": "upstream/LOW15/data/FINAL_CERTIFICATE_EXPANSION.json",
+      "destination_sha256": "3fd5e4df9ad5fcb69f79dccadca115b800dfbebf76573220a660825763804d55",
+      "bytes": 3990,
+      "adaptation_reason": null,
+      "destination_bytes": 3990
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/data/HIGH_ANCHORS.json",
+      "original_sha256": "57b4eafe84f43a64d0863f757da1e47311ff64c2d9e47000ffe4cccd9547fcf1",
+      "destination": "upstream/LOW15/data/HIGH_ANCHORS.json",
+      "destination_sha256": "57b4eafe84f43a64d0863f757da1e47311ff64c2d9e47000ffe4cccd9547fcf1",
+      "bytes": 61354,
+      "adaptation_reason": null,
+      "destination_bytes": 61354
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/check_graph.py",
+      "original_sha256": "7b4fcb95e4f3e20d60b628eaccb7b1de739ce812682b7d22e7403817d69bac2b",
+      "destination": "upstream/LOW15/scripts/check_graph.py",
+      "destination_sha256": "7b4fcb95e4f3e20d60b628eaccb7b1de739ce812682b7d22e7403817d69bac2b",
+      "bytes": 2563,
+      "adaptation_reason": null,
+      "destination_bytes": 2563
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/check_math.py",
+      "original_sha256": "325b94bf457fb1dc9d7306fc7c110b50b35f308dead731247b600222338b83da",
+      "destination": "upstream/LOW15/scripts/check_math.py",
+      "destination_sha256": "325b94bf457fb1dc9d7306fc7c110b50b35f308dead731247b600222338b83da",
+      "bytes": 6038,
+      "adaptation_reason": null,
+      "destination_bytes": 6038
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/independent.py",
+      "original_sha256": "08b11e6fd09a3e3ca7251ca49ecc2b5e5b47b0fcaa37d84fe36619bcc1f01c4e",
+      "destination": "upstream/LOW15/scripts/independent.py",
+      "destination_sha256": "08b11e6fd09a3e3ca7251ca49ecc2b5e5b47b0fcaa37d84fe36619bcc1f01c4e",
+      "bytes": 6013,
+      "adaptation_reason": null,
+      "destination_bytes": 6013
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/inputs/audit43.py",
+      "original_sha256": "04607eec74802b97e365fd90953ab0ec57f7766dde98494407e58198e2ac7f79",
+      "destination": "upstream/LOW15/scripts/inputs/audit43.py",
+      "destination_sha256": "04607eec74802b97e365fd90953ab0ec57f7766dde98494407e58198e2ac7f79",
+      "bytes": 6667,
+      "adaptation_reason": null,
+      "destination_bytes": 6667
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/inputs/local43.py",
+      "original_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "destination": "upstream/LOW15/scripts/inputs/local43.py",
+      "destination_sha256": "258221ffe8594e51616bdd125109d92151bfea13557f4e385ef453ab2e03152b",
+      "bytes": 5900,
+      "adaptation_reason": null,
+      "destination_bytes": 5900
+    },
+    {
+      "archive": "E20_F69_LOW15_CLOSED_20260930.zip",
+      "archive_member": "E20_F69_LOW15_CLOSED_20260930/scripts/primary.py",
+      "original_sha256": "702ddf28268ff54b009fbe4dd17172f849a531d726f97934204faaf889d3450c",
+      "destination": "upstream/LOW15/scripts/primary.py",
+      "destination_sha256": "702ddf28268ff54b009fbe4dd17172f849a531d726f97934204faaf889d3450c",
+      "bytes": 5909,
+      "adaptation_reason": null,
+      "destination_bytes": 5909
+    }
+  ]
+}

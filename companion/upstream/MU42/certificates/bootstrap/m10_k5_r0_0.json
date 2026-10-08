@@ -1,0 +1,399 @@
+{
+  "status": "OPEN_NECESSARY_STATES",
+  "mu": 42,
+  "central_size": 10,
+  "outside_cap": 5,
+  "r10": 0,
+  "r9": 0,
+  "internal_count": 292,
+  "base_row_count": 61620,
+  "pre_external_cap_colorings": 341,
+  "remaining_colorings": 16,
+  "remaining_internals": 16,
+  "survivors": [
+    {
+      "internal_mask": 0,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            15,
+            15,
+            15
+          ],
+          "external_lower": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": null
+        }
+      ]
+    },
+    {
+      "internal_mask": 1,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            16,
+            15,
+            16,
+            15,
+            15
+          ],
+          "external_lower": [
+            0,
+            10,
+            0,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 2,
+      "colorings": [
+        {
+          "degrees": [
+            16,
+            15,
+            15,
+            15,
+            16,
+            15
+          ],
+          "external_lower": [
+            10,
+            0,
+            0,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 4,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            16,
+            15,
+            15,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            10,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 8,
+      "colorings": [
+        {
+          "degrees": [
+            16,
+            16,
+            15,
+            15,
+            15,
+            15
+          ],
+          "external_lower": [
+            10,
+            10,
+            0,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 16,
+      "colorings": [
+        {
+          "degrees": [
+            16,
+            15,
+            15,
+            16,
+            15,
+            15
+          ],
+          "external_lower": [
+            10,
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 32,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            16,
+            15,
+            15,
+            16,
+            15
+          ],
+          "external_lower": [
+            0,
+            10,
+            0,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 64,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            16,
+            15,
+            16,
+            15
+          ],
+          "external_lower": [
+            0,
+            0,
+            10,
+            0,
+            10,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 128,
+      "colorings": [
+        {
+          "degrees": [
+            16,
+            15,
+            15,
+            15,
+            15,
+            16
+          ],
+          "external_lower": [
+            10,
+            0,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 256,
+      "colorings": [
+        {
+          "degrees": [
+            16,
+            15,
+            16,
+            15,
+            15,
+            15
+          ],
+          "external_lower": [
+            10,
+            0,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 512,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            16,
+            15,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            0,
+            10,
+            0,
+            10
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 1024,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            16,
+            16,
+            15,
+            15
+          ],
+          "external_lower": [
+            0,
+            0,
+            10,
+            10,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 2048,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            16,
+            16,
+            15,
+            15,
+            15
+          ],
+          "external_lower": [
+            0,
+            10,
+            10,
+            0,
+            0,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 4096,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            16,
+            15,
+            15,
+            15,
+            16
+          ],
+          "external_lower": [
+            0,
+            10,
+            0,
+            0,
+            0,
+            10
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 8192,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            15,
+            16,
+            16
+          ],
+          "external_lower": [
+            0,
+            0,
+            0,
+            0,
+            10,
+            10
+          ],
+          "external_cap": 20
+        }
+      ]
+    },
+    {
+      "internal_mask": 16384,
+      "colorings": [
+        {
+          "degrees": [
+            15,
+            15,
+            15,
+            16,
+            16,
+            15
+          ],
+          "external_lower": [
+            0,
+            0,
+            0,
+            10,
+            10,
+            0
+          ],
+          "external_cap": 20
+        }
+      ]
+    }
+  ]
+}

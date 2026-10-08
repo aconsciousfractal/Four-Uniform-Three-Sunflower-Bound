@@ -1,0 +1,47 @@
+{
+  "schema": "BOUND68_STANDALONE_ORIGIN_V3",
+  "baseline_manifest": "verification/BASELINE_MANIFEST_SHA256.json",
+  "baseline_manifest_sha256": "16fb15948d631cd1abb25e276b3476516161feb8151594b829a23ecab923f6c1",
+  "baseline_computational_manifest": "verification/BASELINE_COMPUTATIONAL_MANIFEST.json",
+  "baseline_computational_manifest_sha256": "f8cb8594e3138f38397804542a98f2d5611edcd4605fd3080da9478a78681b16",
+  "computational_manifest_sha256": "ecc54817e8e81242a59ef6b033e74e472d3ffbb3e80f9f0d9f0e8264acf40b18",
+  "document_adaptations": "verification/DOCUMENT_ADAPTATIONS.json",
+  "document_adaptations_sha256": "309ccf38ffc66302047edab219565677b710277cc13b8b4894efb34f609db591",
+  "baseline_rows": 1704,
+  "unchanged_baseline_rows": 1668,
+  "adapted_baseline_document_rows": 30,
+  "adapted_baseline_manifest_rows": 1,
+  "reader_metadata_changes": [
+    ".gitattributes",
+    "CITATION.cff",
+    "README.md",
+    "REPRODUCE.md"
+  ],
+  "computational_rows": 1692,
+  "unchanged_computational_rows": 1665,
+  "adapted_computational_document_rows": 26,
+  "paper_tex_sha256": "4aa36c9d56af5a8e3bdb44749107820549a73e0d3405e6c700104fa4c30e5c21",
+  "paper_pdf_sha256": "53ca6a078f95ac091397f5d87080e5458ef278ba787b6bd64658cee09f345e1b",
+  "mathematical_code_data_and_retained_plan_fields_unchanged": true,
+  "original_runner_unchanged": true,
+  "mathematical_replay_performed": false,
+  "historical_complete_summary": "verification/complete_summary.json",
+  "historical_complete_computational_manifest_sha256": "f8cb8594e3138f38397804542a98f2d5611edcd4605fd3080da9478a78681b16",
+  "historical_evidence_scope": "The preserved complete summary concerns the predecessor computational manifest. Current reader documents and six historical source locators differ; the build script has only mechanical PDF-name/jobname changes. Mathematical code, data and retained suite-plan fields are unchanged. No new full replay is claimed.",
+  "global_interval": [
+    54,
+    68
+  ],
+  "global67": false,
+  "note": "Original baseline hash rows and paths remain pinned. V2 records exact before/after identities and the sole PDF relocation. The public tree contains no old PDF duplicate or archive of predecessor prose.",
+  "adapted_baseline_build_tool_rows": 1,
+  "relocated_baseline_rows": 1,
+  "relocations": {
+    "paper/main.pdf": "paper/Four-Uniform-Three-Sunflower-Bound.pdf"
+  },
+  "adapted_computational_build_tool_rows": 1,
+  "paper_tex": "paper/main.tex",
+  "paper_pdf": "paper/Four-Uniform-Three-Sunflower-Bound.pdf",
+  "original_build_script_unchanged": false,
+  "build_script_change_scope": "Only descriptive PDF path and matching TeX jobname; the build script is not invoked by any of the 42 mathematical suites."
+}

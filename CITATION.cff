@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this companion, cite the manuscript in preferred-citation."
+title: "An upper bound for three-sunflower-free families of four-element sets"
+type: software
+version: "0.2.0"
+repository-code: "https://github.com/aconsciousfractal/Four-Uniform-Three-Sunflower-Bound"
+authors:
+  - family-names: "Babanskyy"
+    given-names: "Oleksiy"
+abstract: "Exact computational inputs, certificates and verification programs accompanying the manuscript on the bound M(4,3) <= 68."
+preferred-citation:
+  type: unpublished
+  title: "An upper bound for three-sunflower-free families of four-element sets"
+  year: 2026
+  url: "https://github.com/aconsciousfractal/Four-Uniform-Three-Sunflower-Bound/blob/main/paper/Four-Uniform-Three-Sunflower-Bound.pdf"
+  authors:
+    - family-names: "Babanskyy"
+      given-names: "Oleksiy"
